@@ -1,0 +1,21 @@
+Top 20 quase-rompimentos (|gap ATR| menor primeiro):
+BNBUSDT       5m LONG  gap= 0.05 ATR  reason=no_break  close=858.2  trigger=858.26107143  RSI=74.34  EMA=True  VOL=True  BODY=True
+LRCUSDT       5m SHORT gap= 0.05 ATR  reason=no_break  close=0.10225  trigger=0.10222818  RSI=35.29  EMA=True  VOL=False  BODY=False
+MAJORUSDT     5m LONG  gap= 0.05 ATR  reason=no_break  close=0.1537  trigger=0.15371786  RSI=66.67  EMA=True  VOL=False  BODY=False
+PAXGUSDT      5m LONG  gap= 0.05 ATR  reason=no_break  close=3575.64  trigger=3575.85621429  RSI=59.89  EMA=True  VOL=False  BODY=True
+USD1USDT      5m SHORT gap= 0.05 ATR  reason=no_break  close=0.9986  trigger=0.99859429  RSI=28.57  EMA=True  VOL=False  BODY=False
+USD1USDT     15m SHORT gap= 0.05 ATR  reason=no_break  close=0.9986  trigger=0.99859286  RSI=45.45  EMA=False  VOL=False  BODY=True
+USDCUSDT      5m LONG  gap= 0.05 ATR  reason=no_break  close=1.0  trigger=1.00000429  RSI=50.0  EMA=False  VOL=True  BODY=True
+USDCUSDT     15m LONG  gap= 0.05 ATR  reason=no_break  close=1.0  trigger=1.000005  RSI=55.56  EMA=True  VOL=True  BODY=True
+USDEUSDT      5m LONG  gap= 0.05 ATR  reason=no_break  close=1.0001  trigger=1.00010036  RSI=100.0  EMA=True  VOL=False  BODY=False
+USDEUSDT     15m LONG  gap= 0.05 ATR  reason=no_break  close=1.0001  trigger=1.00010071  RSI=50.0  EMA=True  VOL=False  BODY=False
+XDCUSDT       5m LONG  gap= 0.05 ATR  reason=no_break  close=0.07846  trigger=0.07846679  RSI=78.87  EMA=True  VOL=False  BODY=False
+XNOUSDT       5m LONG  gap= 0.05 ATR  reason=no_break  close=0.8943  trigger=0.89448821  RSI=60.15  EMA=True  VOL=False  BODY=True
+XNOUSDT      15m LONG  gap= 0.05 ATR  reason=no_break  close=0.8943  trigger=0.8945425  RSI=60.0  EMA=True  VOL=True  BODY=True
+ZBCNUSDT      5m SHORT gap=0.067 ATR  reason=no_break  close=0.0041231  trigger=0.0041215  RSI=29.99  EMA=True  VOL=False  BODY=True
+BSUUSDT       5m LONG  gap=0.075 ATR  reason=no_break  close=0.10396  trigger=0.10402061  RSI=79.25  EMA=True  VOL=False  BODY=False
+ALUUSDT       5m LONG  gap=0.081 ATR  reason=no_break  close=0.055927  trigger=0.05598151  RSI=64.41  EMA=True  VOL=False  BODY=True
+10000COQUSDT  5m LONG  gap=0.089 ATR  reason=no_break  close=0.004837  trigger=0.00484154  RSI=72.51  EMA=True  VOL=False  BODY=True
+BANKUSDT      5m LONG  gap=0.104 ATR  reason=no_break  close=0.0694  trigger=0.06951525  RSI=78.27  EMA=True  VOL=False  BODY=False
+KUSDT        15m SHORT gap= 0.12 ATR  reason=no_break  close=0.1458  trigger=0.14562821  RSI=30.93  EMA=True  VOL=True  BODY=True
+RONINUSDT     5m LONG  gap=0.123 ATR  reason=no_break  close=0.5002  trigger=0.50036857  RSI=65.35  EMA=True  VOL=False  BODY=False

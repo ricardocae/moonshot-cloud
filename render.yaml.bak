@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "type": "worker",
+      "name": "moonshot-agent",
+      "runtime": "docker",
+      "envVars": [
+        {
+          "key": "TZ",
+          "value": "America/Sao_Paulo"
+        },
+        {
+          "key": "PYTHONUNBUFFERED",
+          "value": "1"
+        }
+      ],
+      "plan": "starter",
+      "autoDeploy": true,
+      "startCommand": "python -u Teste_Moonshot/moonshot_agent.py"
+    },
+    {
+      "type": "worker",
+      "name": "moonshot-report",
+      "runtime": "docker",
+      "envVars": [
+        {
+          "key": "TZ",
+          "value": "America/Sao_Paulo"
+        },
+        {
+          "key": "PYTHONUNBUFFERED",
+          "value": "1"
+        }
+      ],
+      "plan": "starter",
+      "autoDeploy": true,
+      "startCommand": "python -u Teste_Moonshot/open_trades_cli.py"
+    }
+  ]
+}

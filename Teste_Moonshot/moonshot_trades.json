@@ -1,0 +1,710 @@
+{
+  "ARKMUSDT:15:2025-09-11 08:15 -03:LONG": {
+    "symbol": "ARKMUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.6735,
+    "sl": 0.657975,
+    "tp1": 0.6967875,
+    "tp2": 0.7123125,
+    "tp3": 0.7278375,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-11 08:15 -03",
+    "updates": [
+      {
+        "ts": "2025-09-11 11:56:41 UTC",
+        "event": "STOP",
+        "price": 0.6574,
+        "roi_pct": -28.686
+      }
+    ],
+    "exit_price": 0.6574,
+    "exit_reason": "STOP",
+    "roi_pct": -28.686,
+    "closed_at": "2025-09-11 11:56:41 UTC"
+  },
+  "MNTUSDT:15:2025-09-11 08:15 -03:SHORT": {
+    "symbol": "MNTUSDT",
+    "tf": "15",
+    "side": "SHORT",
+    "status": "STOP",
+    "entry": 1.5259,
+    "sl": 1.56577857,
+    "tp1": 1.46608214,
+    "tp2": 1.42620357,
+    "tp3": 1.386325,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-11 08:15 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 04:23:20 UTC",
+        "event": "STOP",
+        "price": 1.7176,
+        "roi_pct": -150.7569
+      }
+    ],
+    "exit_price": 1.7176,
+    "exit_reason": "STOP",
+    "roi_pct": -150.7569,
+    "closed_at": "2025-09-13 04:23:20 UTC"
+  },
+  "PENGUUSDT:15:2025-09-11 08:15 -03:SHORT": {
+    "symbol": "PENGUUSDT",
+    "tf": "15",
+    "side": "SHORT",
+    "status": "STOP",
+    "entry": 0.03372,
+    "sl": 0.03393696,
+    "tp1": 0.03339455,
+    "tp2": 0.03317759,
+    "tp3": 0.03296063,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-11 08:15 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 04:23:21 UTC",
+        "event": "STOP",
+        "price": 0.036462,
+        "roi_pct": -97.5801
+      }
+    ],
+    "exit_price": 0.036462,
+    "exit_reason": "STOP",
+    "roi_pct": -97.5801,
+    "closed_at": "2025-09-13 04:23:21 UTC"
+  },
+  "SKATEUSDT:15:2025-09-13 01:00 -03:LONG": {
+    "symbol": "SKATEUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.06127,
+    "sl": 0.06127,
+    "tp1": 0.06452768,
+    "tp2": 0.06669946,
+    "tp3": 0.06887125,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 01:00 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 05:30:18 UTC",
+        "event": "TP1",
+        "price": 0.06453
+      },
+      {
+        "ts": "2025-09-13 06:59:56 UTC",
+        "event": "STOP",
+        "price": 0.05861,
+        "roi_pct": -52.0973
+      }
+    ],
+    "exit_price": 0.05861,
+    "exit_reason": "STOP",
+    "roi_pct": -52.0973,
+    "closed_at": "2025-09-13 06:59:56 UTC"
+  },
+  "XAUTUSDT:15:2025-09-13 01:00 -03:SHORT": {
+    "symbol": "XAUTUSDT",
+    "tf": "15",
+    "side": "SHORT",
+    "status": "STOP",
+    "entry": 3637.52,
+    "sl": 3639.91892857,
+    "tp1": 3633.92160714,
+    "tp2": 3631.52267857,
+    "tp3": 3629.12375,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 01:00 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 18:42:15 UTC",
+        "event": "STOP",
+        "price": 3641.1,
+        "roi_pct": -1.181
+      }
+    ],
+    "exit_price": 3641.1,
+    "exit_reason": "STOP",
+    "roi_pct": -1.181,
+    "closed_at": "2025-09-13 18:42:15 UTC"
+  },
+  "AINUSDT:15:2025-09-13 01:30 -03:LONG": {
+    "symbol": "AINUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.13234,
+    "sl": 0.12960786,
+    "tp1": 0.13643821,
+    "tp2": 0.13917036,
+    "tp3": 0.1419025,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 01:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 06:26:58 UTC",
+        "event": "STOP",
+        "price": 0.12944,
+        "roi_pct": -26.2959
+      }
+    ],
+    "exit_price": 0.12944,
+    "exit_reason": "STOP",
+    "roi_pct": -26.2959,
+    "closed_at": "2025-09-13 06:26:58 UTC"
+  },
+  "GORKUSDT:15:2025-09-13 01:30 -03:LONG": {
+    "symbol": "GORKUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.0132,
+    "sl": 0.01286036,
+    "tp1": 0.01370946,
+    "tp2": 0.01404911,
+    "tp3": 0.01438875,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 01:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 05:29:48 UTC",
+        "event": "STOP",
+        "price": 0.01284,
+        "roi_pct": -32.7273
+      }
+    ],
+    "exit_price": 0.01284,
+    "exit_reason": "STOP",
+    "roi_pct": -32.7273,
+    "closed_at": "2025-09-13 05:29:48 UTC"
+  },
+  "INUSDT:15:2025-09-13 01:30 -03:LONG": {
+    "symbol": "INUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "CLOSED_TP3",
+    "entry": 0.07425,
+    "sl": 0.07425,
+    "tp1": 0.07606286,
+    "tp2": 0.07727143,
+    "tp3": 0.07848,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 01:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 06:59:58 UTC",
+        "event": "TP1",
+        "price": 0.07827
+      },
+      {
+        "ts": "2025-09-13 07:00:06 UTC",
+        "event": "TP2",
+        "price": 0.07826
+      },
+      {
+        "ts": "2025-09-13 07:00:35 UTC",
+        "event": "TP3",
+        "price": 0.07848,
+        "roi_pct": 68.3636
+      }
+    ],
+    "exit_price": 0.07848,
+    "exit_reason": "TP3",
+    "roi_pct": 68.3636,
+    "closed_at": "2025-09-13 07:00:35 UTC"
+  },
+  "OMNIUSDT:15:2025-09-13 01:30 -03:LONG": {
+    "symbol": "OMNIUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 3.629,
+    "sl": 3.58892857,
+    "tp1": 3.68910714,
+    "tp2": 3.72917857,
+    "tp3": 3.76925,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 01:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 05:29:48 UTC",
+        "event": "STOP",
+        "price": 3.583,
+        "roi_pct": -15.2108
+      }
+    ],
+    "exit_price": 3.583,
+    "exit_reason": "STOP",
+    "roi_pct": -15.2108,
+    "closed_at": "2025-09-13 05:29:48 UTC"
+  },
+  "AGTUSDT:15:2025-09-13 08:30 -03:LONG": {
+    "symbol": "AGTUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.007278,
+    "sl": 0.0070965,
+    "tp1": 0.00755025,
+    "tp2": 0.00773175,
+    "tp3": 0.00791325,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 08:30 -03",
+    "updates": [],
+    "sl_sent": true
+  },
+  "OPENUSDT:15:2025-09-13 08:30 -03:LONG": {
+    "symbol": "OPENUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.9409,
+    "sl": 0.93136429,
+    "tp1": 0.95520357,
+    "tp2": 0.96473929,
+    "tp3": 0.974275,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 08:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 12:04:37 UTC",
+        "event": "STOP",
+        "price": 0.9308,
+        "roi_pct": -12.8813
+      }
+    ],
+    "exit_price": 0.9308,
+    "exit_reason": "STOP",
+    "roi_pct": -12.8813,
+    "closed_at": "2025-09-13 12:04:37 UTC"
+  },
+  "SOMIUSDT:15:2025-09-13 08:30 -03:LONG": {
+    "symbol": "SOMIUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "CLOSED_TP3",
+    "entry": 1.2261,
+    "sl": 1.2261,
+    "tp1": 1.29286071,
+    "tp2": 1.33736786,
+    "tp3": 1.381875,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 08:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 11:51:27 UTC",
+        "event": "TP1",
+        "price": 1.2937
+      },
+      {
+        "ts": "2025-09-13 11:55:04 UTC",
+        "event": "TP2",
+        "price": 1.3425
+      },
+      {
+        "ts": "2025-09-13 16:41:38 UTC",
+        "event": "TP3",
+        "price": 1.3963,
+        "roi_pct": 166.577
+      }
+    ],
+    "exit_price": 1.3963,
+    "exit_reason": "TP3",
+    "roi_pct": 166.577,
+    "closed_at": "2025-09-13 16:41:38 UTC"
+  },
+  "VIRTUALUSDT:15:2025-09-13 08:30 -03:LONG": {
+    "symbol": "VIRTUALUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 1.3857,
+    "sl": 1.37106429,
+    "tp1": 1.40765357,
+    "tp2": 1.42228929,
+    "tp3": 1.436925,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 08:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 12:12:01 UTC",
+        "event": "STOP",
+        "price": 1.371,
+        "roi_pct": -12.73
+      }
+    ],
+    "exit_price": 1.371,
+    "exit_reason": "STOP",
+    "roi_pct": -12.73,
+    "closed_at": "2025-09-13 12:12:01 UTC"
+  },
+  "MERLUSDT:15:2025-09-13 13:15 -03:SHORT": {
+    "symbol": "MERLUSDT",
+    "tf": "15",
+    "side": "SHORT",
+    "status": "OPEN",
+    "entry": 0.15165,
+    "sl": 0.15329679,
+    "tp1": 0.14917982,
+    "tp2": 0.14753304,
+    "tp3": 0.14588625,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 13:15 -03",
+    "updates": []
+  },
+  "NAORISUSDT:15:2025-09-13 13:15 -03:LONG": {
+    "symbol": "NAORISUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.09081,
+    "sl": 0.08611179,
+    "tp1": 0.09785732,
+    "tp2": 0.10255554,
+    "tp3": 0.10725375,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 13:15 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 17:08:29 UTC",
+        "event": "STOP",
+        "price": 0.08544,
+        "roi_pct": -70.9613
+      }
+    ],
+    "exit_price": 0.08544,
+    "exit_reason": "STOP",
+    "roi_pct": -70.9613,
+    "closed_at": "2025-09-13 17:08:29 UTC"
+  },
+  "MANAUSDT:15:2025-09-13 13:30 -03:LONG": {
+    "symbol": "MANAUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "TP2",
+    "entry": 0.3649,
+    "sl": 0.3649,
+    "tp1": 0.3762625,
+    "tp2": 0.3838375,
+    "tp3": 0.3914125,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 13:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 18:08:57 UTC",
+        "event": "TP1",
+        "price": 0.3888
+      },
+      {
+        "ts": "2025-09-13 18:09:42 UTC",
+        "event": "TP2",
+        "price": 0.3879
+      }
+    ]
+  },
+  "HUSDT:15:2025-09-13 13:45 -03:LONG": {
+    "symbol": "HUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.072433,
+    "sl": 0.072433,
+    "tp1": 0.08002354,
+    "tp2": 0.08508389,
+    "tp3": 0.09014425,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 13:45 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 18:09:02 UTC",
+        "event": "TP1",
+        "price": 0.080084
+      },
+      {
+        "ts": "2025-09-13 18:44:14 UTC",
+        "event": "STOP",
+        "price": 0.072289,
+        "roi_pct": -2.3857
+      }
+    ],
+    "exit_price": 0.072289,
+    "exit_reason": "STOP",
+    "roi_pct": -2.3857,
+    "closed_at": "2025-09-13 18:44:14 UTC"
+  },
+  "TAIUSDT:15:2025-09-13 13:45 -03:SHORT": {
+    "symbol": "TAIUSDT",
+    "tf": "15",
+    "side": "SHORT",
+    "status": "STOP",
+    "entry": 0.06871,
+    "sl": 0.0703075,
+    "tp1": 0.06631375,
+    "tp2": 0.06471625,
+    "tp3": 0.06311875,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 13:45 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 21:18:36 UTC",
+        "event": "STOP",
+        "price": 0.07039,
+        "roi_pct": -29.3407
+      }
+    ],
+    "exit_price": 0.07039,
+    "exit_reason": "STOP",
+    "roi_pct": -29.3407,
+    "closed_at": "2025-09-13 21:18:36 UTC"
+  },
+  "ACEUSDT:15:2025-09-13 15:30 -03:LONG": {
+    "symbol": "ACEUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "TP2",
+    "entry": 0.724,
+    "sl": 0.724,
+    "tp1": 0.74902321,
+    "tp2": 0.76570536,
+    "tp3": 0.7823875,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 15:30 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 18:57:16 UTC",
+        "event": "TP1",
+        "price": 0.7607
+      },
+      {
+        "ts": "2025-09-13 18:59:22 UTC",
+        "event": "TP2",
+        "price": 0.7682
+      }
+    ]
+  },
+  "ETHFIUSDT:15:2025-09-13 17:00 -03:LONG": {
+    "symbol": "ETHFIUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 1.5683,
+    "sl": 1.53869643,
+    "tp1": 1.61270536,
+    "tp2": 1.64230893,
+    "tp3": 1.6719125,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 17:00 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 20:36:06 UTC",
+        "event": "STOP",
+        "price": 1.5382,
+        "roi_pct": -23.0313
+      }
+    ],
+    "exit_price": 1.5382,
+    "exit_reason": "STOP",
+    "roi_pct": -23.0313,
+    "closed_at": "2025-09-13 20:36:06 UTC"
+  },
+  "1000RATSUSDT:15:2025-09-13 17:45 -03:LONG": {
+    "symbol": "1000RATSUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "OPEN",
+    "entry": 0.02202,
+    "sl": 0.02180464,
+    "tp1": 0.02234304,
+    "tp2": 0.02255839,
+    "tp3": 0.02277375,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 17:45 -03",
+    "updates": []
+  },
+  "IPUSDT:15:2025-09-13 17:45 -03:LONG": {
+    "symbol": "IPUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "CLOSED_TP3",
+    "entry": 9.7378,
+    "sl": 9.7378,
+    "tp1": 9.81908929,
+    "tp2": 9.87328214,
+    "tp3": 9.927475,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 17:45 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 21:08:52 UTC",
+        "event": "TP1",
+        "price": 9.8627
+      },
+      {
+        "ts": "2025-09-13 21:09:34 UTC",
+        "event": "TP2",
+        "price": 9.8815
+      },
+      {
+        "ts": "2025-09-13 21:12:50 UTC",
+        "event": "TP3",
+        "price": 9.9318,
+        "roi_pct": 23.9068
+      }
+    ],
+    "exit_price": 9.9318,
+    "exit_reason": "TP3",
+    "roi_pct": 23.9068,
+    "closed_at": "2025-09-13 21:12:50 UTC"
+  },
+  "PUMPFUNUSDT:15:2025-09-13 17:45 -03:LONG": {
+    "symbol": "PUMPFUNUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "TP2",
+    "entry": 0.006974,
+    "sl": 0.006974,
+    "tp1": 0.00721652,
+    "tp2": 0.0073782,
+    "tp3": 0.00753987,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 17:45 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 21:51:19 UTC",
+        "event": "TP1",
+        "price": 0.007218
+      },
+      {
+        "ts": "2025-09-13 21:58:42 UTC",
+        "event": "TP2",
+        "price": 0.007401
+      }
+    ]
+  },
+  "DRIFTUSDT:15:2025-09-13 18:15 -03:LONG": {
+    "symbol": "DRIFTUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "OPEN",
+    "entry": 0.6497,
+    "sl": 0.64625,
+    "tp1": 0.654875,
+    "tp2": 0.658325,
+    "tp3": 0.661775,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 18:15 -03",
+    "updates": []
+  },
+  "TAUSDT:15:2025-09-13 18:15 -03:LONG": {
+    "symbol": "TAUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "TP2",
+    "entry": 0.11719,
+    "sl": 0.11719,
+    "tp1": 0.12003304,
+    "tp2": 0.12192839,
+    "tp3": 0.12382375,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 18:15 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 21:37:31 UTC",
+        "event": "TP1",
+        "price": 0.12096
+      },
+      {
+        "ts": "2025-09-13 21:51:23 UTC",
+        "event": "TP2",
+        "price": 0.12198
+      }
+    ]
+  },
+  "YZYUSDT:15:2025-09-13 18:15 -03:LONG": {
+    "symbol": "YZYUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "STOP",
+    "entry": 0.4617,
+    "sl": 0.4617,
+    "tp1": 0.46938214,
+    "tp2": 0.47450357,
+    "tp3": 0.479625,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 18:15 -03",
+    "updates": [
+      {
+        "ts": "2025-09-13 21:54:04 UTC",
+        "event": "TP1",
+        "price": 0.4721
+      },
+      {
+        "ts": "2025-09-13 21:59:25 UTC",
+        "event": "STOP",
+        "price": 0.4617,
+        "roi_pct": 0.0
+      }
+    ],
+    "exit_price": 0.4617,
+    "exit_reason": "BE",
+    "roi_pct": 0.0,
+    "closed_at": "2025-09-13 21:59:25 UTC"
+  },
+  "ZORAUSDT:15:2025-09-13 18:15 -03:LONG": {
+    "symbol": "ZORAUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "OPEN",
+    "entry": 0.063128,
+    "sl": 0.06247507,
+    "tp1": 0.06410739,
+    "tp2": 0.06476032,
+    "tp3": 0.06541325,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 18:15 -03",
+    "updates": []
+  },
+  "ZROUSDT:15:2025-09-13 18:15 -03:LONG": {
+    "symbol": "ZROUSDT",
+    "tf": "15",
+    "side": "LONG",
+    "status": "OPEN",
+    "entry": 2.0905,
+    "sl": 2.07690357,
+    "tp1": 2.11089464,
+    "tp2": 2.12449107,
+    "tp3": 2.1380875,
+    "lev": 12.0,
+    "notional": 480.0,
+    "created_at": "2025-09-13 18:15 -03",
+    "updates": []
+  }
+}

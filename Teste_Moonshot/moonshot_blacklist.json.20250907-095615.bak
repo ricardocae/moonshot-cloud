@@ -1,0 +1,4468 @@
+{
+  "entries": {
+    "1000000BABYDOGEUSDT": {
+      "symbol": "1000000BABYDOGEUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290700.4891741,
+      "strikes": 0,
+      "first_seen": 1757247500.4891741,
+      "last_updated": 1757247500.4891741
+    },
+    "1000000CHEEMSUSDT": {
+      "symbol": "1000000CHEEMSUSDT",
+      "reason": "ILLQ v24h\u2248109,932",
+      "until": 1757333901.217511,
+      "strikes": 0,
+      "first_seen": 1757247501.217511,
+      "last_updated": 1757247501.217511
+    },
+    "1000000MOGUSDT": {
+      "symbol": "1000000MOGUSDT",
+      "reason": "strike",
+      "until": 1757290702.985769,
+      "strikes": 1,
+      "first_seen": 1757247502.985769,
+      "last_updated": 1757247729.9956548
+    },
+    "1000000PEIPEIUSDT": {
+      "symbol": "1000000PEIPEIUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290704.726455,
+      "strikes": 0,
+      "first_seen": 1757247504.726455,
+      "last_updated": 1757247504.726455
+    },
+    "10000COQUSDT": {
+      "symbol": "10000COQUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290706.415997,
+      "strikes": 0,
+      "first_seen": 1757247506.415997,
+      "last_updated": 1757247506.415997
+    },
+    "10000ELONUSDT": {
+      "symbol": "10000ELONUSDT",
+      "reason": "ILLQ v24h\u224881,005",
+      "until": 1757333907.184027,
+      "strikes": 0,
+      "first_seen": 1757247507.184027,
+      "last_updated": 1757247507.184027
+    },
+    "10000LADYSUSDT": {
+      "symbol": "10000LADYSUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757290708.8661802,
+      "strikes": 0,
+      "first_seen": 1757247508.8661802,
+      "last_updated": 1757247508.8661802
+    },
+    "10000QUBICUSDT": {
+      "symbol": "10000QUBICUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757290710.0564291,
+      "strikes": 0,
+      "first_seen": 1757247510.0564291,
+      "last_updated": 1757247510.0564291
+    },
+    "10000SATSUSDT": {
+      "symbol": "10000SATSUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757290710.8759968,
+      "strikes": 0,
+      "first_seen": 1757247510.8759968,
+      "last_updated": 1757247510.8759968
+    },
+    "10000WENUSDT": {
+      "symbol": "10000WENUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290711.695643,
+      "strikes": 0,
+      "first_seen": 1757247511.695643,
+      "last_updated": 1757247511.695643
+    },
+    "1000BONKUSDT": {
+      "symbol": "1000BONKUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290713.2772632,
+      "strikes": 0,
+      "first_seen": 1757247513.2772632,
+      "last_updated": 1757247513.2772632
+    },
+    "1000BTTUSDT": {
+      "symbol": "1000BTTUSDT",
+      "reason": "WICKY_15m 63%",
+      "until": 1757290715.095577,
+      "strikes": 0,
+      "first_seen": 1757247515.095577,
+      "last_updated": 1757247515.095577
+    },
+    "1000CATUSDT": {
+      "symbol": "1000CATUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290716.29701,
+      "strikes": 0,
+      "first_seen": 1757247516.29701,
+      "last_updated": 1757247516.29701
+    },
+    "1000FLOKIUSDT": {
+      "symbol": "1000FLOKIUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290717.01491,
+      "strikes": 0,
+      "first_seen": 1757247517.01491,
+      "last_updated": 1757247517.01491
+    },
+    "1000LUNCUSDT": {
+      "symbol": "1000LUNCUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757290718.735877,
+      "strikes": 0,
+      "first_seen": 1757247518.735877,
+      "last_updated": 1757247518.735877
+    },
+    "1000NEIROCTOUSDT": {
+      "symbol": "1000NEIROCTOUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290719.475944,
+      "strikes": 0,
+      "first_seen": 1757247519.475944,
+      "last_updated": 1757247519.475944
+    },
+    "1000PEPEUSDT": {
+      "symbol": "1000PEPEUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290720.195113,
+      "strikes": 0,
+      "first_seen": 1757247520.195113,
+      "last_updated": 1757247520.195113
+    },
+    "1000RATSUSDT": {
+      "symbol": "1000RATSUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757290720.955557,
+      "strikes": 0,
+      "first_seen": 1757247520.955557,
+      "last_updated": 1757247520.955557
+    },
+    "1000TAGUSDT": {
+      "symbol": "1000TAGUSDT",
+      "reason": "WICKY_15m 60%",
+      "until": 1757290721.67589,
+      "strikes": 0,
+      "first_seen": 1757247521.67589,
+      "last_updated": 1757247521.67589
+    },
+    "1000TOSHIUSDT": {
+      "symbol": "1000TOSHIUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757290722.446082,
+      "strikes": 0,
+      "first_seen": 1757247522.446082,
+      "last_updated": 1757247522.446082
+    },
+    "1000TURBOUSDT": {
+      "symbol": "1000TURBOUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290723.260303,
+      "strikes": 0,
+      "first_seen": 1757247523.260303,
+      "last_updated": 1757247523.260303
+    },
+    "1000XECUSDT": {
+      "symbol": "1000XECUSDT",
+      "reason": "ILLQ v24h\u224879,965",
+      "until": 1757333924.08615,
+      "strikes": 0,
+      "first_seen": 1757247524.08615,
+      "last_updated": 1757247524.08615
+    },
+    "1000XUSDT": {
+      "symbol": "1000XUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757290724.825536,
+      "strikes": 0,
+      "first_seen": 1757247524.825536,
+      "last_updated": 1757247524.825536
+    },
+    "1INCHUSDT": {
+      "symbol": "1INCHUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290725.615652,
+      "strikes": 0,
+      "first_seen": 1757247525.615652,
+      "last_updated": 1757247525.615652
+    },
+    "A2ZUSDT": {
+      "symbol": "A2ZUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290726.435593,
+      "strikes": 0,
+      "first_seen": 1757247526.435593,
+      "last_updated": 1757247526.435593
+    },
+    "A8USDT": {
+      "symbol": "A8USDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290727.25546,
+      "strikes": 0,
+      "first_seen": 1757247527.25546,
+      "last_updated": 1757247527.25546
+    },
+    "AAVEUSDT": {
+      "symbol": "AAVEUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290728.0252821,
+      "strikes": 0,
+      "first_seen": 1757247528.0252821,
+      "last_updated": 1757247528.0252821
+    },
+    "ACEUSDT": {
+      "symbol": "ACEUSDT",
+      "reason": "ILLQ v24h\u224892,057",
+      "until": 1757333928.895552,
+      "strikes": 0,
+      "first_seen": 1757247528.895552,
+      "last_updated": 1757247528.895552
+    },
+    "ACHUSDT": {
+      "symbol": "ACHUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290729.625997,
+      "strikes": 0,
+      "first_seen": 1757247529.625997,
+      "last_updated": 1757247529.625997
+    },
+    "ACTUSDT": {
+      "symbol": "ACTUSDT",
+      "reason": "ILLQ v24h\u2248328,895",
+      "until": 1757333930.3461912,
+      "strikes": 0,
+      "first_seen": 1757247530.3461912,
+      "last_updated": 1757247530.3461912
+    },
+    "ACXUSDT": {
+      "symbol": "ACXUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757290731.0651982,
+      "strikes": 0,
+      "first_seen": 1757247531.0651982,
+      "last_updated": 1757247531.0651982
+    },
+    "ADAUSDT": {
+      "symbol": "ADAUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290731.862067,
+      "strikes": 0,
+      "first_seen": 1757247531.862067,
+      "last_updated": 1757247531.862067
+    },
+    "AERGOUSDT": {
+      "symbol": "AERGOUSDT",
+      "reason": "ILLQ v24h\u2248382,790",
+      "until": 1757333932.685301,
+      "strikes": 0,
+      "first_seen": 1757247532.685301,
+      "last_updated": 1757247532.685301
+    },
+    "AEROUSDT": {
+      "symbol": "AEROUSDT",
+      "reason": "strike",
+      "until": 1757290734.425226,
+      "strikes": 1,
+      "first_seen": 1757247534.425226,
+      "last_updated": 1757247670.306536
+    },
+    "AEVOUSDT": {
+      "symbol": "AEVOUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757290735.146896,
+      "strikes": 0,
+      "first_seen": 1757247535.146896,
+      "last_updated": 1757247535.146896
+    },
+    "AGIUSDT": {
+      "symbol": "AGIUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290735.915545,
+      "strikes": 0,
+      "first_seen": 1757247535.915545,
+      "last_updated": 1757247535.915545
+    },
+    "AGLDUSDT": {
+      "symbol": "AGLDUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290736.6565728,
+      "strikes": 0,
+      "first_seen": 1757247536.6565728,
+      "last_updated": 1757247536.6565728
+    },
+    "AGTUSDT": {
+      "symbol": "AGTUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290737.485239,
+      "strikes": 0,
+      "first_seen": 1757247537.485239,
+      "last_updated": 1757247537.485239
+    },
+    "AI16ZUSDT": {
+      "symbol": "AI16ZUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290739.246628,
+      "strikes": 0,
+      "first_seen": 1757247539.246628,
+      "last_updated": 1757247539.246628
+    },
+    "AINUSDT": {
+      "symbol": "AINUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290739.955128,
+      "strikes": 0,
+      "first_seen": 1757247539.955128,
+      "last_updated": 1757247539.955128
+    },
+    "AIOUSDT": {
+      "symbol": "AIOUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757290740.7252522,
+      "strikes": 0,
+      "first_seen": 1757247540.7252522,
+      "last_updated": 1757247540.7252522
+    },
+    "AIOZUSDT": {
+      "symbol": "AIOZUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757290741.494974,
+      "strikes": 0,
+      "first_seen": 1757247541.494974,
+      "last_updated": 1757247541.494974
+    },
+    "AIUSDT": {
+      "symbol": "AIUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290742.255179,
+      "strikes": 0,
+      "first_seen": 1757247542.255179,
+      "last_updated": 1757247542.255179
+    },
+    "AIXBTUSDT": {
+      "symbol": "AIXBTUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290744.056514,
+      "strikes": 0,
+      "first_seen": 1757247544.056514,
+      "last_updated": 1757247544.056514
+    },
+    "AKTUSDT": {
+      "symbol": "AKTUSDT",
+      "reason": "WICKY_15m 40%",
+      "until": 1757290744.875822,
+      "strikes": 0,
+      "first_seen": 1757247544.875822,
+      "last_updated": 1757247544.875822
+    },
+    "ALCHUSDT": {
+      "symbol": "ALCHUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757290745.93518,
+      "strikes": 0,
+      "first_seen": 1757247545.93518,
+      "last_updated": 1757247545.93518
+    },
+    "ALEOUSDT": {
+      "symbol": "ALEOUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290747.736562,
+      "strikes": 0,
+      "first_seen": 1757247547.736562,
+      "last_updated": 1757247547.736562
+    },
+    "ALGOUSDT": {
+      "symbol": "ALGOUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290748.504571,
+      "strikes": 0,
+      "first_seen": 1757247548.504571,
+      "last_updated": 1757247548.504571
+    },
+    "ALICEUSDT": {
+      "symbol": "ALICEUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757290749.23513,
+      "strikes": 0,
+      "first_seen": 1757247549.23513,
+      "last_updated": 1757247549.23513
+    },
+    "ALPHAUSDT": {
+      "symbol": "ALPHAUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290751.054873,
+      "strikes": 0,
+      "first_seen": 1757247551.054873,
+      "last_updated": 1757247551.054873
+    },
+    "ALPINEUSDT": {
+      "symbol": "ALPINEUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757290752.146048,
+      "strikes": 0,
+      "first_seen": 1757247552.146048,
+      "last_updated": 1757247552.146048
+    },
+    "ALTUSDT": {
+      "symbol": "ALTUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290752.955161,
+      "strikes": 0,
+      "first_seen": 1757247552.955161,
+      "last_updated": 1757247552.955161
+    },
+    "ALUUSDT": {
+      "symbol": "ALUUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757290753.774713,
+      "strikes": 0,
+      "first_seen": 1757247553.774713,
+      "last_updated": 1757247553.774713
+    },
+    "ANIMEUSDT": {
+      "symbol": "ANIMEUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290754.495421,
+      "strikes": 0,
+      "first_seen": 1757247554.495421,
+      "last_updated": 1757247554.495421
+    },
+    "ANKRUSDT": {
+      "symbol": "ANKRUSDT",
+      "reason": "ILLQ v24h\u2248146,980",
+      "until": 1757333955.315061,
+      "strikes": 0,
+      "first_seen": 1757247555.315061,
+      "last_updated": 1757247555.315061
+    },
+    "APEUSDT": {
+      "symbol": "APEUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290756.0749462,
+      "strikes": 0,
+      "first_seen": 1757247556.0749462,
+      "last_updated": 1757247556.0749462
+    },
+    "API3USDT": {
+      "symbol": "API3USDT",
+      "reason": "WICKY_15m 63%",
+      "until": 1757290756.959965,
+      "strikes": 0,
+      "first_seen": 1757247556.959965,
+      "last_updated": 1757247556.959965
+    },
+    "APTUSDT": {
+      "symbol": "APTUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290757.77464,
+      "strikes": 0,
+      "first_seen": 1757247557.77464,
+      "last_updated": 1757247557.77464
+    },
+    "ARBUSDT": {
+      "symbol": "ARBUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290758.597228,
+      "strikes": 0,
+      "first_seen": 1757247558.597228,
+      "last_updated": 1757247558.597228
+    },
+    "ARCUSDT": {
+      "symbol": "ARCUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290760.384745,
+      "strikes": 0,
+      "first_seen": 1757247560.384745,
+      "last_updated": 1757247560.384745
+    },
+    "ARKMUSDT": {
+      "symbol": "ARKMUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290761.155297,
+      "strikes": 0,
+      "first_seen": 1757247561.155297,
+      "last_updated": 1757247561.155297
+    },
+    "ARKUSDT": {
+      "symbol": "ARKUSDT",
+      "reason": "ILLQ v24h\u2248180,246",
+      "until": 1757333961.875524,
+      "strikes": 0,
+      "first_seen": 1757247561.875524,
+      "last_updated": 1757247561.875524
+    },
+    "ARPAUSDT": {
+      "symbol": "ARPAUSDT",
+      "reason": "ILLQ v24h\u2248245,980",
+      "until": 1757333962.596598,
+      "strikes": 0,
+      "first_seen": 1757247562.596598,
+      "last_updated": 1757247562.596598
+    },
+    "ARUSDT": {
+      "symbol": "ARUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290763.306495,
+      "strikes": 0,
+      "first_seen": 1757247563.306495,
+      "last_updated": 1757247563.306495
+    },
+    "ASPUSDT": {
+      "symbol": "ASPUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290764.124984,
+      "strikes": 0,
+      "first_seen": 1757247564.124984,
+      "last_updated": 1757247564.124984
+    },
+    "ASRUSDT": {
+      "symbol": "ASRUSDT",
+      "reason": "strike",
+      "until": 1757290764.924923,
+      "strikes": 1,
+      "first_seen": 1757247564.924923,
+      "last_updated": 1757247784.3753119
+    },
+    "ASTRUSDT": {
+      "symbol": "ASTRUSDT",
+      "reason": "ILLQ v24h\u2248256,218",
+      "until": 1757333965.707377,
+      "strikes": 0,
+      "first_seen": 1757247565.707377,
+      "last_updated": 1757247565.707377
+    },
+    "ATAUSDT": {
+      "symbol": "ATAUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290766.574729,
+      "strikes": 0,
+      "first_seen": 1757247566.574729,
+      "last_updated": 1757247566.574729
+    },
+    "ATHUSDT": {
+      "symbol": "ATHUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290767.398352,
+      "strikes": 0,
+      "first_seen": 1757247567.398352,
+      "last_updated": 1757247567.398352
+    },
+    "ATOMUSDT": {
+      "symbol": "ATOMUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290768.166272,
+      "strikes": 0,
+      "first_seen": 1757247568.166272,
+      "last_updated": 1757247568.166272
+    },
+    "AUCTIONUSDT": {
+      "symbol": "AUCTIONUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290769.036274,
+      "strikes": 0,
+      "first_seen": 1757247569.036274,
+      "last_updated": 1757247569.036274
+    },
+    "AUDIOUSDT": {
+      "symbol": "AUDIOUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290769.854692,
+      "strikes": 0,
+      "first_seen": 1757247569.854692,
+      "last_updated": 1757247569.854692
+    },
+    "AUSDT": {
+      "symbol": "AUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757290770.625112,
+      "strikes": 0,
+      "first_seen": 1757247570.625112,
+      "last_updated": 1757247570.625112
+    },
+    "AVAAIUSDT": {
+      "symbol": "AVAAIUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290771.4948769,
+      "strikes": 0,
+      "first_seen": 1757247571.4948769,
+      "last_updated": 1757247571.4948769
+    },
+    "AVAILUSDT": {
+      "symbol": "AVAILUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290772.315434,
+      "strikes": 0,
+      "first_seen": 1757247572.315434,
+      "last_updated": 1757247572.315434
+    },
+    "AVAUSDT": {
+      "symbol": "AVAUSDT",
+      "reason": "ILLQ v24h\u2248139,934",
+      "until": 1757333973.074879,
+      "strikes": 0,
+      "first_seen": 1757247573.074879,
+      "last_updated": 1757247573.074879
+    },
+    "AVAXUSDT": {
+      "symbol": "AVAXUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757290774.2550201,
+      "strikes": 0,
+      "first_seen": 1757247574.2550201,
+      "last_updated": 1757247574.2550201
+    },
+    "AVLUSDT": {
+      "symbol": "AVLUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290775.025116,
+      "strikes": 0,
+      "first_seen": 1757247575.025116,
+      "last_updated": 1757247575.025116
+    },
+    "AWEUSDT": {
+      "symbol": "AWEUSDT",
+      "reason": "ILLQ v24h\u2248132,289",
+      "until": 1757333975.7427971,
+      "strikes": 0,
+      "first_seen": 1757247575.7427971,
+      "last_updated": 1757247575.7427971
+    },
+    "AXLUSDT": {
+      "symbol": "AXLUSDT",
+      "reason": "ILLQ v24h\u2248829,319",
+      "until": 1757333976.464983,
+      "strikes": 0,
+      "first_seen": 1757247576.464983,
+      "last_updated": 1757247576.464983
+    },
+    "AXSUSDT": {
+      "symbol": "AXSUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290777.306294,
+      "strikes": 0,
+      "first_seen": 1757247577.306294,
+      "last_updated": 1757247577.306294
+    },
+    "B2USDT": {
+      "symbol": "B2USDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290778.357163,
+      "strikes": 0,
+      "first_seen": 1757247578.357163,
+      "last_updated": 1757247578.357163
+    },
+    "B3USDT": {
+      "symbol": "B3USDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290779.065012,
+      "strikes": 0,
+      "first_seen": 1757247579.065012,
+      "last_updated": 1757247579.065012
+    },
+    "BABYUSDT": {
+      "symbol": "BABYUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757290779.7852259,
+      "strikes": 0,
+      "first_seen": 1757247579.7852259,
+      "last_updated": 1757247579.7852259
+    },
+    "BADGERUSDT": {
+      "symbol": "BADGERUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757290780.5157278,
+      "strikes": 0,
+      "first_seen": 1757247580.5157278,
+      "last_updated": 1757247580.5157278
+    },
+    "BAKEUSDT": {
+      "symbol": "BAKEUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290782.3448231,
+      "strikes": 0,
+      "first_seen": 1757247582.3448231,
+      "last_updated": 1757247582.3448231
+    },
+    "BANANAS31USDT": {
+      "symbol": "BANANAS31USDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290783.0645828,
+      "strikes": 0,
+      "first_seen": 1757247583.0645828,
+      "last_updated": 1757247583.0645828
+    },
+    "BANANAUSDT": {
+      "symbol": "BANANAUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757290783.8805602,
+      "strikes": 0,
+      "first_seen": 1757247583.8805602,
+      "last_updated": 1757247583.8805602
+    },
+    "BANDUSDT": {
+      "symbol": "BANDUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290784.699109,
+      "strikes": 0,
+      "first_seen": 1757247584.699109,
+      "last_updated": 1757247584.699109
+    },
+    "BANKUSDT": {
+      "symbol": "BANKUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757290785.4248478,
+      "strikes": 0,
+      "first_seen": 1757247585.4248478,
+      "last_updated": 1757247585.4248478
+    },
+    "BANUSDT": {
+      "symbol": "BANUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290786.236686,
+      "strikes": 0,
+      "first_seen": 1757247586.236686,
+      "last_updated": 1757247586.236686
+    },
+    "BATUSDT": {
+      "symbol": "BATUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290786.9945118,
+      "strikes": 0,
+      "first_seen": 1757247586.9945118,
+      "last_updated": 1757247586.9945118
+    },
+    "BBUSDT": {
+      "symbol": "BBUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290788.7953038,
+      "strikes": 0,
+      "first_seen": 1757247588.7953038,
+      "last_updated": 1757247588.7953038
+    },
+    "BCHUSDT": {
+      "symbol": "BCHUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757290789.524812,
+      "strikes": 0,
+      "first_seen": 1757247589.524812,
+      "last_updated": 1757247589.524812
+    },
+    "BDXNUSDT": {
+      "symbol": "BDXNUSDT",
+      "reason": "WICKY_15m 62%",
+      "until": 1757290790.255234,
+      "strikes": 0,
+      "first_seen": 1757247590.255234,
+      "last_updated": 1757247590.255234
+    },
+    "BEAMUSDT": {
+      "symbol": "BEAMUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290792.072989,
+      "strikes": 0,
+      "first_seen": 1757247592.072989,
+      "last_updated": 1757247592.072989
+    },
+    "BELUSDT": {
+      "symbol": "BELUSDT",
+      "reason": "ILLQ v24h\u2248143,496",
+      "until": 1757333992.894989,
+      "strikes": 0,
+      "first_seen": 1757247592.894989,
+      "last_updated": 1757247592.894989
+    },
+    "BERAUSDT": {
+      "symbol": "BERAUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290793.714793,
+      "strikes": 0,
+      "first_seen": 1757247593.714793,
+      "last_updated": 1757247593.714793
+    },
+    "BICOUSDT": {
+      "symbol": "BICOUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290794.4373791,
+      "strikes": 0,
+      "first_seen": 1757247594.4373791,
+      "last_updated": 1757247594.4373791
+    },
+    "BIGTIMEUSDT": {
+      "symbol": "BIGTIMEUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290795.255278,
+      "strikes": 0,
+      "first_seen": 1757247595.255278,
+      "last_updated": 1757247595.255278
+    },
+    "BIOUSDT": {
+      "symbol": "BIOUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757290796.075351,
+      "strikes": 0,
+      "first_seen": 1757247596.075351,
+      "last_updated": 1757247596.075351
+    },
+    "BLASTUSDT": {
+      "symbol": "BLASTUSDT",
+      "reason": "ILLQ v24h\u2248354,670",
+      "until": 1757333997.915735,
+      "strikes": 0,
+      "first_seen": 1757247597.915735,
+      "last_updated": 1757247597.915735
+    },
+    "BLURUSDT": {
+      "symbol": "BLURUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290798.677546,
+      "strikes": 0,
+      "first_seen": 1757247598.677546,
+      "last_updated": 1757247598.677546
+    },
+    "BMTUSDT": {
+      "symbol": "BMTUSDT",
+      "reason": "ILLQ v24h\u2248150,382",
+      "until": 1757333999.444659,
+      "strikes": 0,
+      "first_seen": 1757247599.444659,
+      "last_updated": 1757247599.444659
+    },
+    "BNBUSDT": {
+      "symbol": "BNBUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290800.9845262,
+      "strikes": 0,
+      "first_seen": 1757247600.9845262,
+      "last_updated": 1757247600.9845262
+    },
+    "BNTUSDT": {
+      "symbol": "BNTUSDT",
+      "reason": "ILLQ v24h\u224879,067",
+      "until": 1757334001.8053498,
+      "strikes": 0,
+      "first_seen": 1757247601.8053498,
+      "last_updated": 1757247601.8053498
+    },
+    "BOBAUSDT": {
+      "symbol": "BOBAUSDT",
+      "reason": "ILLQ v24h\u2248253,802",
+      "until": 1757334002.937435,
+      "strikes": 0,
+      "first_seen": 1757247602.937435,
+      "last_updated": 1757247602.937435
+    },
+    "BOMEUSDT": {
+      "symbol": "BOMEUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290804.0552142,
+      "strikes": 0,
+      "first_seen": 1757247604.0552142,
+      "last_updated": 1757247604.0552142
+    },
+    "BRETTUSDT": {
+      "symbol": "BRETTUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757290804.775073,
+      "strikes": 0,
+      "first_seen": 1757247604.775073,
+      "last_updated": 1757247604.775073
+    },
+    "BROCCOLIUSDT": {
+      "symbol": "BROCCOLIUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290805.5072708,
+      "strikes": 0,
+      "first_seen": 1757247605.5072708,
+      "last_updated": 1757247605.5072708
+    },
+    "BRUSDT": {
+      "symbol": "BRUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290806.225376,
+      "strikes": 0,
+      "first_seen": 1757247606.225376,
+      "last_updated": 1757247606.225376
+    },
+    "BSUUSDT": {
+      "symbol": "BSUUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290807.9139478,
+      "strikes": 0,
+      "first_seen": 1757247607.9139478,
+      "last_updated": 1757247607.9139478
+    },
+    "BSVUSDT": {
+      "symbol": "BSVUSDT",
+      "reason": "ILLQ v24h\u2248375,830",
+      "until": 1757334008.7652721,
+      "strikes": 0,
+      "first_seen": 1757247608.7652721,
+      "last_updated": 1757247608.7652721
+    },
+    "BSWUSDT": {
+      "symbol": "BSWUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757290809.524641,
+      "strikes": 0,
+      "first_seen": 1757247609.524641,
+      "last_updated": 1757247609.524641
+    },
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290810.404586,
+      "strikes": 0,
+      "first_seen": 1757247610.404586,
+      "last_updated": 1757247610.404586
+    },
+    "BTRUSDT": {
+      "symbol": "BTRUSDT",
+      "reason": "WICKY_15m 61%",
+      "until": 1757290812.1241128,
+      "strikes": 0,
+      "first_seen": 1757247612.1241128,
+      "last_updated": 1757247612.1241128
+    },
+    "BUSDT": {
+      "symbol": "BUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290812.844418,
+      "strikes": 0,
+      "first_seen": 1757247612.844418,
+      "last_updated": 1757247612.844418
+    },
+    "C98USDT": {
+      "symbol": "C98USDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757290813.6348999,
+      "strikes": 0,
+      "first_seen": 1757247613.6348999,
+      "last_updated": 1757247613.6348999
+    },
+    "CAKEUSDT": {
+      "symbol": "CAKEUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290814.4541728,
+      "strikes": 0,
+      "first_seen": 1757247614.4541728,
+      "last_updated": 1757247614.4541728
+    },
+    "CAMPUSDT": {
+      "symbol": "CAMPUSDT",
+      "reason": "WICKY_15m 63%",
+      "until": 1757290815.5261629,
+      "strikes": 0,
+      "first_seen": 1757247615.5261629,
+      "last_updated": 1757247615.5261629
+    },
+    "CARVUSDT": {
+      "symbol": "CARVUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290816.334632,
+      "strikes": 0,
+      "first_seen": 1757247616.334632,
+      "last_updated": 1757247616.334632
+    },
+    "CATIUSDT": {
+      "symbol": "CATIUSDT",
+      "reason": "strike",
+      "until": 1757290817.159658,
+      "strikes": 1,
+      "first_seen": 1757247617.159658,
+      "last_updated": 1757247652.997186
+    },
+    "CELOUSDT": {
+      "symbol": "CELOUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290817.984229,
+      "strikes": 0,
+      "first_seen": 1757247617.984229,
+      "last_updated": 1757247617.984229
+    },
+    "CELRUSDT": {
+      "symbol": "CELRUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757290818.807554,
+      "strikes": 0,
+      "first_seen": 1757247618.807554,
+      "last_updated": 1757247618.807554
+    },
+    "CETUSUSDT": {
+      "symbol": "CETUSUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290819.565621,
+      "strikes": 0,
+      "first_seen": 1757247619.565621,
+      "last_updated": 1757247619.565621
+    },
+    "CFXUSDT": {
+      "symbol": "CFXUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290820.394294,
+      "strikes": 0,
+      "first_seen": 1757247620.394294,
+      "last_updated": 1757247620.394294
+    },
+    "CGPTUSDT": {
+      "symbol": "CGPTUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290821.444854,
+      "strikes": 0,
+      "first_seen": 1757247621.444854,
+      "last_updated": 1757247621.444854
+    },
+    "CHESSUSDT": {
+      "symbol": "CHESSUSDT",
+      "reason": "ILLQ v24h\u2248104,659",
+      "until": 1757334022.183975,
+      "strikes": 0,
+      "first_seen": 1757247622.183975,
+      "last_updated": 1757247622.183975
+    },
+    "CHILLGUYUSDT": {
+      "symbol": "CHILLGUYUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290822.996403,
+      "strikes": 0,
+      "first_seen": 1757247622.996403,
+      "last_updated": 1757247622.996403
+    },
+    "CHRUSDT": {
+      "symbol": "CHRUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290823.765395,
+      "strikes": 0,
+      "first_seen": 1757247623.765395,
+      "last_updated": 1757247623.765395
+    },
+    "CHZUSDT": {
+      "symbol": "CHZUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290824.583765,
+      "strikes": 0,
+      "first_seen": 1757247624.583765,
+      "last_updated": 1757247624.583765
+    },
+    "CKBUSDT": {
+      "symbol": "CKBUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757290825.314206,
+      "strikes": 0,
+      "first_seen": 1757247625.314206,
+      "last_updated": 1757247625.314206
+    },
+    "CLANKERUSDT": {
+      "symbol": "CLANKERUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757290827.004875,
+      "strikes": 0,
+      "first_seen": 1757247627.004875,
+      "last_updated": 1757247627.004875
+    },
+    "CLOUDUSDT": {
+      "symbol": "CLOUDUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757290827.808717,
+      "strikes": 0,
+      "first_seen": 1757247627.808717,
+      "last_updated": 1757247627.808717
+    },
+    "COMPUSDT": {
+      "symbol": "COMPUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290828.519105,
+      "strikes": 0,
+      "first_seen": 1757247628.519105,
+      "last_updated": 1757247628.519105
+    },
+    "COOKIEUSDT": {
+      "symbol": "COOKIEUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290829.3466399,
+      "strikes": 0,
+      "first_seen": 1757247629.3466399,
+      "last_updated": 1757247629.3466399
+    },
+    "COOKUSDT": {
+      "symbol": "COOKUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757290830.473598,
+      "strikes": 0,
+      "first_seen": 1757247630.473598,
+      "last_updated": 1757247630.473598
+    },
+    "COREUSDT": {
+      "symbol": "COREUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290831.2974432,
+      "strikes": 0,
+      "first_seen": 1757247631.2974432,
+      "last_updated": 1757247631.2974432
+    },
+    "COSUSDT": {
+      "symbol": "COSUSDT",
+      "reason": "ILLQ v24h\u2248100,571",
+      "until": 1757334032.1148329,
+      "strikes": 0,
+      "first_seen": 1757247632.1148329,
+      "last_updated": 1757247632.1148329
+    },
+    "COTIUSDT": {
+      "symbol": "COTIUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757290832.9347,
+      "strikes": 0,
+      "first_seen": 1757247632.9347,
+      "last_updated": 1757247632.9347
+    },
+    "COWUSDT": {
+      "symbol": "COWUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757290833.749093,
+      "strikes": 0,
+      "first_seen": 1757247633.749093,
+      "last_updated": 1757247633.749093
+    },
+    "CPOOLUSDT": {
+      "symbol": "CPOOLUSDT",
+      "reason": "WICKY_15m 60%",
+      "until": 1757290834.573406,
+      "strikes": 0,
+      "first_seen": 1757247634.573406,
+      "last_updated": 1757247634.573406
+    },
+    "CROSSUSDT": {
+      "symbol": "CROSSUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757290835.344575,
+      "strikes": 0,
+      "first_seen": 1757247635.344575,
+      "last_updated": 1757247635.344575
+    },
+    "CROUSDT": {
+      "symbol": "CROUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290836.0649111,
+      "strikes": 0,
+      "first_seen": 1757247636.0649111,
+      "last_updated": 1757247636.0649111
+    },
+    "CRVUSDT": {
+      "symbol": "CRVUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290836.795271,
+      "strikes": 0,
+      "first_seen": 1757247636.795271,
+      "last_updated": 1757247636.795271
+    },
+    "CTCUSDT": {
+      "symbol": "CTCUSDT",
+      "reason": "ILLQ v24h\u2248393,884",
+      "until": 1757334037.5751119,
+      "strikes": 0,
+      "first_seen": 1757247637.5751119,
+      "last_updated": 1757247637.5751119
+    },
+    "CTKUSDT": {
+      "symbol": "CTKUSDT",
+      "reason": "ILLQ v24h\u2248162,162",
+      "until": 1757334038.464999,
+      "strikes": 0,
+      "first_seen": 1757247638.464999,
+      "last_updated": 1757247638.464999
+    },
+    "CTSIUSDT": {
+      "symbol": "CTSIUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757290839.2038999,
+      "strikes": 0,
+      "first_seen": 1757247639.2038999,
+      "last_updated": 1757247639.2038999
+    },
+    "CUDISUSDT": {
+      "symbol": "CUDISUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757290839.996863,
+      "strikes": 0,
+      "first_seen": 1757247639.996863,
+      "last_updated": 1757247639.996863
+    },
+    "CUSDT": {
+      "symbol": "CUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757290841.084102,
+      "strikes": 0,
+      "first_seen": 1757247641.084102,
+      "last_updated": 1757247641.084102
+    },
+    "CVCUSDT": {
+      "symbol": "CVCUSDT",
+      "reason": "ILLQ v24h\u2248187,608",
+      "until": 1757334041.885535,
+      "strikes": 0,
+      "first_seen": 1757247641.885535,
+      "last_updated": 1757247641.885535
+    },
+    "CVXUSDT": {
+      "symbol": "CVXUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757290842.654067,
+      "strikes": 0,
+      "first_seen": 1757247642.654067,
+      "last_updated": 1757247642.654067
+    },
+    "CYBERUSDT": {
+      "symbol": "CYBERUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757290843.4854379,
+      "strikes": 0,
+      "first_seen": 1757247643.4854379,
+      "last_updated": 1757247643.4854379
+    },
+    "DAMUSDT": {
+      "symbol": "DAMUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757290844.264456,
+      "strikes": 0,
+      "first_seen": 1757247644.264456,
+      "last_updated": 1757247644.264456
+    },
+    "DASHUSDT": {
+      "symbol": "DASHUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757290845.064302,
+      "strikes": 0,
+      "first_seen": 1757247645.064302,
+      "last_updated": 1757247645.064302
+    },
+    "DBRUSDT": {
+      "symbol": "DBRUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757290845.933975,
+      "strikes": 0,
+      "first_seen": 1757247645.933975,
+      "last_updated": 1757247645.933975
+    },
+    "DEEPUSDT": {
+      "symbol": "DEEPUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757290846.703726,
+      "strikes": 0,
+      "first_seen": 1757247646.703726,
+      "last_updated": 1757247646.703726
+    },
+    "DEGENUSDT": {
+      "symbol": "DEGENUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757290847.572233,
+      "strikes": 0,
+      "first_seen": 1757247647.572233,
+      "last_updated": 1757247647.572233
+    },
+    "DENTUSDT": {
+      "symbol": "DENTUSDT",
+      "reason": "WICKY_15m 40%",
+      "until": 1757290848.3540978,
+      "strikes": 0,
+      "first_seen": 1757247648.3540978,
+      "last_updated": 1757247648.3540978
+    },
+    "ETHWUSDT": {
+      "symbol": "ETHWUSDT",
+      "reason": "ILLQ v24h\u2248262,650",
+      "until": 1757334258.6157498,
+      "strikes": 1,
+      "first_seen": 1757247654.226847,
+      "last_updated": 1757247858.6157498
+    },
+    "ZEREBROUSDT": {
+      "symbol": "ZEREBROUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291539.7542772,
+      "strikes": 1,
+      "first_seen": 1757247669.536545,
+      "last_updated": 1757248339.7542772
+    },
+    "KASUSDT": {
+      "symbol": "KASUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291144.171037,
+      "strikes": 1,
+      "first_seen": 1757247718.425911,
+      "last_updated": 1757247944.171037
+    },
+    "LDOUSDT": {
+      "symbol": "LDOUSDT",
+      "reason": "2 SL strikes (cooldown)",
+      "until": 1757269339.429963,
+      "strikes": 2,
+      "first_seen": 1757247719.755862,
+      "last_updated": 1757247739.429963
+    },
+    "MILKUSDT": {
+      "symbol": "MILKUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291177.609216,
+      "strikes": 1,
+      "first_seen": 1757247722.6963148,
+      "last_updated": 1757247977.609216
+    },
+    "TRXUSDT": {
+      "symbol": "TRXUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291485.216226,
+      "strikes": 1,
+      "first_seen": 1757247728.365779,
+      "last_updated": 1757248285.216226
+    },
+    "ENJUSDT": {
+      "symbol": "ENJUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291049.112586,
+      "strikes": 1,
+      "first_seen": 1757247735.525802,
+      "last_updated": 1757247849.112586
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291057.489877,
+      "strikes": 1,
+      "first_seen": 1757247736.456672,
+      "last_updated": 1757247857.489877
+    },
+    "IOTAUSDT": {
+      "symbol": "IOTAUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291131.7271621,
+      "strikes": 1,
+      "first_seen": 1757247737.745555,
+      "last_updated": 1757247931.7271621
+    },
+    "JTOUSDT": {
+      "symbol": "JTOUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291140.269142,
+      "strikes": 1,
+      "first_seen": 1757247738.5562859,
+      "last_updated": 1757247940.269142
+    },
+    "LQTYUSDT": {
+      "symbol": "LQTYUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291159.6394649,
+      "strikes": 1,
+      "first_seen": 1757247740.3466291,
+      "last_updated": 1757247959.6394649
+    },
+    "PENDLEUSDT": {
+      "symbol": "PENDLEUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291303.966743,
+      "strikes": 1,
+      "first_seen": 1757247775.925028,
+      "last_updated": 1757248103.966743
+    },
+    "SLFUSDT": {
+      "symbol": "SLFUSDT",
+      "reason": "2 SL strikes (cooldown)",
+      "until": 1757269386.239588,
+      "strikes": 2,
+      "first_seen": 1757247782.7350342,
+      "last_updated": 1757247786.239588
+    },
+    "XDCUSDT": {
+      "symbol": "XDCUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291521.666959,
+      "strikes": 1,
+      "first_seen": 1757247783.554968,
+      "last_updated": 1757248321.666959
+    },
+    "SYRUPUSDT": {
+      "symbol": "SYRUPUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291401.935816,
+      "strikes": 1,
+      "first_seen": 1757247785.114929,
+      "last_updated": 1757248201.935816
+    },
+    "USDEUSDT": {
+      "symbol": "USDEUSDT",
+      "reason": "ILLQ v24h\u224831,731",
+      "until": 1757334692.714518,
+      "strikes": 1,
+      "first_seen": 1757247793.595037,
+      "last_updated": 1757248292.714518
+    },
+    "DEXEUSDT": {
+      "symbol": "DEXEUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291029.950963,
+      "strikes": 0,
+      "first_seen": 1757247829.950963,
+      "last_updated": 1757247829.950963
+    },
+    "DGBUSDT": {
+      "symbol": "DGBUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291030.7706409,
+      "strikes": 0,
+      "first_seen": 1757247830.7706409,
+      "last_updated": 1757247830.7706409
+    },
+    "DIAUSDT": {
+      "symbol": "DIAUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291031.5820742,
+      "strikes": 0,
+      "first_seen": 1757247831.5820742,
+      "last_updated": 1757247831.5820742
+    },
+    "DMCUSDT": {
+      "symbol": "DMCUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291032.4020321,
+      "strikes": 0,
+      "first_seen": 1757247832.4020321,
+      "last_updated": 1757247832.4020321
+    },
+    "DODOUSDT": {
+      "symbol": "DODOUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291033.220889,
+      "strikes": 0,
+      "first_seen": 1757247833.220889,
+      "last_updated": 1757247833.220889
+    },
+    "DOGEUSDT": {
+      "symbol": "DOGEUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291034.043162,
+      "strikes": 0,
+      "first_seen": 1757247834.043162,
+      "last_updated": 1757247834.043162
+    },
+    "DOGSUSDT": {
+      "symbol": "DOGSUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291034.812373,
+      "strikes": 0,
+      "first_seen": 1757247834.812373,
+      "last_updated": 1757247834.812373
+    },
+    "DOGUSDT": {
+      "symbol": "DOGUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291036.7125912,
+      "strikes": 0,
+      "first_seen": 1757247836.7125912,
+      "last_updated": 1757247836.7125912
+    },
+    "DOLOUSDT": {
+      "symbol": "DOLOUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291037.530766,
+      "strikes": 0,
+      "first_seen": 1757247837.530766,
+      "last_updated": 1757247837.530766
+    },
+    "DOODUSDT": {
+      "symbol": "DOODUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291038.621224,
+      "strikes": 0,
+      "first_seen": 1757247838.621224,
+      "last_updated": 1757247838.621224
+    },
+    "DOTUSDT": {
+      "symbol": "DOTUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291039.4706318,
+      "strikes": 0,
+      "first_seen": 1757247839.4706318,
+      "last_updated": 1757247839.4706318
+    },
+    "DRIFTUSDT": {
+      "symbol": "DRIFTUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291040.230996,
+      "strikes": 0,
+      "first_seen": 1757247840.230996,
+      "last_updated": 1757247840.230996
+    },
+    "DUCKUSDT": {
+      "symbol": "DUCKUSDT",
+      "reason": "ILLQ v24h\u2248100,433",
+      "until": 1757334241.112464,
+      "strikes": 0,
+      "first_seen": 1757247841.112464,
+      "last_updated": 1757247841.112464
+    },
+    "DUSKUSDT": {
+      "symbol": "DUSKUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291042.242974,
+      "strikes": 0,
+      "first_seen": 1757247842.242974,
+      "last_updated": 1757247842.242974
+    },
+    "DYDXUSDT": {
+      "symbol": "DYDXUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291042.9701009,
+      "strikes": 0,
+      "first_seen": 1757247842.9701009,
+      "last_updated": 1757247842.9701009
+    },
+    "DYMUSDT": {
+      "symbol": "DYMUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291043.721608,
+      "strikes": 0,
+      "first_seen": 1757247843.721608,
+      "last_updated": 1757247843.721608
+    },
+    "EDUUSDT": {
+      "symbol": "EDUUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291044.450403,
+      "strikes": 0,
+      "first_seen": 1757247844.450403,
+      "last_updated": 1757247844.450403
+    },
+    "EIGENUSDT": {
+      "symbol": "EIGENUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291046.9516559,
+      "strikes": 0,
+      "first_seen": 1757247846.9516559,
+      "last_updated": 1757247846.9516559
+    },
+    "ELXUSDT": {
+      "symbol": "ELXUSDT",
+      "reason": "WICKY_15m 65%",
+      "until": 1757291047.671659,
+      "strikes": 0,
+      "first_seen": 1757247847.671659,
+      "last_updated": 1757247847.671659
+    },
+    "ENAUSDT": {
+      "symbol": "ENAUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291048.401236,
+      "strikes": 0,
+      "first_seen": 1757247848.401236,
+      "last_updated": 1757247848.401236
+    },
+    "ENSUSDT": {
+      "symbol": "ENSUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291050.161071,
+      "strikes": 0,
+      "first_seen": 1757247850.161071,
+      "last_updated": 1757247850.161071
+    },
+    "EPICUSDT": {
+      "symbol": "EPICUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291050.9409978,
+      "strikes": 0,
+      "first_seen": 1757247850.9409978,
+      "last_updated": 1757247850.9409978
+    },
+    "EPTUSDT": {
+      "symbol": "EPTUSDT",
+      "reason": "WICKY_15m 61%",
+      "until": 1757291052.0117278,
+      "strikes": 0,
+      "first_seen": 1757247852.0117278,
+      "last_updated": 1757247852.0117278
+    },
+    "ERAUSDT": {
+      "symbol": "ERAUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291052.733026,
+      "strikes": 0,
+      "first_seen": 1757247852.733026,
+      "last_updated": 1757247852.733026
+    },
+    "ESPORTSUSDT": {
+      "symbol": "ESPORTSUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291053.5003572,
+      "strikes": 0,
+      "first_seen": 1757247853.5003572,
+      "last_updated": 1757247853.5003572
+    },
+    "ESUSDT": {
+      "symbol": "ESUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291054.3153632,
+      "strikes": 0,
+      "first_seen": 1757247854.3153632,
+      "last_updated": 1757247854.3153632
+    },
+    "ETCUSDT": {
+      "symbol": "ETCUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291055.1426911,
+      "strikes": 0,
+      "first_seen": 1757247855.1426911,
+      "last_updated": 1757247855.1426911
+    },
+    "ETHBTCUSDT": {
+      "symbol": "ETHBTCUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291055.960756,
+      "strikes": 0,
+      "first_seen": 1757247855.960756,
+      "last_updated": 1757247855.960756
+    },
+    "ETHFIUSDT": {
+      "symbol": "ETHFIUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291056.722388,
+      "strikes": 0,
+      "first_seen": 1757247856.722388,
+      "last_updated": 1757247856.722388
+    },
+    "FARTCOINUSDT": {
+      "symbol": "FARTCOINUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291059.4420211,
+      "strikes": 0,
+      "first_seen": 1757247859.4420211,
+      "last_updated": 1757247859.4420211
+    },
+    "FHEUSDT": {
+      "symbol": "FHEUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291061.0303931,
+      "strikes": 0,
+      "first_seen": 1757247861.0303931,
+      "last_updated": 1757247861.0303931
+    },
+    "FIDAUSDT": {
+      "symbol": "FIDAUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291061.790188,
+      "strikes": 0,
+      "first_seen": 1757247861.790188,
+      "last_updated": 1757247861.790188
+    },
+    "FILUSDT": {
+      "symbol": "FILUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291062.610256,
+      "strikes": 0,
+      "first_seen": 1757247862.610256,
+      "last_updated": 1757247862.610256
+    },
+    "FIOUSDT": {
+      "symbol": "FIOUSDT",
+      "reason": "ILLQ v24h\u224893,355",
+      "until": 1757334263.43057,
+      "strikes": 0,
+      "first_seen": 1757247863.43057,
+      "last_updated": 1757247863.43057
+    },
+    "FISUSDT": {
+      "symbol": "FISUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291064.79008,
+      "strikes": 0,
+      "first_seen": 1757247864.79008,
+      "last_updated": 1757247864.79008
+    },
+    "FLMUSDT": {
+      "symbol": "FLMUSDT",
+      "reason": "ILLQ v24h\u2248127,804",
+      "until": 1757334265.581375,
+      "strikes": 0,
+      "first_seen": 1757247865.581375,
+      "last_updated": 1757247865.581375
+    },
+    "FLOCKUSDT": {
+      "symbol": "FLOCKUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291066.7109928,
+      "strikes": 0,
+      "first_seen": 1757247866.7109928,
+      "last_updated": 1757247866.7109928
+    },
+    "FLOWUSDT": {
+      "symbol": "FLOWUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291067.430175,
+      "strikes": 0,
+      "first_seen": 1757247867.430175,
+      "last_updated": 1757247867.430175
+    },
+    "FLRUSDT": {
+      "symbol": "FLRUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291068.190376,
+      "strikes": 0,
+      "first_seen": 1757247868.190376,
+      "last_updated": 1757247868.190376
+    },
+    "FLUXUSDT": {
+      "symbol": "FLUXUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291069.060559,
+      "strikes": 0,
+      "first_seen": 1757247869.060559,
+      "last_updated": 1757247869.060559
+    },
+    "FORMUSDT": {
+      "symbol": "FORMUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291070.810038,
+      "strikes": 0,
+      "first_seen": 1757247870.810038,
+      "last_updated": 1757247870.810038
+    },
+    "FORTHUSDT": {
+      "symbol": "FORTHUSDT",
+      "reason": "ILLQ v24h\u224869,141",
+      "until": 1757334272.551533,
+      "strikes": 0,
+      "first_seen": 1757247872.551533,
+      "last_updated": 1757247872.551533
+    },
+    "FRAGUSDT": {
+      "symbol": "FRAGUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291073.360474,
+      "strikes": 0,
+      "first_seen": 1757247873.360474,
+      "last_updated": 1757247873.360474
+    },
+    "FUELUSDT": {
+      "symbol": "FUELUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291075.2112691,
+      "strikes": 0,
+      "first_seen": 1757247875.2112691,
+      "last_updated": 1757247875.2112691
+    },
+    "FUSDT": {
+      "symbol": "FUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291075.980324,
+      "strikes": 0,
+      "first_seen": 1757247875.980324,
+      "last_updated": 1757247875.980324
+    },
+    "FWOGUSDT": {
+      "symbol": "FWOGUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291076.850626,
+      "strikes": 0,
+      "first_seen": 1757247876.850626,
+      "last_updated": 1757247876.850626
+    },
+    "FXSUSDT": {
+      "symbol": "FXSUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291077.971903,
+      "strikes": 0,
+      "first_seen": 1757247877.971903,
+      "last_updated": 1757247877.971903
+    },
+    "GALAUSDT": {
+      "symbol": "GALAUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291079.100231,
+      "strikes": 0,
+      "first_seen": 1757247879.100231,
+      "last_updated": 1757247879.100231
+    },
+    "GASUSDT": {
+      "symbol": "GASUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291080.015457,
+      "strikes": 0,
+      "first_seen": 1757247880.015457,
+      "last_updated": 1757247880.015457
+    },
+    "GIGAUSDT": {
+      "symbol": "GIGAUSDT",
+      "reason": "WICKY_15m 60%",
+      "until": 1757291081.149761,
+      "strikes": 0,
+      "first_seen": 1757247881.149761,
+      "last_updated": 1757247881.149761
+    },
+    "GLMRUSDT": {
+      "symbol": "GLMRUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291081.960212,
+      "strikes": 0,
+      "first_seen": 1757247881.960212,
+      "last_updated": 1757247881.960212
+    },
+    "GLMUSDT": {
+      "symbol": "GLMUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291083.0104718,
+      "strikes": 0,
+      "first_seen": 1757247883.0104718,
+      "last_updated": 1757247883.0104718
+    },
+    "GMTUSDT": {
+      "symbol": "GMTUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291085.1401799,
+      "strikes": 0,
+      "first_seen": 1757247885.1401799,
+      "last_updated": 1757247885.1401799
+    },
+    "GMXUSDT": {
+      "symbol": "GMXUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291086.551747,
+      "strikes": 0,
+      "first_seen": 1757247886.551747,
+      "last_updated": 1757247886.551747
+    },
+    "GNOUSDT": {
+      "symbol": "GNOUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291087.340249,
+      "strikes": 0,
+      "first_seen": 1757247887.340249,
+      "last_updated": 1757247887.340249
+    },
+    "GOATUSDT": {
+      "symbol": "GOATUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291088.110382,
+      "strikes": 0,
+      "first_seen": 1757247888.110382,
+      "last_updated": 1757247888.110382
+    },
+    "GODSUSDT": {
+      "symbol": "GODSUSDT",
+      "reason": "ILLQ v24h\u2248130,760",
+      "until": 1757334289.850228,
+      "strikes": 0,
+      "first_seen": 1757247889.850228,
+      "last_updated": 1757247889.850228
+    },
+    "GORKUSDT": {
+      "symbol": "GORKUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291090.609838,
+      "strikes": 0,
+      "first_seen": 1757247890.609838,
+      "last_updated": 1757247890.609838
+    },
+    "GPSUSDT": {
+      "symbol": "GPSUSDT",
+      "reason": "WICKY_15m 61%",
+      "until": 1757291091.7998688,
+      "strikes": 0,
+      "first_seen": 1757247891.7998688,
+      "last_updated": 1757247891.7998688
+    },
+    "GRASSUSDT": {
+      "symbol": "GRASSUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291092.9200408,
+      "strikes": 0,
+      "first_seen": 1757247892.9200408,
+      "last_updated": 1757247892.9200408
+    },
+    "GRIFFAINUSDT": {
+      "symbol": "GRIFFAINUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291095.042044,
+      "strikes": 0,
+      "first_seen": 1757247895.042044,
+      "last_updated": 1757247895.042044
+    },
+    "GRTUSDT": {
+      "symbol": "GRTUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291097.740596,
+      "strikes": 0,
+      "first_seen": 1757247897.740596,
+      "last_updated": 1757247897.740596
+    },
+    "GTCUSDT": {
+      "symbol": "GTCUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291098.5603368,
+      "strikes": 0,
+      "first_seen": 1757247898.5603368,
+      "last_updated": 1757247898.5603368
+    },
+    "GUNUSDT": {
+      "symbol": "GUNUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291100.599435,
+      "strikes": 0,
+      "first_seen": 1757247900.599435,
+      "last_updated": 1757247900.599435
+    },
+    "GUSDT": {
+      "symbol": "GUSDT",
+      "reason": "ILLQ v24h\u224879,242",
+      "until": 1757334302.6213682,
+      "strikes": 0,
+      "first_seen": 1757247902.6213682,
+      "last_updated": 1757247902.6213682
+    },
+    "HAEDALUSDT": {
+      "symbol": "HAEDALUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291103.371298,
+      "strikes": 0,
+      "first_seen": 1757247903.371298,
+      "last_updated": 1757247903.371298
+    },
+    "HBARUSDT": {
+      "symbol": "HBARUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291104.4605892,
+      "strikes": 0,
+      "first_seen": 1757247904.4605892,
+      "last_updated": 1757247904.4605892
+    },
+    "HEIUSDT": {
+      "symbol": "HEIUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291105.5103512,
+      "strikes": 0,
+      "first_seen": 1757247905.5103512,
+      "last_updated": 1757247905.5103512
+    },
+    "HFTUSDT": {
+      "symbol": "HFTUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291106.3614578,
+      "strikes": 0,
+      "first_seen": 1757247906.3614578,
+      "last_updated": 1757247906.3614578
+    },
+    "HIFIUSDT": {
+      "symbol": "HIFIUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291107.119763,
+      "strikes": 0,
+      "first_seen": 1757247907.119763,
+      "last_updated": 1757247907.119763
+    },
+    "HIGHUSDT": {
+      "symbol": "HIGHUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291107.9293451,
+      "strikes": 0,
+      "first_seen": 1757247907.9293451,
+      "last_updated": 1757247907.9293451
+    },
+    "HIPPOUSDT": {
+      "symbol": "HIPPOUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291109.720387,
+      "strikes": 0,
+      "first_seen": 1757247909.720387,
+      "last_updated": 1757247909.720387
+    },
+    "HIVEUSDT": {
+      "symbol": "HIVEUSDT",
+      "reason": "ILLQ v24h\u2248174,988",
+      "until": 1757334311.4002712,
+      "strikes": 0,
+      "first_seen": 1757247911.4002712,
+      "last_updated": 1757247911.4002712
+    },
+    "HMSTRUSDT": {
+      "symbol": "HMSTRUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291112.129729,
+      "strikes": 0,
+      "first_seen": 1757247912.129729,
+      "last_updated": 1757247912.129729
+    },
+    "HNTUSDT": {
+      "symbol": "HNTUSDT",
+      "reason": "WICKY_15m 61%",
+      "until": 1757291112.889458,
+      "strikes": 0,
+      "first_seen": 1757247912.889458,
+      "last_updated": 1757247912.889458
+    },
+    "HOMEUSDT": {
+      "symbol": "HOMEUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291114.019656,
+      "strikes": 0,
+      "first_seen": 1757247914.019656,
+      "last_updated": 1757247914.019656
+    },
+    "HOOKUSDT": {
+      "symbol": "HOOKUSDT",
+      "reason": "ILLQ v24h\u2248889,150",
+      "until": 1757334315.081116,
+      "strikes": 0,
+      "first_seen": 1757247915.081116,
+      "last_updated": 1757247915.081116
+    },
+    "HOTUSDT": {
+      "symbol": "HOTUSDT",
+      "reason": "ILLQ v24h\u2248107,871",
+      "until": 1757334315.809798,
+      "strikes": 0,
+      "first_seen": 1757247915.809798,
+      "last_updated": 1757247915.809798
+    },
+    "HPOS10IUSDT": {
+      "symbol": "HPOS10IUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291116.5305989,
+      "strikes": 0,
+      "first_seen": 1757247916.5305989,
+      "last_updated": 1757247916.5305989
+    },
+    "HUMAUSDT": {
+      "symbol": "HUMAUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291117.250051,
+      "strikes": 0,
+      "first_seen": 1757247917.250051,
+      "last_updated": 1757247917.250051
+    },
+    "HUSDT": {
+      "symbol": "HUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291118.059582,
+      "strikes": 0,
+      "first_seen": 1757247918.059582,
+      "last_updated": 1757247918.059582
+    },
+    "HYPERUSDT": {
+      "symbol": "HYPERUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291118.872191,
+      "strikes": 0,
+      "first_seen": 1757247918.872191,
+      "last_updated": 1757247918.872191
+    },
+    "HYPEUSDT": {
+      "symbol": "HYPEUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291119.7495801,
+      "strikes": 0,
+      "first_seen": 1757247919.7495801,
+      "last_updated": 1757247919.7495801
+    },
+    "ICNTUSDT": {
+      "symbol": "ICNTUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291120.509483,
+      "strikes": 0,
+      "first_seen": 1757247920.509483,
+      "last_updated": 1757247920.509483
+    },
+    "ICPUSDT": {
+      "symbol": "ICPUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291121.330616,
+      "strikes": 0,
+      "first_seen": 1757247921.330616,
+      "last_updated": 1757247921.330616
+    },
+    "ICXUSDT": {
+      "symbol": "ICXUSDT",
+      "reason": "ILLQ v24h\u2248291,333",
+      "until": 1757334322.110086,
+      "strikes": 0,
+      "first_seen": 1757247922.110086,
+      "last_updated": 1757247922.110086
+    },
+    "IDEXUSDT": {
+      "symbol": "IDEXUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291123.159486,
+      "strikes": 0,
+      "first_seen": 1757247923.159486,
+      "last_updated": 1757247923.159486
+    },
+    "IDUSDT": {
+      "symbol": "IDUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291125.849938,
+      "strikes": 0,
+      "first_seen": 1757247925.849938,
+      "last_updated": 1757247925.849938
+    },
+    "ILVUSDT": {
+      "symbol": "ILVUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291126.7192671,
+      "strikes": 0,
+      "first_seen": 1757247926.7192671,
+      "last_updated": 1757247926.7192671
+    },
+    "IMXUSDT": {
+      "symbol": "IMXUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291127.469604,
+      "strikes": 0,
+      "first_seen": 1757247927.469604,
+      "last_updated": 1757247927.469604
+    },
+    "INITUSDT": {
+      "symbol": "INITUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291128.199552,
+      "strikes": 0,
+      "first_seen": 1757247928.199552,
+      "last_updated": 1757247928.199552
+    },
+    "INJUSDT": {
+      "symbol": "INJUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291129.379421,
+      "strikes": 0,
+      "first_seen": 1757247929.379421,
+      "last_updated": 1757247929.379421
+    },
+    "INUSDT": {
+      "symbol": "INUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291130.199581,
+      "strikes": 0,
+      "first_seen": 1757247930.199581,
+      "last_updated": 1757247930.199581
+    },
+    "IOSTUSDT": {
+      "symbol": "IOSTUSDT",
+      "reason": "ILLQ v24h\u2248160,344",
+      "until": 1757334330.930936,
+      "strikes": 0,
+      "first_seen": 1757247930.930936,
+      "last_updated": 1757247930.930936
+    },
+    "IOTXUSDT": {
+      "symbol": "IOTXUSDT",
+      "reason": "WICKY_15m 40%",
+      "until": 1757291132.5471501,
+      "strikes": 0,
+      "first_seen": 1757247932.5471501,
+      "last_updated": 1757247932.5471501
+    },
+    "IOUSDT": {
+      "symbol": "IOUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291133.309151,
+      "strikes": 0,
+      "first_seen": 1757247933.309151,
+      "last_updated": 1757247933.309151
+    },
+    "IPUSDT": {
+      "symbol": "IPUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291135.1093051,
+      "strikes": 0,
+      "first_seen": 1757247935.1093051,
+      "last_updated": 1757247935.1093051
+    },
+    "JASMYUSDT": {
+      "symbol": "JASMYUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291135.829002,
+      "strikes": 0,
+      "first_seen": 1757247935.829002,
+      "last_updated": 1757247935.829002
+    },
+    "JELLYJELLYUSDT": {
+      "symbol": "JELLYJELLYUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291136.5591738,
+      "strikes": 0,
+      "first_seen": 1757247936.5591738,
+      "last_updated": 1757247936.5591738
+    },
+    "JOEUSDT": {
+      "symbol": "JOEUSDT",
+      "reason": "ILLQ v24h\u2248314,663",
+      "until": 1757334337.3590431,
+      "strikes": 0,
+      "first_seen": 1757247937.3590431,
+      "last_updated": 1757247937.3590431
+    },
+    "JSTUSDT": {
+      "symbol": "JSTUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291139.209335,
+      "strikes": 0,
+      "first_seen": 1757247939.209335,
+      "last_updated": 1757247939.209335
+    },
+    "JUPUSDT": {
+      "symbol": "JUPUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291140.9799922,
+      "strikes": 0,
+      "first_seen": 1757247940.9799922,
+      "last_updated": 1757247940.9799922
+    },
+    "JUSDT": {
+      "symbol": "JUSDT",
+      "reason": "ILLQ v24h\u2248132,854",
+      "until": 1757334341.7708118,
+      "strikes": 0,
+      "first_seen": 1757247941.7708118,
+      "last_updated": 1757247941.7708118
+    },
+    "KAIAUSDT": {
+      "symbol": "KAIAUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291142.529174,
+      "strikes": 0,
+      "first_seen": 1757247942.529174,
+      "last_updated": 1757247942.529174
+    },
+    "KAITOUSDT": {
+      "symbol": "KAITOUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291143.409052,
+      "strikes": 0,
+      "first_seen": 1757247943.409052,
+      "last_updated": 1757247943.409052
+    },
+    "KAVAUSDT": {
+      "symbol": "KAVAUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291145.249235,
+      "strikes": 0,
+      "first_seen": 1757247945.249235,
+      "last_updated": 1757247945.249235
+    },
+    "KDAUSDT": {
+      "symbol": "KDAUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291146.989481,
+      "strikes": 0,
+      "first_seen": 1757247946.989481,
+      "last_updated": 1757247946.989481
+    },
+    "KERNELUSDT": {
+      "symbol": "KERNELUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291147.758951,
+      "strikes": 0,
+      "first_seen": 1757247947.758951,
+      "last_updated": 1757247947.758951
+    },
+    "KMNOUSDT": {
+      "symbol": "KMNOUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291148.529454,
+      "strikes": 0,
+      "first_seen": 1757247948.529454,
+      "last_updated": 1757247948.529454
+    },
+    "KNCUSDT": {
+      "symbol": "KNCUSDT",
+      "reason": "WICKY_15m 40%",
+      "until": 1757291149.578861,
+      "strikes": 0,
+      "first_seen": 1757247949.578861,
+      "last_updated": 1757247949.578861
+    },
+    "KSMUSDT": {
+      "symbol": "KSMUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291150.302033,
+      "strikes": 0,
+      "first_seen": 1757247950.302033,
+      "last_updated": 1757247950.302033
+    },
+    "KUSDT": {
+      "symbol": "KUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291151.029658,
+      "strikes": 0,
+      "first_seen": 1757247951.029658,
+      "last_updated": 1757247951.029658
+    },
+    "L3USDT": {
+      "symbol": "L3USDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291151.74855,
+      "strikes": 0,
+      "first_seen": 1757247951.74855,
+      "last_updated": 1757247951.74855
+    },
+    "LAUNCHCOINUSDT": {
+      "symbol": "LAUNCHCOINUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291152.620797,
+      "strikes": 0,
+      "first_seen": 1757247952.620797,
+      "last_updated": 1757247952.620797
+    },
+    "LAUSDT": {
+      "symbol": "LAUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291153.4403992,
+      "strikes": 0,
+      "first_seen": 1757247953.4403992,
+      "last_updated": 1757247953.4403992
+    },
+    "LINKUSDT": {
+      "symbol": "LINKUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291154.171378,
+      "strikes": 0,
+      "first_seen": 1757247954.171378,
+      "last_updated": 1757247954.171378
+    },
+    "LISTAUSDT": {
+      "symbol": "LISTAUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291156.300159,
+      "strikes": 0,
+      "first_seen": 1757247956.300159,
+      "last_updated": 1757247956.300159
+    },
+    "LOOKSUSDT": {
+      "symbol": "LOOKSUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291157.1288,
+      "strikes": 0,
+      "first_seen": 1757247957.1288,
+      "last_updated": 1757247957.1288
+    },
+    "LPTUSDT": {
+      "symbol": "LPTUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291157.8996348,
+      "strikes": 0,
+      "first_seen": 1757247957.8996348,
+      "last_updated": 1757247957.8996348
+    },
+    "LRCUSDT": {
+      "symbol": "LRCUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291160.370481,
+      "strikes": 0,
+      "first_seen": 1757247960.370481,
+      "last_updated": 1757247960.370481
+    },
+    "LSKUSDT": {
+      "symbol": "LSKUSDT",
+      "reason": "ILLQ v24h\u2248118,332",
+      "until": 1757334361.489084,
+      "strikes": 0,
+      "first_seen": 1757247961.489084,
+      "last_updated": 1757247961.489084
+    },
+    "LTCUSDT": {
+      "symbol": "LTCUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291162.198825,
+      "strikes": 0,
+      "first_seen": 1757247962.198825,
+      "last_updated": 1757247962.198825
+    },
+    "LUMIAUSDT": {
+      "symbol": "LUMIAUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291162.95903,
+      "strikes": 0,
+      "first_seen": 1757247962.95903,
+      "last_updated": 1757247962.95903
+    },
+    "LUNA2USDT": {
+      "symbol": "LUNA2USDT",
+      "reason": "ILLQ v24h\u2248324,414",
+      "until": 1757334363.778218,
+      "strikes": 0,
+      "first_seen": 1757247963.778218,
+      "last_updated": 1757247963.778218
+    },
+    "MAGICUSDT": {
+      "symbol": "MAGICUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291164.499989,
+      "strikes": 0,
+      "first_seen": 1757247964.499989,
+      "last_updated": 1757247964.499989
+    },
+    "MAJORUSDT": {
+      "symbol": "MAJORUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291165.270572,
+      "strikes": 0,
+      "first_seen": 1757247965.270572,
+      "last_updated": 1757247965.270572
+    },
+    "MANAUSDT": {
+      "symbol": "MANAUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291166.018614,
+      "strikes": 0,
+      "first_seen": 1757247966.018614,
+      "last_updated": 1757247966.018614
+    },
+    "MANTAUSDT": {
+      "symbol": "MANTAUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291166.851561,
+      "strikes": 0,
+      "first_seen": 1757247966.851561,
+      "last_updated": 1757247966.851561
+    },
+    "MASAUSDT": {
+      "symbol": "MASAUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291167.6692119,
+      "strikes": 0,
+      "first_seen": 1757247967.6692119,
+      "last_updated": 1757247967.6692119
+    },
+    "MASKUSDT": {
+      "symbol": "MASKUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291168.39873,
+      "strikes": 0,
+      "first_seen": 1757247968.39873,
+      "last_updated": 1757247968.39873
+    },
+    "MAVIAUSDT": {
+      "symbol": "MAVIAUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291169.1184902,
+      "strikes": 0,
+      "first_seen": 1757247969.1184902,
+      "last_updated": 1757247969.1184902
+    },
+    "MAVUSDT": {
+      "symbol": "MAVUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291169.928216,
+      "strikes": 0,
+      "first_seen": 1757247969.928216,
+      "last_updated": 1757247969.928216
+    },
+    "MBOXUSDT": {
+      "symbol": "MBOXUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291171.8396559,
+      "strikes": 0,
+      "first_seen": 1757247971.8396559,
+      "last_updated": 1757247971.8396559
+    },
+    "MELANIAUSDT": {
+      "symbol": "MELANIAUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291172.9982212,
+      "strikes": 0,
+      "first_seen": 1757247972.9982212,
+      "last_updated": 1757247972.9982212
+    },
+    "MEMEUSDT": {
+      "symbol": "MEMEUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291173.7588391,
+      "strikes": 0,
+      "first_seen": 1757247973.7588391,
+      "last_updated": 1757247973.7588391
+    },
+    "MERLUSDT": {
+      "symbol": "MERLUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291174.4886,
+      "strikes": 0,
+      "first_seen": 1757247974.4886,
+      "last_updated": 1757247974.4886
+    },
+    "METISUSDT": {
+      "symbol": "METISUSDT",
+      "reason": "ILLQ v24h\u2248209,367",
+      "until": 1757334375.248296,
+      "strikes": 0,
+      "first_seen": 1757247975.248296,
+      "last_updated": 1757247975.248296
+    },
+    "MEUSDT": {
+      "symbol": "MEUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291176.0666182,
+      "strikes": 0,
+      "first_seen": 1757247976.0666182,
+      "last_updated": 1757247976.0666182
+    },
+    "MEWUSDT": {
+      "symbol": "MEWUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291176.8389409,
+      "strikes": 0,
+      "first_seen": 1757247976.8389409,
+      "last_updated": 1757247976.8389409
+    },
+    "MINAUSDT": {
+      "symbol": "MINAUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291179.3435678,
+      "strikes": 0,
+      "first_seen": 1757247979.3435678,
+      "last_updated": 1757247979.3435678
+    },
+    "MITOUSDT": {
+      "symbol": "MITOUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291180.1630669,
+      "strikes": 0,
+      "first_seen": 1757247980.1630669,
+      "last_updated": 1757247980.1630669
+    },
+    "MLNUSDT": {
+      "symbol": "MLNUSDT",
+      "reason": "ILLQ v24h\u2248122,532",
+      "until": 1757334380.981153,
+      "strikes": 0,
+      "first_seen": 1757247980.981153,
+      "last_updated": 1757247980.981153
+    },
+    "MNTUSDT": {
+      "symbol": "MNTUSDT",
+      "reason": "WICKY_15m 69%",
+      "until": 1757291182.7220612,
+      "strikes": 0,
+      "first_seen": 1757247982.7220612,
+      "last_updated": 1757247982.7220612
+    },
+    "MOCAUSDT": {
+      "symbol": "MOCAUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291183.5490549,
+      "strikes": 0,
+      "first_seen": 1757247983.5490549,
+      "last_updated": 1757247983.5490549
+    },
+    "MOODENGUSDT": {
+      "symbol": "MOODENGUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291185.596222,
+      "strikes": 0,
+      "first_seen": 1757247985.596222,
+      "last_updated": 1757247985.596222
+    },
+    "MORPHOUSDT": {
+      "symbol": "MORPHOUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291186.716347,
+      "strikes": 0,
+      "first_seen": 1757247986.716347,
+      "last_updated": 1757247986.716347
+    },
+    "MOVEUSDT": {
+      "symbol": "MOVEUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291187.788341,
+      "strikes": 0,
+      "first_seen": 1757247987.788341,
+      "last_updated": 1757247987.788341
+    },
+    "MOVRUSDT": {
+      "symbol": "MOVRUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291188.830517,
+      "strikes": 0,
+      "first_seen": 1757247988.830517,
+      "last_updated": 1757247988.830517
+    },
+    "MTLUSDT": {
+      "symbol": "MTLUSDT",
+      "reason": "ILLQ v24h\u2248129,918",
+      "until": 1757334461.579682,
+      "strikes": 0,
+      "first_seen": 1757248061.579682,
+      "last_updated": 1757248061.579682
+    },
+    "MUBARAKUSDT": {
+      "symbol": "MUBARAKUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291262.307307,
+      "strikes": 0,
+      "first_seen": 1757248062.307307,
+      "last_updated": 1757248062.307307
+    },
+    "MUSDT": {
+      "symbol": "MUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291263.4172869,
+      "strikes": 0,
+      "first_seen": 1757248063.4172869,
+      "last_updated": 1757248063.4172869
+    },
+    "MVLUSDT": {
+      "symbol": "MVLUSDT",
+      "reason": "ILLQ v24h\u224838,333",
+      "until": 1757334464.167618,
+      "strikes": 0,
+      "first_seen": 1757248064.167618,
+      "last_updated": 1757248064.167618
+    },
+    "MYRIAUSDT": {
+      "symbol": "MYRIAUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291264.9077241,
+      "strikes": 0,
+      "first_seen": 1757248064.9077241,
+      "last_updated": 1757248064.9077241
+    },
+    "MYROUSDT": {
+      "symbol": "MYROUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291265.7675881,
+      "strikes": 0,
+      "first_seen": 1757248065.7675881,
+      "last_updated": 1757248065.7675881
+    },
+    "MYXUSDT": {
+      "symbol": "MYXUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291266.527308,
+      "strikes": 0,
+      "first_seen": 1757248066.527308,
+      "last_updated": 1757248066.527308
+    },
+    "NAORISUSDT": {
+      "symbol": "NAORISUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291267.406472,
+      "strikes": 0,
+      "first_seen": 1757248067.406472,
+      "last_updated": 1757248067.406472
+    },
+    "NEARUSDT": {
+      "symbol": "NEARUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291268.538486,
+      "strikes": 0,
+      "first_seen": 1757248068.538486,
+      "last_updated": 1757248068.538486
+    },
+    "NEIROETHUSDT": {
+      "symbol": "NEIROETHUSDT",
+      "reason": "WICKY_15m 64%",
+      "until": 1757291269.3571892,
+      "strikes": 0,
+      "first_seen": 1757248069.3571892,
+      "last_updated": 1757248069.3571892
+    },
+    "NEOUSDT": {
+      "symbol": "NEOUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291270.127566,
+      "strikes": 0,
+      "first_seen": 1757248070.127566,
+      "last_updated": 1757248070.127566
+    },
+    "NEWTUSDT": {
+      "symbol": "NEWTUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291272.0169501,
+      "strikes": 0,
+      "first_seen": 1757248072.0169501,
+      "last_updated": 1757248072.0169501
+    },
+    "NFPUSDT": {
+      "symbol": "NFPUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291272.8376708,
+      "strikes": 0,
+      "first_seen": 1757248072.8376708,
+      "last_updated": 1757248072.8376708
+    },
+    "NILUSDT": {
+      "symbol": "NILUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291273.6070652,
+      "strikes": 0,
+      "first_seen": 1757248073.6070652,
+      "last_updated": 1757248073.6070652
+    },
+    "NKNUSDT": {
+      "symbol": "NKNUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291274.428635,
+      "strikes": 0,
+      "first_seen": 1757248074.428635,
+      "last_updated": 1757248074.428635
+    },
+    "NMRUSDT": {
+      "symbol": "NMRUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291276.217752,
+      "strikes": 0,
+      "first_seen": 1757248076.217752,
+      "last_updated": 1757248076.217752
+    },
+    "NOTUSDT": {
+      "symbol": "NOTUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291277.95891,
+      "strikes": 0,
+      "first_seen": 1757248077.95891,
+      "last_updated": 1757248077.95891
+    },
+    "NSUSDT": {
+      "symbol": "NSUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291279.6989582,
+      "strikes": 0,
+      "first_seen": 1757248079.6989582,
+      "last_updated": 1757248079.6989582
+    },
+    "NXPCUSDT": {
+      "symbol": "NXPCUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291282.256892,
+      "strikes": 0,
+      "first_seen": 1757248082.256892,
+      "last_updated": 1757248082.256892
+    },
+    "OBOLUSDT": {
+      "symbol": "OBOLUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291283.077062,
+      "strikes": 0,
+      "first_seen": 1757248083.077062,
+      "last_updated": 1757248083.077062
+    },
+    "OBTUSDT": {
+      "symbol": "OBTUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291284.208404,
+      "strikes": 0,
+      "first_seen": 1757248084.208404,
+      "last_updated": 1757248084.208404
+    },
+    "OGNUSDT": {
+      "symbol": "OGNUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291285.947973,
+      "strikes": 0,
+      "first_seen": 1757248085.947973,
+      "last_updated": 1757248085.947973
+    },
+    "OGUSDT": {
+      "symbol": "OGUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291286.767644,
+      "strikes": 0,
+      "first_seen": 1757248086.767644,
+      "last_updated": 1757248086.767644
+    },
+    "OLUSDT": {
+      "symbol": "OLUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291287.487149,
+      "strikes": 0,
+      "first_seen": 1757248087.487149,
+      "last_updated": 1757248087.487149
+    },
+    "OMNIUSDT": {
+      "symbol": "OMNIUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291288.2975738,
+      "strikes": 0,
+      "first_seen": 1757248088.2975738,
+      "last_updated": 1757248088.2975738
+    },
+    "OMUSDT": {
+      "symbol": "OMUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291290.3466408,
+      "strikes": 0,
+      "first_seen": 1757248090.3466408,
+      "last_updated": 1757248090.3466408
+    },
+    "ONDOUSDT": {
+      "symbol": "ONDOUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291292.083477,
+      "strikes": 0,
+      "first_seen": 1757248092.083477,
+      "last_updated": 1757248092.083477
+    },
+    "ONEUSDT": {
+      "symbol": "ONEUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291292.906979,
+      "strikes": 0,
+      "first_seen": 1757248092.906979,
+      "last_updated": 1757248092.906979
+    },
+    "ONGUSDT": {
+      "symbol": "ONGUSDT",
+      "reason": "ILLQ v24h\u2248403,646",
+      "until": 1757334493.7274508,
+      "strikes": 0,
+      "first_seen": 1757248093.7274508,
+      "last_updated": 1757248093.7274508
+    },
+    "ONTUSDT": {
+      "symbol": "ONTUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291294.5485492,
+      "strikes": 0,
+      "first_seen": 1757248094.5485492,
+      "last_updated": 1757248094.5485492
+    },
+    "OPUSDT": {
+      "symbol": "OPUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291295.266465,
+      "strikes": 0,
+      "first_seen": 1757248095.266465,
+      "last_updated": 1757248095.266465
+    },
+    "ORBSUSDT": {
+      "symbol": "ORBSUSDT",
+      "reason": "ILLQ v24h\u2248117,070",
+      "until": 1757334496.078837,
+      "strikes": 0,
+      "first_seen": 1757248096.078837,
+      "last_updated": 1757248096.078837
+    },
+    "ORCAUSDT": {
+      "symbol": "ORCAUSDT",
+      "reason": "ILLQ v24h\u2248327,059",
+      "until": 1757334496.897107,
+      "strikes": 0,
+      "first_seen": 1757248096.897107,
+      "last_updated": 1757248096.897107
+    },
+    "ORDERUSDT": {
+      "symbol": "ORDERUSDT",
+      "reason": "ILLQ v24h\u2248738,327",
+      "until": 1757334497.6819148,
+      "strikes": 0,
+      "first_seen": 1757248097.6819148,
+      "last_updated": 1757248097.6819148
+    },
+    "ORDIUSDT": {
+      "symbol": "ORDIUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291298.4862468,
+      "strikes": 0,
+      "first_seen": 1757248098.4862468,
+      "last_updated": 1757248098.4862468
+    },
+    "OSMOUSDT": {
+      "symbol": "OSMOUSDT",
+      "reason": "ILLQ v24h\u224870,217",
+      "until": 1757334499.359495,
+      "strikes": 0,
+      "first_seen": 1757248099.359495,
+      "last_updated": 1757248099.359495
+    },
+    "OXTUSDT": {
+      "symbol": "OXTUSDT",
+      "reason": "ILLQ v24h\u224875,005",
+      "until": 1757334500.127352,
+      "strikes": 0,
+      "first_seen": 1757248100.127352,
+      "last_updated": 1757248100.127352
+    },
+    "PARTIUSDT": {
+      "symbol": "PARTIUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291301.308588,
+      "strikes": 0,
+      "first_seen": 1757248101.308588,
+      "last_updated": 1757248101.308588
+    },
+    "PAXGUSDT": {
+      "symbol": "PAXGUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291302.072149,
+      "strikes": 0,
+      "first_seen": 1757248102.072149,
+      "last_updated": 1757248102.072149
+    },
+    "PEAQUSDT": {
+      "symbol": "PEAQUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291303.127412,
+      "strikes": 0,
+      "first_seen": 1757248103.127412,
+      "last_updated": 1757248103.127412
+    },
+    "PENGUUSDT": {
+      "symbol": "PENGUUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291304.787343,
+      "strikes": 0,
+      "first_seen": 1757248104.787343,
+      "last_updated": 1757248104.787343
+    },
+    "PEOPLEUSDT": {
+      "symbol": "PEOPLEUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291305.506824,
+      "strikes": 0,
+      "first_seen": 1757248105.506824,
+      "last_updated": 1757248105.506824
+    },
+    "PERPUSDT": {
+      "symbol": "PERPUSDT",
+      "reason": "ILLQ v24h\u2248113,255",
+      "until": 1757334506.317003,
+      "strikes": 0,
+      "first_seen": 1757248106.317003,
+      "last_updated": 1757248106.317003
+    },
+    "PHAUSDT": {
+      "symbol": "PHAUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291307.1367931,
+      "strikes": 0,
+      "first_seen": 1757248107.1367931,
+      "last_updated": 1757248107.1367931
+    },
+    "PHBUSDT": {
+      "symbol": "PHBUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291307.8771572,
+      "strikes": 0,
+      "first_seen": 1757248107.8771572,
+      "last_updated": 1757248107.8771572
+    },
+    "PIPPINUSDT": {
+      "symbol": "PIPPINUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291308.677139,
+      "strikes": 0,
+      "first_seen": 1757248108.677139,
+      "last_updated": 1757248108.677139
+    },
+    "PIXELUSDT": {
+      "symbol": "PIXELUSDT",
+      "reason": "ILLQ v24h\u2248328,454",
+      "until": 1757334509.4966981,
+      "strikes": 0,
+      "first_seen": 1757248109.4966981,
+      "last_updated": 1757248109.4966981
+    },
+    "PLUMEUSDT": {
+      "symbol": "PLUMEUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291310.228819,
+      "strikes": 0,
+      "first_seen": 1757248110.228819,
+      "last_updated": 1757248110.228819
+    },
+    "PNUTUSDT": {
+      "symbol": "PNUTUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291311.028636,
+      "strikes": 0,
+      "first_seen": 1757248111.028636,
+      "last_updated": 1757248111.028636
+    },
+    "POLUSDT": {
+      "symbol": "POLUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291311.846719,
+      "strikes": 0,
+      "first_seen": 1757248111.846719,
+      "last_updated": 1757248111.846719
+    },
+    "POLYXUSDT": {
+      "symbol": "POLYXUSDT",
+      "reason": "ILLQ v24h\u2248130,282",
+      "until": 1757334512.6185842,
+      "strikes": 0,
+      "first_seen": 1757248112.6185842,
+      "last_updated": 1757248112.6185842
+    },
+    "PONKEUSDT": {
+      "symbol": "PONKEUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291313.996462,
+      "strikes": 0,
+      "first_seen": 1757248113.996462,
+      "last_updated": 1757248113.996462
+    },
+    "POPCATUSDT": {
+      "symbol": "POPCATUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291314.7165608,
+      "strikes": 0,
+      "first_seen": 1757248114.7165608,
+      "last_updated": 1757248114.7165608
+    },
+    "PORTALUSDT": {
+      "symbol": "PORTALUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291315.436588,
+      "strikes": 0,
+      "first_seen": 1757248115.436588,
+      "last_updated": 1757248115.436588
+    },
+    "POWRUSDT": {
+      "symbol": "POWRUSDT",
+      "reason": "ILLQ v24h\u2248154,629",
+      "until": 1757334516.25036,
+      "strikes": 0,
+      "first_seen": 1757248116.25036,
+      "last_updated": 1757248116.25036
+    },
+    "PRCLUSDT": {
+      "symbol": "PRCLUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291317.377383,
+      "strikes": 0,
+      "first_seen": 1757248117.377383,
+      "last_updated": 1757248117.377383
+    },
+    "PRIMEUSDT": {
+      "symbol": "PRIMEUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291318.196594,
+      "strikes": 0,
+      "first_seen": 1757248118.196594,
+      "last_updated": 1757248118.196594
+    },
+    "PROMPTUSDT": {
+      "symbol": "PROMPTUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291319.01473,
+      "strikes": 0,
+      "first_seen": 1757248119.01473,
+      "last_updated": 1757248119.01473
+    },
+    "PROMUSDT": {
+      "symbol": "PROMUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291319.7864408,
+      "strikes": 0,
+      "first_seen": 1757248119.7864408,
+      "last_updated": 1757248119.7864408
+    },
+    "PROVEUSDT": {
+      "symbol": "PROVEUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291320.657139,
+      "strikes": 0,
+      "first_seen": 1757248120.657139,
+      "last_updated": 1757248120.657139
+    },
+    "PUFFERUSDT": {
+      "symbol": "PUFFERUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291321.447047,
+      "strikes": 0,
+      "first_seen": 1757248121.447047,
+      "last_updated": 1757248121.447047
+    },
+    "PUMPBTCUSDT": {
+      "symbol": "PUMPBTCUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291322.17715,
+      "strikes": 0,
+      "first_seen": 1757248122.17715,
+      "last_updated": 1757248122.17715
+    },
+    "PUMPFUNUSDT": {
+      "symbol": "PUMPFUNUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291323.016323,
+      "strikes": 0,
+      "first_seen": 1757248123.016323,
+      "last_updated": 1757248123.016323
+    },
+    "PUNDIXUSDT": {
+      "symbol": "PUNDIXUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291323.830136,
+      "strikes": 0,
+      "first_seen": 1757248123.830136,
+      "last_updated": 1757248123.830136
+    },
+    "PYRUSDT": {
+      "symbol": "PYRUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291324.586677,
+      "strikes": 0,
+      "first_seen": 1757248124.586677,
+      "last_updated": 1757248124.586677
+    },
+    "PYTHUSDT": {
+      "symbol": "PYTHUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291325.7276502,
+      "strikes": 0,
+      "first_seen": 1757248125.7276502,
+      "last_updated": 1757248125.7276502
+    },
+    "QIUSDT": {
+      "symbol": "QIUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291326.5932028,
+      "strikes": 0,
+      "first_seen": 1757248126.5932028,
+      "last_updated": 1757248126.5932028
+    },
+    "QNTUSDT": {
+      "symbol": "QNTUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291327.410978,
+      "strikes": 0,
+      "first_seen": 1757248127.410978,
+      "last_updated": 1757248127.410978
+    },
+    "QTUMUSDT": {
+      "symbol": "QTUMUSDT",
+      "reason": "WICKY_15m 65%",
+      "until": 1757291328.2303739,
+      "strikes": 0,
+      "first_seen": 1757248128.2303739,
+      "last_updated": 1757248128.2303739
+    },
+    "QUICKUSDT": {
+      "symbol": "QUICKUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291328.996842,
+      "strikes": 0,
+      "first_seen": 1757248128.996842,
+      "last_updated": 1757248128.996842
+    },
+    "RADUSDT": {
+      "symbol": "RADUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291329.868425,
+      "strikes": 0,
+      "first_seen": 1757248129.868425,
+      "last_updated": 1757248129.868425
+    },
+    "RAREUSDT": {
+      "symbol": "RAREUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291330.688739,
+      "strikes": 0,
+      "first_seen": 1757248130.688739,
+      "last_updated": 1757248130.688739
+    },
+    "RAYDIUMUSDT": {
+      "symbol": "RAYDIUMUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291331.428632,
+      "strikes": 0,
+      "first_seen": 1757248131.428632,
+      "last_updated": 1757248131.428632
+    },
+    "RDNTUSDT": {
+      "symbol": "RDNTUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291332.2251441,
+      "strikes": 0,
+      "first_seen": 1757248132.2251441,
+      "last_updated": 1757248132.2251441
+    },
+    "REDUSDT": {
+      "symbol": "REDUSDT",
+      "reason": "WICKY_15m 60%",
+      "until": 1757291333.042689,
+      "strikes": 0,
+      "first_seen": 1757248133.042689,
+      "last_updated": 1757248133.042689
+    },
+    "RENDERUSDT": {
+      "symbol": "RENDERUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291333.8061929,
+      "strikes": 0,
+      "first_seen": 1757248133.8061929,
+      "last_updated": 1757248133.8061929
+    },
+    "REQUSDT": {
+      "symbol": "REQUSDT",
+      "reason": "ILLQ v24h\u2248112,568",
+      "until": 1757334534.628475,
+      "strikes": 0,
+      "first_seen": 1757248134.628475,
+      "last_updated": 1757248134.628475
+    },
+    "RESOLVUSDT": {
+      "symbol": "RESOLVUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291335.456063,
+      "strikes": 0,
+      "first_seen": 1757248135.456063,
+      "last_updated": 1757248135.456063
+    },
+    "REXUSDT": {
+      "symbol": "REXUSDT",
+      "reason": "WICKY_15m 62%",
+      "until": 1757291336.629132,
+      "strikes": 0,
+      "first_seen": 1757248136.629132,
+      "last_updated": 1757248136.629132
+    },
+    "REZUSDT": {
+      "symbol": "REZUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291337.44664,
+      "strikes": 0,
+      "first_seen": 1757248137.44664,
+      "last_updated": 1757248137.44664
+    },
+    "RFCUSDT": {
+      "symbol": "RFCUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291338.175772,
+      "strikes": 0,
+      "first_seen": 1757248138.175772,
+      "last_updated": 1757248138.175772
+    },
+    "RHEAUSDT": {
+      "symbol": "RHEAUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291338.986412,
+      "strikes": 0,
+      "first_seen": 1757248138.986412,
+      "last_updated": 1757248138.986412
+    },
+    "RIFUSDT": {
+      "symbol": "RIFUSDT",
+      "reason": "ILLQ v24h\u224865,140",
+      "until": 1757334539.801972,
+      "strikes": 0,
+      "first_seen": 1757248139.801972,
+      "last_updated": 1757248139.801972
+    },
+    "RLCUSDT": {
+      "symbol": "RLCUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291340.621685,
+      "strikes": 0,
+      "first_seen": 1757248140.621685,
+      "last_updated": 1757248140.621685
+    },
+    "ROAMUSDT": {
+      "symbol": "ROAMUSDT",
+      "reason": "WICKY_15m 62%",
+      "until": 1757291341.376456,
+      "strikes": 0,
+      "first_seen": 1757248141.376456,
+      "last_updated": 1757248141.376456
+    },
+    "RONINUSDT": {
+      "symbol": "RONINUSDT",
+      "reason": "ILLQ v24h\u2248143,031",
+      "until": 1757334542.1576488,
+      "strikes": 0,
+      "first_seen": 1757248142.1576488,
+      "last_updated": 1757248142.1576488
+    },
+    "ROSEUSDT": {
+      "symbol": "ROSEUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291343.876034,
+      "strikes": 0,
+      "first_seen": 1757248143.876034,
+      "last_updated": 1757248143.876034
+    },
+    "RPLUSDT": {
+      "symbol": "RPLUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291344.617725,
+      "strikes": 0,
+      "first_seen": 1757248144.617725,
+      "last_updated": 1757248144.617725
+    },
+    "RSRUSDT": {
+      "symbol": "RSRUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291345.739785,
+      "strikes": 0,
+      "first_seen": 1757248145.739785,
+      "last_updated": 1757248145.739785
+    },
+    "RSS3USDT": {
+      "symbol": "RSS3USDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291346.5668008,
+      "strikes": 0,
+      "first_seen": 1757248146.5668008,
+      "last_updated": 1757248146.5668008
+    },
+    "RUNEUSDT": {
+      "symbol": "RUNEUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291348.34603,
+      "strikes": 0,
+      "first_seen": 1757248148.34603,
+      "last_updated": 1757248148.34603
+    },
+    "RVNUSDT": {
+      "symbol": "RVNUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291349.087523,
+      "strikes": 0,
+      "first_seen": 1757248149.087523,
+      "last_updated": 1757248149.087523
+    },
+    "SAFEUSDT": {
+      "symbol": "SAFEUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291349.806494,
+      "strikes": 0,
+      "first_seen": 1757248149.806494,
+      "last_updated": 1757248149.806494
+    },
+    "SAGAUSDT": {
+      "symbol": "SAGAUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291350.5464268,
+      "strikes": 0,
+      "first_seen": 1757248150.5464268,
+      "last_updated": 1757248150.5464268
+    },
+    "SAHARAUSDT": {
+      "symbol": "SAHARAUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291351.372131,
+      "strikes": 0,
+      "first_seen": 1757248151.372131,
+      "last_updated": 1757248151.372131
+    },
+    "SANDUSDT": {
+      "symbol": "SANDUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291352.19602,
+      "strikes": 0,
+      "first_seen": 1757248152.19602,
+      "last_updated": 1757248152.19602
+    },
+    "SAPIENUSDT": {
+      "symbol": "SAPIENUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291353.895822,
+      "strikes": 0,
+      "first_seen": 1757248153.895822,
+      "last_updated": 1757248153.895822
+    },
+    "SAROSUSDT": {
+      "symbol": "SAROSUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291354.751064,
+      "strikes": 0,
+      "first_seen": 1757248154.751064,
+      "last_updated": 1757248154.751064
+    },
+    "SCAUSDT": {
+      "symbol": "SCAUSDT",
+      "reason": "WICKY_15m 64%",
+      "until": 1757291355.8772779,
+      "strikes": 0,
+      "first_seen": 1757248155.8772779,
+      "last_updated": 1757248155.8772779
+    },
+    "SCRTUSDT": {
+      "symbol": "SCRTUSDT",
+      "reason": "ILLQ v24h\u2248100,900",
+      "until": 1757334556.5978932,
+      "strikes": 0,
+      "first_seen": 1757248156.5978932,
+      "last_updated": 1757248156.5978932
+    },
+    "SCRUSDT": {
+      "symbol": "SCRUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291357.413242,
+      "strikes": 0,
+      "first_seen": 1757248157.413242,
+      "last_updated": 1757248157.413242
+    },
+    "SCUSDT": {
+      "symbol": "SCUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291358.2343931,
+      "strikes": 0,
+      "first_seen": 1757248158.2343931,
+      "last_updated": 1757248158.2343931
+    },
+    "SDUSDT": {
+      "symbol": "SDUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291358.986333,
+      "strikes": 0,
+      "first_seen": 1757248158.986333,
+      "last_updated": 1757248158.986333
+    },
+    "SEIUSDT": {
+      "symbol": "SEIUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291359.7758698,
+      "strikes": 0,
+      "first_seen": 1757248159.7758698,
+      "last_updated": 1757248159.7758698
+    },
+    "SENDUSDT": {
+      "symbol": "SENDUSDT",
+      "reason": "ILLQ v24h\u2248109,284",
+      "until": 1757334560.587981,
+      "strikes": 0,
+      "first_seen": 1757248160.587981,
+      "last_updated": 1757248160.587981
+    },
+    "SERAPHUSDT": {
+      "symbol": "SERAPHUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291361.358896,
+      "strikes": 0,
+      "first_seen": 1757248161.358896,
+      "last_updated": 1757248161.358896
+    },
+    "SFPUSDT": {
+      "symbol": "SFPUSDT",
+      "reason": "ILLQ v24h\u2248151,396",
+      "until": 1757334562.12603,
+      "strikes": 0,
+      "first_seen": 1757248162.12603,
+      "last_updated": 1757248162.12603
+    },
+    "SHELLUSDT": {
+      "symbol": "SHELLUSDT",
+      "reason": "ILLQ v24h\u2248716,659",
+      "until": 1757334562.895424,
+      "strikes": 0,
+      "first_seen": 1757248162.895424,
+      "last_updated": 1757248162.895424
+    },
+    "SHIB1000USDT": {
+      "symbol": "SHIB1000USDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291363.706613,
+      "strikes": 0,
+      "first_seen": 1757248163.706613,
+      "last_updated": 1757248163.706613
+    },
+    "SIGNUSDT": {
+      "symbol": "SIGNUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291364.4871008,
+      "strikes": 0,
+      "first_seen": 1757248164.4871008,
+      "last_updated": 1757248164.4871008
+    },
+    "SIRENUSDT": {
+      "symbol": "SIRENUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291365.2262132,
+      "strikes": 0,
+      "first_seen": 1757248165.2262132,
+      "last_updated": 1757248165.2262132
+    },
+    "SKATEUSDT": {
+      "symbol": "SKATEUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291365.957323,
+      "strikes": 0,
+      "first_seen": 1757248165.957323,
+      "last_updated": 1757248165.957323
+    },
+    "SKLUSDT": {
+      "symbol": "SKLUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291366.686645,
+      "strikes": 0,
+      "first_seen": 1757248166.686645,
+      "last_updated": 1757248166.686645
+    },
+    "SKYAIUSDT": {
+      "symbol": "SKYAIUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291368.416289,
+      "strikes": 0,
+      "first_seen": 1757248168.416289,
+      "last_updated": 1757248168.416289
+    },
+    "SKYUSDT": {
+      "symbol": "SKYUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291369.18996,
+      "strikes": 0,
+      "first_seen": 1757248169.18996,
+      "last_updated": 1757248169.18996
+    },
+    "SLERFUSDT": {
+      "symbol": "SLERFUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291370.015646,
+      "strikes": 0,
+      "first_seen": 1757248170.015646,
+      "last_updated": 1757248170.015646
+    },
+    "SLPUSDT": {
+      "symbol": "SLPUSDT",
+      "reason": "ILLQ v24h\u2248147,111",
+      "until": 1757334570.786412,
+      "strikes": 0,
+      "first_seen": 1757248170.786412,
+      "last_updated": 1757248170.786412
+    },
+    "SNTUSDT": {
+      "symbol": "SNTUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291371.595658,
+      "strikes": 0,
+      "first_seen": 1757248171.595658,
+      "last_updated": 1757248171.595658
+    },
+    "SNXUSDT": {
+      "symbol": "SNXUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291372.465892,
+      "strikes": 0,
+      "first_seen": 1757248172.465892,
+      "last_updated": 1757248172.465892
+    },
+    "SOLAYERUSDT": {
+      "symbol": "SOLAYERUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291373.288095,
+      "strikes": 0,
+      "first_seen": 1757248173.288095,
+      "last_updated": 1757248173.288095
+    },
+    "SOLOUSDT": {
+      "symbol": "SOLOUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291374.015508,
+      "strikes": 0,
+      "first_seen": 1757248174.015508,
+      "last_updated": 1757248174.015508
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291374.822672,
+      "strikes": 0,
+      "first_seen": 1757248174.822672,
+      "last_updated": 1757248174.822672
+    },
+    "SOLVUSDT": {
+      "symbol": "SOLVUSDT",
+      "reason": "ILLQ v24h\u2248256,783",
+      "until": 1757334575.587069,
+      "strikes": 0,
+      "first_seen": 1757248175.587069,
+      "last_updated": 1757248175.587069
+    },
+    "SOMIUSDT": {
+      "symbol": "SOMIUSDT",
+      "reason": "WICKY_15m 59%",
+      "until": 1757291376.3596601,
+      "strikes": 0,
+      "first_seen": 1757248176.3596601,
+      "last_updated": 1757248176.3596601
+    },
+    "SONICUSDT": {
+      "symbol": "SONICUSDT",
+      "reason": "ILLQ v24h\u2248851,834",
+      "until": 1757334577.445697,
+      "strikes": 0,
+      "first_seen": 1757248177.445697,
+      "last_updated": 1757248177.445697
+    },
+    "SOONUSDT": {
+      "symbol": "SOONUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291378.306496,
+      "strikes": 0,
+      "first_seen": 1757248178.306496,
+      "last_updated": 1757248178.306496
+    },
+    "SOPHUSDT": {
+      "symbol": "SOPHUSDT",
+      "reason": "ILLQ v24h\u2248556,241",
+      "until": 1757334579.122565,
+      "strikes": 0,
+      "first_seen": 1757248179.122565,
+      "last_updated": 1757248179.122565
+    },
+    "SOSOUSDT": {
+      "symbol": "SOSOUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291379.9417422,
+      "strikes": 0,
+      "first_seen": 1757248179.9417422,
+      "last_updated": 1757248179.9417422
+    },
+    "SPECUSDT": {
+      "symbol": "SPECUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291380.7155561,
+      "strikes": 0,
+      "first_seen": 1757248180.7155561,
+      "last_updated": 1757248180.7155561
+    },
+    "SPELLUSDT": {
+      "symbol": "SPELLUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291381.7879,
+      "strikes": 0,
+      "first_seen": 1757248181.7879,
+      "last_updated": 1757248181.7879
+    },
+    "SPKUSDT": {
+      "symbol": "SPKUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291382.605566,
+      "strikes": 0,
+      "first_seen": 1757248182.605566,
+      "last_updated": 1757248182.605566
+    },
+    "SPXUSDT": {
+      "symbol": "SPXUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291383.3657532,
+      "strikes": 0,
+      "first_seen": 1757248183.3657532,
+      "last_updated": 1757248183.3657532
+    },
+    "SQDUSDT": {
+      "symbol": "SQDUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291384.415606,
+      "strikes": 0,
+      "first_seen": 1757248184.415606,
+      "last_updated": 1757248184.415606
+    },
+    "SSVUSDT": {
+      "symbol": "SSVUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291385.165003,
+      "strikes": 0,
+      "first_seen": 1757248185.165003,
+      "last_updated": 1757248185.165003
+    },
+    "STEEMUSDT": {
+      "symbol": "STEEMUSDT",
+      "reason": "ILLQ v24h\u2248101,612",
+      "until": 1757334585.889107,
+      "strikes": 0,
+      "first_seen": 1757248185.889107,
+      "last_updated": 1757248185.889107
+    },
+    "STGUSDT": {
+      "symbol": "STGUSDT",
+      "reason": "WICKY_15m 40%",
+      "until": 1757291386.7053282,
+      "strikes": 0,
+      "first_seen": 1757248186.7053282,
+      "last_updated": 1757248186.7053282
+    },
+    "STORJUSDT": {
+      "symbol": "STORJUSDT",
+      "reason": "ILLQ v24h\u2248158,280",
+      "until": 1757334587.518784,
+      "strikes": 0,
+      "first_seen": 1757248187.518784,
+      "last_updated": 1757248187.518784
+    },
+    "STOUSDT": {
+      "symbol": "STOUSDT",
+      "reason": "ILLQ v24h\u2248171,464",
+      "until": 1757334588.275931,
+      "strikes": 0,
+      "first_seen": 1757248188.275931,
+      "last_updated": 1757248188.275931
+    },
+    "STRKUSDT": {
+      "symbol": "STRKUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291389.158761,
+      "strikes": 0,
+      "first_seen": 1757248189.158761,
+      "last_updated": 1757248189.158761
+    },
+    "STXUSDT": {
+      "symbol": "STXUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291389.976033,
+      "strikes": 0,
+      "first_seen": 1757248189.976033,
+      "last_updated": 1757248189.976033
+    },
+    "SUIUSDT": {
+      "symbol": "SUIUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291390.795365,
+      "strikes": 0,
+      "first_seen": 1757248190.795365,
+      "last_updated": 1757248190.795365
+    },
+    "SUNDOGUSDT": {
+      "symbol": "SUNDOGUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291391.61621,
+      "strikes": 0,
+      "first_seen": 1757248191.61621,
+      "last_updated": 1757248191.61621
+    },
+    "SUNUSDT": {
+      "symbol": "SUNUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291392.396033,
+      "strikes": 0,
+      "first_seen": 1757248192.396033,
+      "last_updated": 1757248192.396033
+    },
+    "SUPERUSDT": {
+      "symbol": "SUPERUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291394.175133,
+      "strikes": 0,
+      "first_seen": 1757248194.175133,
+      "last_updated": 1757248194.175133
+    },
+    "SUSDT": {
+      "symbol": "SUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291394.995532,
+      "strikes": 0,
+      "first_seen": 1757248194.995532,
+      "last_updated": 1757248194.995532
+    },
+    "SUSHIUSDT": {
+      "symbol": "SUSHIUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291395.815391,
+      "strikes": 0,
+      "first_seen": 1757248195.815391,
+      "last_updated": 1757248195.815391
+    },
+    "SWARMSUSDT": {
+      "symbol": "SWARMSUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291396.575546,
+      "strikes": 0,
+      "first_seen": 1757248196.575546,
+      "last_updated": 1757248196.575546
+    },
+    "SWEATUSDT": {
+      "symbol": "SWEATUSDT",
+      "reason": "ILLQ v24h\u2248200,086",
+      "until": 1757334597.4558961,
+      "strikes": 0,
+      "first_seen": 1757248197.4558961,
+      "last_updated": 1757248197.4558961
+    },
+    "SWELLUSDT": {
+      "symbol": "SWELLUSDT",
+      "reason": "ILLQ v24h\u2248264,100",
+      "until": 1757334598.227749,
+      "strikes": 0,
+      "first_seen": 1757248198.227749,
+      "last_updated": 1757248198.227749
+    },
+    "SXPUSDT": {
+      "symbol": "SXPUSDT",
+      "reason": "ILLQ v24h\u2248191,751",
+      "until": 1757334599.2870479,
+      "strikes": 0,
+      "first_seen": 1757248199.2870479,
+      "last_updated": 1757248199.2870479
+    },
+    "SXTUSDT": {
+      "symbol": "SXTUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291400.0561762,
+      "strikes": 0,
+      "first_seen": 1757248200.0561762,
+      "last_updated": 1757248200.0561762
+    },
+    "SYNUSDT": {
+      "symbol": "SYNUSDT",
+      "reason": "ILLQ v24h\u2248149,763",
+      "until": 1757334601.1154618,
+      "strikes": 0,
+      "first_seen": 1757248201.1154618,
+      "last_updated": 1757248201.1154618
+    },
+    "SYSUSDT": {
+      "symbol": "SYSUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291402.785314,
+      "strikes": 0,
+      "first_seen": 1757248202.785314,
+      "last_updated": 1757248202.785314
+    },
+    "TACUSDT": {
+      "symbol": "TACUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291403.605676,
+      "strikes": 0,
+      "first_seen": 1757248203.605676,
+      "last_updated": 1757248203.605676
+    },
+    "TAIKOUSDT": {
+      "symbol": "TAIKOUSDT",
+      "reason": "ILLQ v24h\u2248236,602",
+      "until": 1757334604.366493,
+      "strikes": 0,
+      "first_seen": 1757248204.366493,
+      "last_updated": 1757248204.366493
+    },
+    "TAIUSDT": {
+      "symbol": "TAIUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291405.235778,
+      "strikes": 0,
+      "first_seen": 1757248205.235778,
+      "last_updated": 1757248205.235778
+    },
+    "TANSSIUSDT": {
+      "symbol": "TANSSIUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291471.523751,
+      "strikes": 0,
+      "first_seen": 1757248271.523751,
+      "last_updated": 1757248271.523751
+    },
+    "TAOUSDT": {
+      "symbol": "TAOUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291472.415566,
+      "strikes": 0,
+      "first_seen": 1757248272.415566,
+      "last_updated": 1757248272.415566
+    },
+    "TAUSDT": {
+      "symbol": "TAUSDT",
+      "reason": "WICKY_15m 62%",
+      "until": 1757291473.2343302,
+      "strikes": 0,
+      "first_seen": 1757248273.2343302,
+      "last_updated": 1757248273.2343302
+    },
+    "THETAUSDT": {
+      "symbol": "THETAUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291473.965104,
+      "strikes": 0,
+      "first_seen": 1757248273.965104,
+      "last_updated": 1757248273.965104
+    },
+    "THEUSDT": {
+      "symbol": "THEUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291474.7648551,
+      "strikes": 0,
+      "first_seen": 1757248274.7648551,
+      "last_updated": 1757248274.7648551
+    },
+    "TIAUSDT": {
+      "symbol": "TIAUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291475.997107,
+      "strikes": 0,
+      "first_seen": 1757248275.997107,
+      "last_updated": 1757248275.997107
+    },
+    "TLMUSDT": {
+      "symbol": "TLMUSDT",
+      "reason": "ILLQ v24h\u2248112,403",
+      "until": 1757334676.816137,
+      "strikes": 0,
+      "first_seen": 1757248276.816137,
+      "last_updated": 1757248276.816137
+    },
+    "TNSRUSDT": {
+      "symbol": "TNSRUSDT",
+      "reason": "WICKY_15m 40%",
+      "until": 1757291477.9448771,
+      "strikes": 0,
+      "first_seen": 1757248277.9448771,
+      "last_updated": 1757248277.9448771
+    },
+    "TOKENUSDT": {
+      "symbol": "TOKENUSDT",
+      "reason": "ILLQ v24h\u2248212,846",
+      "until": 1757334678.7650611,
+      "strikes": 0,
+      "first_seen": 1757248278.7650611,
+      "last_updated": 1757248278.7650611
+    },
+    "TONUSDT": {
+      "symbol": "TONUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291479.885919,
+      "strikes": 0,
+      "first_seen": 1757248279.885919,
+      "last_updated": 1757248279.885919
+    },
+    "TOWNSUSDT": {
+      "symbol": "TOWNSUSDT",
+      "reason": "WICKY_15m 61%",
+      "until": 1757291480.704355,
+      "strikes": 0,
+      "first_seen": 1757248280.704355,
+      "last_updated": 1757248280.704355
+    },
+    "TRBUSDT": {
+      "symbol": "TRBUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291481.622758,
+      "strikes": 0,
+      "first_seen": 1757248281.622758,
+      "last_updated": 1757248281.622758
+    },
+    "TREEUSDT": {
+      "symbol": "TREEUSDT",
+      "reason": "WICKY_15m 58%",
+      "until": 1757291482.444247,
+      "strikes": 0,
+      "first_seen": 1757248282.444247,
+      "last_updated": 1757248282.444247
+    },
+    "TRUMPUSDT": {
+      "symbol": "TRUMPUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291483.523656,
+      "strikes": 0,
+      "first_seen": 1757248283.523656,
+      "last_updated": 1757248283.523656
+    },
+    "TRUUSDT": {
+      "symbol": "TRUUSDT",
+      "reason": "ILLQ v24h\u2248137,924",
+      "until": 1757334684.394319,
+      "strikes": 0,
+      "first_seen": 1757248284.394319,
+      "last_updated": 1757248284.394319
+    },
+    "TSTBSCUSDT": {
+      "symbol": "TSTBSCUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291486.0362072,
+      "strikes": 0,
+      "first_seen": 1757248286.0362072,
+      "last_updated": 1757248286.0362072
+    },
+    "TUSDT": {
+      "symbol": "TUSDT",
+      "reason": "ILLQ v24h\u2248232,620",
+      "until": 1757334686.804571,
+      "strikes": 0,
+      "first_seen": 1757248286.804571,
+      "last_updated": 1757248286.804571
+    },
+    "TUTUSDT": {
+      "symbol": "TUTUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291487.564797,
+      "strikes": 0,
+      "first_seen": 1757248287.564797,
+      "last_updated": 1757248287.564797
+    },
+    "TWTUSDT": {
+      "symbol": "TWTUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291488.745583,
+      "strikes": 0,
+      "first_seen": 1757248288.745583,
+      "last_updated": 1757248288.745583
+    },
+    "UMAUSDT": {
+      "symbol": "UMAUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291489.486103,
+      "strikes": 0,
+      "first_seen": 1757248289.486103,
+      "last_updated": 1757248289.486103
+    },
+    "UNIUSDT": {
+      "symbol": "UNIUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291490.535139,
+      "strikes": 0,
+      "first_seen": 1757248290.535139,
+      "last_updated": 1757248290.535139
+    },
+    "USD1USDT": {
+      "symbol": "USD1USDT",
+      "reason": "ILLQ v24h\u2248367,661",
+      "until": 1757334691.267495,
+      "strikes": 0,
+      "first_seen": 1757248291.267495,
+      "last_updated": 1757248291.267495
+    },
+    "USDCUSDT": {
+      "symbol": "USDCUSDT",
+      "reason": "WICKY_15m 67%",
+      "until": 1757291491.9941251,
+      "strikes": 0,
+      "first_seen": 1757248291.9941251,
+      "last_updated": 1757248291.9941251
+    },
+    "USELESSUSDT": {
+      "symbol": "USELESSUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291494.4101381,
+      "strikes": 0,
+      "first_seen": 1757248294.4101381,
+      "last_updated": 1757248294.4101381
+    },
+    "USTCUSDT": {
+      "symbol": "USTCUSDT",
+      "reason": "ILLQ v24h\u2248183,939",
+      "until": 1757334695.206283,
+      "strikes": 0,
+      "first_seen": 1757248295.206283,
+      "last_updated": 1757248295.206283
+    },
+    "USUALUSDT": {
+      "symbol": "USUALUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291495.94767,
+      "strikes": 0,
+      "first_seen": 1757248295.94767,
+      "last_updated": 1757248295.94767
+    },
+    "UXLINKUSDT": {
+      "symbol": "UXLINKUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291496.7036438,
+      "strikes": 0,
+      "first_seen": 1757248296.7036438,
+      "last_updated": 1757248296.7036438
+    },
+    "VANAUSDT": {
+      "symbol": "VANAUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291497.4428868,
+      "strikes": 0,
+      "first_seen": 1757248297.4428868,
+      "last_updated": 1757248297.4428868
+    },
+    "VANRYUSDT": {
+      "symbol": "VANRYUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291498.1952069,
+      "strikes": 0,
+      "first_seen": 1757248298.1952069,
+      "last_updated": 1757248298.1952069
+    },
+    "VELODROMEUSDT": {
+      "symbol": "VELODROMEUSDT",
+      "reason": "ILLQ v24h\u224880,905",
+      "until": 1757334698.953567,
+      "strikes": 0,
+      "first_seen": 1757248298.953567,
+      "last_updated": 1757248298.953567
+    },
+    "VELOUSDT": {
+      "symbol": "VELOUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291499.7663438,
+      "strikes": 0,
+      "first_seen": 1757248299.7663438,
+      "last_updated": 1757248299.7663438
+    },
+    "VELVETUSDT": {
+      "symbol": "VELVETUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291500.54797,
+      "strikes": 0,
+      "first_seen": 1757248300.54797,
+      "last_updated": 1757248300.54797
+    },
+    "VETUSDT": {
+      "symbol": "VETUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291501.3529222,
+      "strikes": 0,
+      "first_seen": 1757248301.3529222,
+      "last_updated": 1757248301.3529222
+    },
+    "VICUSDT": {
+      "symbol": "VICUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291502.223692,
+      "strikes": 0,
+      "first_seen": 1757248302.223692,
+      "last_updated": 1757248302.223692
+    },
+    "VINEUSDT": {
+      "symbol": "VINEUSDT",
+      "reason": "WICKY_15m 55%",
+      "until": 1757291502.9641018,
+      "strikes": 0,
+      "first_seen": 1757248302.9641018,
+      "last_updated": 1757248302.9641018
+    },
+    "VIRTUALUSDT": {
+      "symbol": "VIRTUALUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291503.7041228,
+      "strikes": 0,
+      "first_seen": 1757248303.7041228,
+      "last_updated": 1757248303.7041228
+    },
+    "VOXELUSDT": {
+      "symbol": "VOXELUSDT",
+      "reason": "ILLQ v24h\u2248150,829",
+      "until": 1757334704.446455,
+      "strikes": 0,
+      "first_seen": 1757248304.446455,
+      "last_updated": 1757248304.446455
+    },
+    "VRUSDT": {
+      "symbol": "VRUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291505.19632,
+      "strikes": 0,
+      "first_seen": 1757248305.19632,
+      "last_updated": 1757248305.19632
+    },
+    "VTHOUSDT": {
+      "symbol": "VTHOUSDT",
+      "reason": "ILLQ v24h\u2248140,700",
+      "until": 1757334705.9612522,
+      "strikes": 0,
+      "first_seen": 1757248305.9612522,
+      "last_updated": 1757248305.9612522
+    },
+    "VVVUSDT": {
+      "symbol": "VVVUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291506.696241,
+      "strikes": 0,
+      "first_seen": 1757248306.696241,
+      "last_updated": 1757248306.696241
+    },
+    "WALUSDT": {
+      "symbol": "WALUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291507.428757,
+      "strikes": 0,
+      "first_seen": 1757248307.428757,
+      "last_updated": 1757248307.428757
+    },
+    "WAVESUSDT": {
+      "symbol": "WAVESUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291508.165218,
+      "strikes": 0,
+      "first_seen": 1757248308.165218,
+      "last_updated": 1757248308.165218
+    },
+    "WAXPUSDT": {
+      "symbol": "WAXPUSDT",
+      "reason": "ILLQ v24h\u2248120,757",
+      "until": 1757334709.926827,
+      "strikes": 0,
+      "first_seen": 1757248309.926827,
+      "last_updated": 1757248309.926827
+    },
+    "WCTUSDT": {
+      "symbol": "WCTUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291511.625194,
+      "strikes": 0,
+      "first_seen": 1757248311.625194,
+      "last_updated": 1757248311.625194
+    },
+    "WIFUSDT": {
+      "symbol": "WIFUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291513.333757,
+      "strikes": 0,
+      "first_seen": 1757248313.333757,
+      "last_updated": 1757248313.333757
+    },
+    "WLDUSDT": {
+      "symbol": "WLDUSDT",
+      "reason": "WICKY_15m 51%",
+      "until": 1757291514.0675251,
+      "strikes": 0,
+      "first_seen": 1757248314.0675251,
+      "last_updated": 1757248314.0675251
+    },
+    "WLFIUSDT": {
+      "symbol": "WLFIUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291515.444011,
+      "strikes": 0,
+      "first_seen": 1757248315.444011,
+      "last_updated": 1757248315.444011
+    },
+    "WOOUSDT": {
+      "symbol": "WOOUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291516.177817,
+      "strikes": 0,
+      "first_seen": 1757248316.177817,
+      "last_updated": 1757248316.177817
+    },
+    "WUSDT": {
+      "symbol": "WUSDT",
+      "reason": "WICKY_15m 49%",
+      "until": 1757291516.9137201,
+      "strikes": 0,
+      "first_seen": 1757248316.9137201,
+      "last_updated": 1757248316.9137201
+    },
+    "XAIUSDT": {
+      "symbol": "XAIUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291517.673671,
+      "strikes": 0,
+      "first_seen": 1757248317.673671,
+      "last_updated": 1757248317.673671
+    },
+    "XCHUSDT": {
+      "symbol": "XCHUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291519.52838,
+      "strikes": 0,
+      "first_seen": 1757248319.52838,
+      "last_updated": 1757248319.52838
+    },
+    "XCNUSDT": {
+      "symbol": "XCNUSDT",
+      "reason": "ILLQ v24h\u2248495,486",
+      "until": 1757334720.595057,
+      "strikes": 0,
+      "first_seen": 1757248320.595057,
+      "last_updated": 1757248320.595057
+    },
+    "XEMUSDT": {
+      "symbol": "XEMUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291522.831054,
+      "strikes": 0,
+      "first_seen": 1757248322.831054,
+      "last_updated": 1757248322.831054
+    },
+    "XIONUSDT": {
+      "symbol": "XIONUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291524.5341241,
+      "strikes": 0,
+      "first_seen": 1757248324.5341241,
+      "last_updated": 1757248324.5341241
+    },
+    "XLMUSDT": {
+      "symbol": "XLMUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291525.2623308,
+      "strikes": 0,
+      "first_seen": 1757248325.2623308,
+      "last_updated": 1757248325.2623308
+    },
+    "XMRUSDT": {
+      "symbol": "XMRUSDT",
+      "reason": "WICKY_15m 48%",
+      "until": 1757291526.044971,
+      "strikes": 0,
+      "first_seen": 1757248326.044971,
+      "last_updated": 1757248326.044971
+    },
+    "XNOUSDT": {
+      "symbol": "XNOUSDT",
+      "reason": "WICKY_15m 42%",
+      "until": 1757291526.803276,
+      "strikes": 0,
+      "first_seen": 1757248326.803276,
+      "last_updated": 1757248326.803276
+    },
+    "XNYUSDT": {
+      "symbol": "XNYUSDT",
+      "reason": "WICKY_15m 60%",
+      "until": 1757291528.5459871,
+      "strikes": 0,
+      "first_seen": 1757248328.5459871,
+      "last_updated": 1757248328.5459871
+    },
+    "XRPUSDT": {
+      "symbol": "XRPUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291529.317631,
+      "strikes": 0,
+      "first_seen": 1757248329.317631,
+      "last_updated": 1757248329.317631
+    },
+    "XTERUSDT": {
+      "symbol": "XTERUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291530.074671,
+      "strikes": 0,
+      "first_seen": 1757248330.074671,
+      "last_updated": 1757248330.074671
+    },
+    "XTZUSDT": {
+      "symbol": "XTZUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291530.883301,
+      "strikes": 0,
+      "first_seen": 1757248330.883301,
+      "last_updated": 1757248330.883301
+    },
+    "XVGUSDT": {
+      "symbol": "XVGUSDT",
+      "reason": "WICKY_15m 44%",
+      "until": 1757291531.643491,
+      "strikes": 0,
+      "first_seen": 1757248331.643491,
+      "last_updated": 1757248331.643491
+    },
+    "XVSUSDT": {
+      "symbol": "XVSUSDT",
+      "reason": "ILLQ v24h\u2248179,116",
+      "until": 1757334732.369341,
+      "strikes": 0,
+      "first_seen": 1757248332.369341,
+      "last_updated": 1757248332.369341
+    },
+    "YALAUSDT": {
+      "symbol": "YALAUSDT",
+      "reason": "WICKY_15m 54%",
+      "until": 1757291533.237182,
+      "strikes": 0,
+      "first_seen": 1757248333.237182,
+      "last_updated": 1757248333.237182
+    },
+    "YFIUSDT": {
+      "symbol": "YFIUSDT",
+      "reason": "WICKY_15m 43%",
+      "until": 1757291533.994575,
+      "strikes": 0,
+      "first_seen": 1757248333.994575,
+      "last_updated": 1757248333.994575
+    },
+    "YGGUSDT": {
+      "symbol": "YGGUSDT",
+      "reason": "WICKY_15m 47%",
+      "until": 1757291534.743545,
+      "strikes": 0,
+      "first_seen": 1757248334.743545,
+      "last_updated": 1757248334.743545
+    },
+    "YZYUSDT": {
+      "symbol": "YZYUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291535.5868359,
+      "strikes": 0,
+      "first_seen": 1757248335.5868359,
+      "last_updated": 1757248335.5868359
+    },
+    "ZBCNUSDT": {
+      "symbol": "ZBCNUSDT",
+      "reason": "WICKY_15m 57%",
+      "until": 1757291536.323199,
+      "strikes": 0,
+      "first_seen": 1757248336.323199,
+      "last_updated": 1757248336.323199
+    },
+    "ZECUSDT": {
+      "symbol": "ZECUSDT",
+      "reason": "WICKY_15m 62%",
+      "until": 1757291537.434261,
+      "strikes": 0,
+      "first_seen": 1757248337.434261,
+      "last_updated": 1757248337.434261
+    },
+    "ZENTUSDT": {
+      "symbol": "ZENTUSDT",
+      "reason": "WICKY_15m 56%",
+      "until": 1757291538.250145,
+      "strikes": 0,
+      "first_seen": 1757248338.250145,
+      "last_updated": 1757248338.250145
+    },
+    "ZENUSDT": {
+      "symbol": "ZENUSDT",
+      "reason": "WICKY_15m 50%",
+      "until": 1757291539.010525,
+      "strikes": 0,
+      "first_seen": 1757248339.010525,
+      "last_updated": 1757248339.010525
+    },
+    "ZETAUSDT": {
+      "symbol": "ZETAUSDT",
+      "reason": "ILLQ v24h\u2248499,146",
+      "until": 1757334740.605286,
+      "strikes": 0,
+      "first_seen": 1757248340.605286,
+      "last_updated": 1757248340.605286
+    },
+    "ZEUSUSDT": {
+      "symbol": "ZEUSUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291541.385317,
+      "strikes": 0,
+      "first_seen": 1757248341.385317,
+      "last_updated": 1757248341.385317
+    },
+    "ZILUSDT": {
+      "symbol": "ZILUSDT",
+      "reason": "WICKY_15m 52%",
+      "until": 1757291542.43424,
+      "strikes": 0,
+      "first_seen": 1757248342.43424,
+      "last_updated": 1757248342.43424
+    },
+    "ZKUSDT": {
+      "symbol": "ZKUSDT",
+      "reason": "WICKY_15m 45%",
+      "until": 1757291543.183469,
+      "strikes": 0,
+      "first_seen": 1757248343.183469,
+      "last_updated": 1757248343.183469
+    },
+    "ZORAUSDT": {
+      "symbol": "ZORAUSDT",
+      "reason": "WICKY_15m 53%",
+      "until": 1757291543.936039,
+      "strikes": 0,
+      "first_seen": 1757248343.936039,
+      "last_updated": 1757248343.936039
+    },
+    "ZRCUSDT": {
+      "symbol": "ZRCUSDT",
+      "reason": "WICKY_15m 41%",
+      "until": 1757291544.67415,
+      "strikes": 0,
+      "first_seen": 1757248344.67415,
+      "last_updated": 1757248344.67415
+    },
+    "ZROUSDT": {
+      "symbol": "ZROUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291545.4136472,
+      "strikes": 0,
+      "first_seen": 1757248345.4136472,
+      "last_updated": 1757248345.4136472
+    },
+    "ZRXUSDT": {
+      "symbol": "ZRXUSDT",
+      "reason": "WICKY_15m 46%",
+      "until": 1757291546.184747,
+      "strikes": 0,
+      "first_seen": 1757248346.184747,
+      "last_updated": 1757248346.184747
+    }
+  }
+}

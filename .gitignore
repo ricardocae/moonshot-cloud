@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+logs/
+*.log
+*.out
+venv/
+*.tar.gz
+*.zip
+*.part*
+
+# ---- extras ----
+.venv/
+Teste_Moonshot/.venv/
+*.dylib
+*.ttc
+*.ttf
+*.otf
+*.zip
+*.tar.gz
+*.part*

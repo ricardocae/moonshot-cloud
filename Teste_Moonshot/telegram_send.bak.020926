@@ -1,0 +1,83 @@
+import requests
+from pathlib import Path
+from moonshot_card import generate_trade_card, generate_stop_card
+
+def _resolve_bg_path(bg_path: str | None) -> str:
+    \"\"\"Default TP background: bg.jpg\"\"\"
+    if bg_path and Path(bg_path).exists():
+        return str(bg_path)
+    here = Path(__file__).resolve().parent
+    for cand in [here / "assets/moonshot/bg.jpg", here.parent / "assets/moonshot/bg.jpg"]:
+        if cand.exists():
+            return str(cand)
+    return str(here / "assets/moonshot/bg.jpg")
+
+def _resolve_stop_bg_path(bg_path_stop: str | None) -> str:
+    \"\"\"STOP background prefers bg_stoploss.jpg; falls back to bg.jpg.\"\"\"
+    if bg_path_stop and Path(bg_path_stop).exists():
+        return str(bg_path_stop)
+    here = Path(__file__).resolve().parent
+    for cand in [
+        here / "assets/moonshot/bg_stoploss.jpg",
+        here.parent / "assets/moonshot/bg_stoploss.jpg",
+        here / "assets/moonshot/bg.jpg",
+        here.parent / "assets/moonshot/bg.jpg",
+    ]:
+        if cand.exists():
+            return str(cand)
+    return str(here / "assets/moonshot/bg_stoploss.jpg")
+
+def send_tp_card(token: str, chat_id: str, data: dict, bg_path: str | None = None, out_dir: str = "/tmp") -> None:
+    out_dir = Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"moonshot_{data['symbol']}_{data['tp_label']}.png"
+    resolved_bg = _resolve_bg_path(bg_path)
+
+    generate_trade_card(
+        symbol=data["symbol"],
+        side=data["side"],
+        leverage=data["leverage"],
+        tp_label=data["tp_label"],
+        roi_pct=float(data["roi_pct"]),
+        entry_price=float(data["entry"]),
+        last_price=float(data["last"]),
+        stop_text=str(data.get("stop_text","")),
+        out_path=str(out_path),
+        bg_path=resolved_bg,
+    )
+
+    caption = data.get("caption", f"{data['symbol']} — {data['tp_label']}")
+    with open(out_path, "rb") as f:
+        r = requests.post(
+            f"https://api.telegram.org/bot{token}/sendPhoto",
+            data={"chat_id": chat_id, "caption": caption},
+            files={"photo": f},
+            timeout=30,
+        )
+    print("Telegram TP:", r.status_code, r.text[:200]); r.raise_for_status()
+
+def send_stop_card(token: str, chat_id: str, data: dict, bg_path_stop: str | None = None, out_dir: str = "/tmp") -> None:
+    out_dir = Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"moonshot_{data['symbol']}_STOP.png"
+    resolved_bg = _resolve_stop_bg_path(bg_path_stop)
+
+    generate_stop_card(
+        symbol=data["symbol"],
+        side=data["side"],
+        leverage=data["leverage"],
+        roi_pct=float(data["roi_pct"]),
+        entry_price=float(data["entry"]),
+        filled_price=float(data["last"]),
+        sl_price=(float(data["sl"]) if data.get("sl") is not None else None),
+        out_path=str(out_path),
+        bg_path=resolved_bg,
+    )
+
+    caption = data.get("caption", f"{data['symbol']} — STOP")
+    with open(out_path, "rb") as f:
+        r = requests.post(
+            f"https://api.telegram.org/bot{token}/sendPhoto",
+            data={"chat_id": chat_id, "caption": caption},
+            files={"photo": f},
+            timeout=30,
+        )
+    print("Telegram STOP:", r.status_code, r.text[:200]); r.raise_for_status()

@@ -1,0 +1,230 @@
+# -*- coding: utf-8 -*-
+# TP Watcher — estável, com fallback de texto e preço, sem alterar estratégia
+
+from pathlib import Path
+import sys
+BASE = Path(__file__).resolve().parent.parent
+if str(BASE) not in sys.path:
+    sys.path.insert(0, str(BASE))
+
+# hooks locais (não obrigatório; se não existir, segue normal)
+try:
+    import sitecustomize  # noqa
+except Exception:
+    pass
+
+import os, time, json, pathlib, requests, fcntl, hashlib
+from json_utils import load_any  # leitura tolerante (json / ndjson / dict / list)
+
+# ----------------- ENV -----------------
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+ENV = os.environ.copy()
+envfile = ROOT / ".env_moonshot"
+if envfile.exists():
+    for line in envfile.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        ENV.setdefault(k.strip(), v.strip().strip("'").strip('"'))
+
+TOKEN = ENV.get("TELEGRAM_BOT_TOKEN")
+CHAT = ENV.get("TELEGRAM_CHAT_ID")
+
+TRADES = pathlib.Path(ENV.get("REPORT_TRADES_FILE") or "moonshot_trades.json")
+SENT_FILE = pathlib.Path(os.path.expanduser(ENV.get("TPS_SENT_FILE") or "~/.moonshot_shared/tps_sent.json"))
+
+# tenta usar gerador de card, se existir
+HAS_CARD = False
+try:
+    from moonshot_card import generate_trade_card  # (caption, path_img) = generate_trade_card(...)
+    HAS_CARD = True
+except Exception:
+    HAS_CARD = False
+
+# ----------------- UTIL -----------------
+def atomic_read_sent() -> set:
+    try:
+        SENT_FILE.parent.mkdir(parents=True, exist_ok=True)
+        if not SENT_FILE.exists():
+            return set()
+        return set(json.loads(SENT_FILE.read_text() or "[]"))
+    except Exception:
+        return set()
+
+def atomic_write_sent(keys: set):
+    try:
+        SENT_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with SENT_FILE.open("w") as fh:
+            fcntl.flock(fh, fcntl.LOCK_EX)
+            fh.write(json.dumps(sorted(keys)))
+            fcntl.flock(fh, fcntl.LOCK_UN)
+    except Exception:
+        pass
+
+def load_trades():
+    """Aceita dict{id:trade} | list[trade] | jsonl (via load_any)."""
+    raw = load_any(TRADES)
+    if not raw:
+        return []
+    if isinstance(raw, dict):
+        return list(raw.values())
+    if isinstance(raw, list):
+        return raw
+    # fallback bruto: tentar ler JSON por linhas
+    out = []
+    try:
+        for line in (TRADES.read_text() or "").splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            out.append(json.loads(line))
+    except Exception:
+        pass
+    return out
+
+def bybit_last_price(symbol: str):
+    for cat in ("linear", "inverse", "spot"):
+        try:
+            r = requests.get(
+                "https://api.bybit.com/v5/market/tickers",
+                params={"category": cat, "symbol": symbol},
+                timeout=6,
+            )
+            j = r.json()
+            L = (j.get("result") or {}).get("list") or []
+            if L and L[0].get("lastPrice"):
+                return float(L[0]["lastPrice"])
+        except Exception:
+            pass
+    return None
+
+def binance_last_price(symbol: str):
+    try:
+        r = requests.get(
+            "https://api.binance.com/api/v3/ticker/price",
+            params={"symbol": symbol},
+            timeout=6,
+        )
+        j = r.json()
+        if "price" in j:
+            return float(j["price"])
+    except Exception:
+        pass
+    return None
+
+def last_price(symbol: str):
+    p = bybit_last_price(symbol)
+    if p is None:
+        p = binance_last_price(symbol)
+    return p
+
+def tp_target(entry_price: float, level) -> float:
+    """Se level < 1: percentual (ex.: 0.01 = +1%); se >=1: alvo absoluto."""
+    try:
+        lv = float(level)
+    except Exception:
+        return None
+    if lv < 1.0:
+        return entry_price * (1.0 + lv)
+    return lv
+
+def send_photo_or_text(caption: str):
+    """Envia card (se gerado) ou texto como fallback — SEM travar."""
+    if not TOKEN or not CHAT:
+        print("[tp] warn: TOKEN/CHAT não configurados no .env_moonshot", flush=True)
+        return
+
+    # tenta card se disponível
+    if HAS_CARD:
+        try:
+            cap, img = generate_trade_card(caption)
+            if img and Path(img).exists():
+                with open(img, "rb") as fh:
+                    requests.post(
+                        f"https://api.telegram.org/bot{TOKEN}/sendPhoto",
+                        files={"photo": fh},
+                        data={"chat_id": CHAT, "caption": cap},
+                        timeout=15,
+                    )
+                return
+        except Exception as e:
+            print("[tp] warn: falhou card, vai texto. Motivo:", e, flush=True)
+
+    # fallback: texto
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+            data={"chat_id": CHAT, "text": caption},
+            timeout=10,
+        )
+    except Exception as e2:
+        print("[tp] erro no fallback texto:", e2, flush=True)
+
+def uniq_key(trade_id: str, level_idx: int) -> str:
+    raw = f"tp:{trade_id}:L{level_idx}"
+    return hashlib.sha1(raw.encode()).hexdigest()
+
+# ----------------- LOOP -----------------
+def main():
+    print(f"[tp] watching {TRADES} every 10s | bg=assets/moonshot/bg_tp.jpg", flush=True)
+    sent = atomic_read_sent()
+
+    while True:
+        try:
+            trades = load_trades()
+            if trades:
+                print(f"[tp] loaded {len(trades)} trades from {TRADES}", flush=True)
+
+            for t in trades:
+                try:
+                    tid = str(t.get("id") or "")
+                    sym = (t.get("symbol") or "").upper()
+                    tf = t.get("tf") or t.get("timeframe") or "15m"
+                    side = (t.get("side") or "").upper()
+                    entry = float(t.get("entry_price") or 0.0)
+                    tps = t.get("tp_levels") or []
+                    if not tid or not sym or not side or not tps:
+                        continue
+                    if (t.get("status") or "").upper() not in ("OPEN","RUNNING","ACTIVE",""):
+                        continue
+
+                    price = last_price(sym)
+                    if price is None:
+                        print(f"[tp] warn: last_price(None) para {sym} | tentou ('linear','inverse','spot','binance')", flush=True)
+                        continue
+
+                    for i, lv in enumerate(tps):
+                        key = uniq_key(tid, i)
+                        if key in sent:
+                            continue
+                        tgt = tp_target(entry, lv)
+                        if tgt is None:
+                            continue
+
+                        print(f"[tp] check {sym} {tf} {side} price={price} entry={entry} tps={tps}", flush=True)
+
+                        hit = False
+                        if side == "LONG" and price >= tgt:
+                            hit = True
+                        elif side == "SHORT" and price <= tgt:
+                            hit = True
+
+                        if hit:
+                            caption = f"✅ TP atingido • {sym} • {side} • TF {tf}\nPreço={price:.8g} | Entry={entry:.8g} | Target={tgt:.8g}"
+                            send_photo_or_text(caption)
+                            sent.add(key)
+                            atomic_write_sent(sent)
+                            # apenas 1 sinal por iteração
+                            break
+
+                except Exception as ee:
+                    print("[tp] erro por trade:", ee, flush=True)
+
+            time.sleep(10)
+        except Exception as e:
+            print("[tp] erro loop:", e, flush=True)
+            time.sleep(5)
+
+if __name__ == "__main__":
+    main()

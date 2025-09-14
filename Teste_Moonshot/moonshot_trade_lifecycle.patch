@@ -1,0 +1,228 @@
+diff --git a/moonshot_config.yaml b/moonshot_config.yaml
+index 1111111..2222222 100644
+--- a/moonshot_config.yaml
++++ b/moonshot_config.yaml
+@@ -1,29 +1,43 @@
+ # ===== Moonshot — Breakout/Momentum Scalp =====
+ symbols: ["TAUSDT","GORKUSDT","ICNTUSDT","BTCUSDT"]   # adicione/edite livremente
+-timeframes: ["5","15"]                                 # minutos
++timeframes: ["5","15"]                                 # minutos
+ 
+ # --- Indicadores e gatilhos ---
+ ema_short: 9
+ ema_long: 20
+ rsi_len: 14
+ rsi_min_long: 58
+ atr_len: 14
+ atr_stop_mult: 0.8               # SL = entry - (ATR * mult)
+ breakout_lookback: 20            # busca resistência (HH) nas últimas N velas (exclui a atual fechada)
+ breakout_buffer_atr: 0.05        # exige close > resistência + (0.05 * ATR)
+ vol_ma_len: 20
+ vol_spike_min_mult: 1.5          # volume atual >= 1.5x média
+ 
+ # --- Filtros de qualidade ---
+ min_24h_turnover_usd: 2000000     # liquidez mínima 24h (Bybit "turnover24h")
+ btc_filter: true                  # exige BTC 15m acima da EMA20 e RSI>50
+ 
+-# --- Gestão e sizing (apenas cálculo/alerta; não envia ordens) ---
+-risk_per_trade: 0.008             # 0.8% do capital
+-tp_multiples: [1.0, 1.5, 2.0]     # TPs em múltiplos de R
++# --- Gestão e sizing ---
++risk_per_trade: 0.008             # 0.8% do capital por trade
++tp_multiples: [1.0, 1.5, 2.0]     # TPs em múltiplos de R (TP3 = take final)
++account_equity_usdt: 2000         # usado para calcular posição sugerida
++default_leverage: 12.5            # para ROI estimada dos updates
++fill_slippage_bps: 8              # 0.08% de derrapagem estimada p/ fills
+ 
+ # --- Integrações ---
+ telegram:
+   enabled: false
+   bot_token: "PASTE_AQUI"
+   chat_id: "PASTE_AQUI"
+ 
+ # --- Execução ---
+ poll_seconds: 30
+ cache_file: "moonshot_cache.json"
++trades_file: "moonshot_trades.json"
+diff --git a/moonshot_agent.py b/moonshot_agent.py
+index 3333333..4444444 100644
+--- a/moonshot_agent.py
++++ b/moonshot_agent.py
+@@ -1,16 +1,19 @@
+-import os, time, json, math, requests, yaml
++import os, time, json, math, requests, yaml
+ import pandas as pd
+ import numpy as np
+ from datetime import datetime, timezone
+ 
+ BYBIT = "https://api.bybit.com"
+ 
+@@
+ def fetch_ticker(symbol, category="linear"):
+     url = f"{BYBIT}/v5/market/tickers"
+     r = requests.get(url, params={"category":category, "symbol":symbol}, timeout=15); r.raise_for_status()
+     lst = r.json().get("result", {}).get("list", [])
+     return lst[0] if lst else None
++def last_price(symbol):
++    t = fetch_ticker(symbol)
++    if not t: return None
++    try: return float(t.get("lastPrice"))
++    except: return None
+ 
+@@
+ def breakout_signal_long(df, cfg):
+@@
+-    entry = float(last["close"])
++    entry = float(last["close"])
+     sl = float(entry - cfg["atr_stop_mult"] * last["atr"])
+     R = entry - sl
+     tps = [round(entry + m*R, 8) for m in cfg["tp_multiples"]]
+@@
+-    confidence = round(100 * (sum(checks)/len(checks)), 1)
++    confidence = round(100 * (sum(checks)/len(checks)), 1)
+     return {
+         "entry_zone": (round(low_z,8), round(high_z,8)),
+         "entry_price": round(entry,8),
+         "sl": round(sl,8),
+         "tps": tps,
+         "resistance": round(resistance,8),
+         "atr": float(last["atr"]),
+         "confidence": confidence,
+         "dt": df["dt"].iloc[-2].strftime("%Y-%m-%d %H:%M UTC")
+     }
+ 
+@@
+ def fmt_signal_msg(symbol, tf, sig):
+     return (
+         "🚀 AI SIGNAL IS READY\n"
+         f"📊 Pair: {symbol}\n"
+         f"🕒 TF: {tf}m | Candle closed: {sig['dt']}\n"
+         f"🟢 Direction: LONG\n"
+         f"🎯 Entry Zone: {sig['entry_zone'][0]} – {sig['entry_zone'][1]}\n"
+         f"🛑 Stop Loss: {sig['sl']}\n"
+         f"🥅 Take Profits: {sig['tps'][0]} | {sig['tps'][1]} | {sig['tps'][2]}\n"
+-        f"🧠 Confidence: {sig['confidence']}%\n"
+-        f"Notes: Breakout {sig['resistance']} + vol spike; ATR={round(sig['atr'],6)}"
++        f"🧠 Confidence: {sig['confidence']}%\n"
++        f"Notes: Breakout {sig['resistance']} + vol spike; ATR={round(sig['atr'],6)}"
+     )
+ 
+@@
+ def load_cache(path):
+@@
+     return set()
+ 
+ def save_cache(path, keys:set):
+     with open(path,"w") as f: json.dump(sorted(list(keys)), f)
+ 
++def load_trades(path):
++    if os.path.exists(path):
++        try:
++            with open(path,"r") as f: return json.load(f)
++        except: return {}
++    return {}
++def save_trades(path, data:dict):
++    with open(path,"w") as f: json.dump(data, f, indent=2)
++
++def size_position_usdt(cfg, entry, sl):
++    equity = float(cfg.get("account_equity_usdt", 1000))
++    risk = float(cfg.get("risk_per_trade", 0.008))
++    r = entry - sl
++    if r <= 0: return 0.0
++    # risco em USDT / risco por unidade (em USDT) ≈ notional
++    risk_usdt = equity * risk
++    return round((risk_usdt * entry) / r, 2)  # notional sugerido
++
++def roi_pct(entry, exit_price, lev):
++    move = (exit_price - entry) / entry
++    return round(move * lev * 100, 2)
++
++def send_update(cfg, title, body):
++    text = f"{title}\n{body}"
++    return send_telegram(cfg, text)
++
+ def main():
+     cfg = load_cfg()
+     cache = load_cache(cfg["cache_file"])
++    trades = load_trades(cfg["trades_file"])
+     print("Moonshot running…")
+ 
+     while True:
+         try:
+             if not btc_ok(cfg):
+                 print("[filter] BTC condition not met")
+             for sym in cfg["symbols"]:
+                 if sym == "BTCUSDT": 
+                     continue  # não sinalizamos BTC, só filtro
+                 if not passes_liquidity(sym, cfg):
+                     continue
+                 for tf in cfg["timeframes"]:
+                     df = fetch_klines(sym, interval=tf, limit=200)
+                     sig = breakout_signal_long(df, cfg)
+                     if not sig: 
+                         continue
+                     key = f"{sym}:{tf}:{sig['dt']}"
+                     if key in cache:
+                         continue
+-                    send_telegram(cfg, fmt_signal_msg(sym, tf, sig))
++                    # calcula posição sugerida e inclui no texto
++                    notional = size_position_usdt(cfg, sig["entry_price"], sig["sl"])
++                    lev = float(cfg.get("default_leverage", 10))
++                    base = fmt_signal_msg(sym, tf, sig)
++                    base += f"\n💰 Notional sugerido: ~${notional} | Lev.: {lev}x"
++                    send_telegram(cfg, base)
++
++                    # registra trade vivo
++                    trades[key] = {
++                        "symbol": sym, "tf": tf, "status": "OPEN",
++                        "entry": sig["entry_price"],
++                        "sl": sig["sl"],
++                        "tp1": sig["tps"][0], "tp2": sig["tps"][1], "tp3": sig["tps"][2],
++                        "lev": lev, "notional": notional,
++                        "created_at": sig["dt"], "updates": []
++                    }
++                    save_trades(cfg["trades_file"], trades)
+                     cache.add(key); save_cache(cfg["cache_file"], cache)
+-            time.sleep(cfg["poll_seconds"])
++
++            # ====== MONITOR DE TRADES ATIVOS ======
++            for key, tr in list(trades.items()):
++                if tr["status"] in ("CLOSED_TP3","STOP"): 
++                    continue
++                price = last_price(tr["symbol"])
++                if price is None: 
++                    continue
++                # progressão dos marcos
++                if tr["status"] == "OPEN" and price >= tr["tp1"]:
++                    tr["status"] = "TP1"
++                    tr["sl"] = tr["entry"]  # move para breakeven
++                    msg = (f"✅ TP1 hit | {tr['symbol']} on {tr['tf']}m\n"
++                           f"Entry: {tr['entry']}  •  TP1: {tr['tp1']}\n"
++                           f"➡️ Stop movido para BE ({tr['sl']})")
++                    send_update(cfg, "AI Signals Bot | Trade Update", msg)
++                elif tr["status"] in ("OPEN","TP1") and price <= tr["sl"]:
++                    tr["status"] = "STOP"
++                    roi = roi_pct(tr["entry"], price, tr["lev"])
++                    msg = (f"🛑 Stop Loss | {tr['symbol']} on {tr['tf']}m\n"
++                           f"Fill: {price}\nROI (est.): {roi}%")
++                    send_update(cfg, "Trade Closed", msg)
++                elif tr["status"] in ("OPEN","TP1") and price >= tr["tp2"]:
++                    tr["status"] = "TP2"
++                    msg = (f"✅ TP2 hit | {tr['symbol']} on {tr['tf']}m\n"
++                           f"TP2: {tr['tp2']}  •  Stop permanece em BE ({tr['sl']})")
++                    send_update(cfg, "AI Signals Bot | Trade Update", msg)
++                elif tr["status"] in ("TP2","TP1","OPEN") and price >= tr["tp3"]:
++                    tr["status"] = "CLOSED_TP3"
++                    roi = roi_pct(tr["entry"], price, tr["lev"])
++                    msg = (f"🏁 3TP hit — encerrando | {tr['symbol']} {tr['tf']}m\n"
++                           f"Filled: {price}\nROI (est.): {roi}%")
++                    send_update(cfg, "Trade Closed", msg)
++                # salva atualizações
++                save_trades(cfg["trades_file"], trades)
++
++            time.sleep(cfg["poll_seconds"])
+         except KeyboardInterrupt:
+             print("Stopped by user."); break
+         except Exception as e:
+             print("Loop error:", e)
+             time.sleep(5)

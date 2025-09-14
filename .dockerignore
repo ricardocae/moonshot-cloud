@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+logs/
+*.log
+*.out
+venv/
+*.tar.gz
+*.zip
+*.part*
+.git

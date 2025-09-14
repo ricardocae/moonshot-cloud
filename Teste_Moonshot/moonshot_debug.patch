@@ -1,0 +1,19 @@
+diff --git a/moonshot_config.yaml b/moonshot_config.yaml
+--- a/moonshot_config.yaml
++++ b/moonshot_config.yaml
+@@
+ poll_seconds: 30
+ cache_file: "moonshot_cache.json"
+ trades_file: "moonshot_trades.json"
+ 
+ # --- Auditoria ---
+ audit:
+   stake_usd: 30        # valor fixo por operação
+   out_csv: "moonshot_audit.csv"
+   out_json: "moonshot_audit.json"
+   out_txt: "moonshot_audit_summary.txt"
++
++# --- Debug/Logs ---
++debug: true            # mostra heartbeat, batch, status do BTC, contadores
++log_btc: true          # loga close/EMA20/RSI do BTC 15m a cada ciclo
++log_batch_size: true   # mostra o intervalo de símbolos sendo varridos

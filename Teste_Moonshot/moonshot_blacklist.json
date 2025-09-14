@@ -1,0 +1,644 @@
+{
+  "entries": {
+    "BSWUSDT": {
+      "symbol": "BSWUSDT",
+      "reason": "manual_perm",
+      "until": null,
+      "strikes": 0,
+      "first_seen": 1757249904.3344169,
+      "last_updated": 1757267647.9789991
+    },
+    "CELRUSDT": {
+      "symbol": "CELRUSDT",
+      "reason": "manual_per\npython3 -m moonshot_tools ban-perm CELRUSDT --reason manual_per",
+      "until": null,
+      "strikes": 0,
+      "first_seen": 1757249912.784472,
+      "last_updated": 1757267759.8951218
+    },
+    "MVLUSDT": {
+      "symbol": "MVLUSDT",
+      "reason": "manual_per\npython3 -m moonshot_tools ban-perm MVLUSDT --reason manual_per",
+      "until": null,
+      "strikes": 0,
+      "first_seen": 1757250199.330355,
+      "last_updated": 1757267714.5371468
+    },
+    "AERGOUSDT": {
+      "symbol": "AERGOUSDT",
+      "reason": "ILLQ v24h\u2248738,635",
+      "until": 1757823668.636951,
+      "strikes": 0,
+      "first_seen": 1757737268.636951,
+      "last_updated": 1757737268.636951
+    },
+    "AEVOUSDT": {
+      "symbol": "AEVOUSDT",
+      "reason": "ILLQ v24h\u22481,383,564",
+      "until": 1757823670.578702,
+      "strikes": 0,
+      "first_seen": 1757737270.578702,
+      "last_updated": 1757737270.578702
+    },
+    "AKTUSDT": {
+      "symbol": "AKTUSDT",
+      "reason": "ILLQ v24h\u2248860,629",
+      "until": 1757823678.156459,
+      "strikes": 0,
+      "first_seen": 1757737278.156459,
+      "last_updated": 1757737278.156459
+    },
+    "ALPINEUSDT": {
+      "symbol": "ALPINEUSDT",
+      "reason": "ILLQ v24h\u2248745,363",
+      "until": 1757823681.5599492,
+      "strikes": 0,
+      "first_seen": 1757737281.5599492,
+      "last_updated": 1757737281.5599492
+    },
+    "ANIMEUSDT": {
+      "symbol": "ANIMEUSDT",
+      "reason": "ILLQ v24h\u2248908,244",
+      "until": 1757823684.1393201,
+      "strikes": 0,
+      "first_seen": 1757737284.1393201,
+      "last_updated": 1757737284.1393201
+    },
+    "AVLUSDT": {
+      "symbol": "AVLUSDT",
+      "reason": "ILLQ v24h\u2248870,108",
+      "until": 1757823698.988101,
+      "strikes": 0,
+      "first_seen": 1757737298.988101,
+      "last_updated": 1757737298.988101
+    },
+    "B2USDT": {
+      "symbol": "B2USDT",
+      "reason": "ILLQ v24h\u22481,354,849",
+      "until": 1757823703.078811,
+      "strikes": 0,
+      "first_seen": 1757737303.078811,
+      "last_updated": 1757737303.078811
+    },
+    "BANANAS31USDT": {
+      "symbol": "BANANAS31USDT",
+      "reason": "ILLQ v24h\u2248945,509",
+      "until": 1757823705.499548,
+      "strikes": 0,
+      "first_seen": 1757737305.499548,
+      "last_updated": 1757737305.499548
+    },
+    "BATUSDT": {
+      "symbol": "BATUSDT",
+      "reason": "ILLQ v24h\u2248497,154",
+      "until": 1757823708.027848,
+      "strikes": 0,
+      "first_seen": 1757737308.027848,
+      "last_updated": 1757737308.027848
+    },
+    "BMTUSDT": {
+      "symbol": "BMTUSDT",
+      "reason": "ILLQ v24h\u2248612,391",
+      "until": 1757823714.299856,
+      "strikes": 0,
+      "first_seen": 1757737314.299856,
+      "last_updated": 1757737314.299856
+    },
+    "BROCCOLIUSDT": {
+      "symbol": "BROCCOLIUSDT",
+      "reason": "ILLQ v24h\u2248485,976",
+      "until": 1757823717.4705112,
+      "strikes": 0,
+      "first_seen": 1757737317.4705112,
+      "last_updated": 1757737317.4705112
+    },
+    "BSUUSDT": {
+      "symbol": "BSUUSDT",
+      "reason": "ILLQ v24h\u22481,074,195",
+      "until": 1757823718.218962,
+      "strikes": 0,
+      "first_seen": 1757737318.218962,
+      "last_updated": 1757737318.218962
+    },
+    "CGPTUSDT": {
+      "symbol": "CGPTUSDT",
+      "reason": "ILLQ v24h\u22481,066,236",
+      "until": 1757823723.708917,
+      "strikes": 0,
+      "first_seen": 1757737323.708917,
+      "last_updated": 1757737323.708917
+    },
+    "COOKUSDT": {
+      "symbol": "COOKUSDT",
+      "reason": "ILLQ v24h\u2248916,625",
+      "until": 1757823729.842746,
+      "strikes": 0,
+      "first_seen": 1757737329.842746,
+      "last_updated": 1757737329.842746
+    },
+    "CPOOLUSDT": {
+      "symbol": "CPOOLUSDT",
+      "reason": "ILLQ v24h\u22481,436,340",
+      "until": 1757823731.6698382,
+      "strikes": 0,
+      "first_seen": 1757737331.6698382,
+      "last_updated": 1757737331.6698382
+    },
+    "CTCUSDT": {
+      "symbol": "CTCUSDT",
+      "reason": "ILLQ v24h\u22481,101,602",
+      "until": 1757823734.064957,
+      "strikes": 0,
+      "first_seen": 1757737334.064957,
+      "last_updated": 1757737334.064957
+    },
+    "CUDISUSDT": {
+      "symbol": "CUDISUSDT",
+      "reason": "ILLQ v24h\u22481,458,341",
+      "until": 1757823735.859881,
+      "strikes": 0,
+      "first_seen": 1757737335.859881,
+      "last_updated": 1757737335.859881
+    },
+    "CUSDT": {
+      "symbol": "CUSDT",
+      "reason": "ILLQ v24h\u22481,100,500",
+      "until": 1757823736.569482,
+      "strikes": 0,
+      "first_seen": 1757737336.569482,
+      "last_updated": 1757737336.569482
+    },
+    "DASHUSDT": {
+      "symbol": "DASHUSDT",
+      "reason": "ILLQ v24h\u2248888,040",
+      "until": 1757823739.006966,
+      "strikes": 0,
+      "first_seen": 1757737339.006966,
+      "last_updated": 1757737339.006966
+    },
+    "DMCUSDT": {
+      "symbol": "DMCUSDT",
+      "reason": "ILLQ v24h\u2248583,546",
+      "until": 1757823741.620469,
+      "strikes": 0,
+      "first_seen": 1757737341.620469,
+      "last_updated": 1757737341.620469
+    },
+    "DYMUSDT": {
+      "symbol": "DYMUSDT",
+      "reason": "ILLQ v24h\u2248802,461",
+      "until": 1757823749.4784288,
+      "strikes": 0,
+      "first_seen": 1757737349.4784288,
+      "last_updated": 1757737349.4784288
+    },
+    "ENJUSDT": {
+      "symbol": "ENJUSDT",
+      "reason": "ILLQ v24h\u22481,131,850",
+      "until": 1757823752.068821,
+      "strikes": 0,
+      "first_seen": 1757737352.068821,
+      "last_updated": 1757737352.068821
+    },
+    "ERAUSDT": {
+      "symbol": "ERAUSDT",
+      "reason": "ILLQ v24h\u22481,089,659",
+      "until": 1757823755.040949,
+      "strikes": 0,
+      "first_seen": 1757737355.040949,
+      "last_updated": 1757737355.040949
+    },
+    "HEIUSDT": {
+      "symbol": "HEIUSDT",
+      "reason": "ILLQ v24h\u2248441,267",
+      "until": 1757823778.244002,
+      "strikes": 0,
+      "first_seen": 1757737378.244002,
+      "last_updated": 1757737378.244002
+    },
+    "HOMEUSDT": {
+      "symbol": "HOMEUSDT",
+      "reason": "ILLQ v24h\u2248951,214",
+      "until": 1757823783.0772119,
+      "strikes": 0,
+      "first_seen": 1757737383.0772119,
+      "last_updated": 1757737383.0772119
+    },
+    "IDEXUSDT": {
+      "symbol": "IDEXUSDT",
+      "reason": "ILLQ v24h\u22481,431,138",
+      "until": 1757823788.082409,
+      "strikes": 0,
+      "first_seen": 1757737388.082409,
+      "last_updated": 1757737388.082409
+    },
+    "IDUSDT": {
+      "symbol": "IDUSDT",
+      "reason": "ILLQ v24h\u2248935,214",
+      "until": 1757823788.792494,
+      "strikes": 0,
+      "first_seen": 1757737388.792494,
+      "last_updated": 1757737388.792494
+    },
+    "ILVUSDT": {
+      "symbol": "ILVUSDT",
+      "reason": "ILLQ v24h\u22481,430,920",
+      "until": 1757823789.5109131,
+      "strikes": 0,
+      "first_seen": 1757737389.5109131,
+      "last_updated": 1757737389.5109131
+    },
+    "KSMUSDT": {
+      "symbol": "KSMUSDT",
+      "reason": "ILLQ v24h\u22481,252,465",
+      "until": 1757823805.994528,
+      "strikes": 0,
+      "first_seen": 1757737405.994528,
+      "last_updated": 1757737405.994528
+    },
+    "LUMIAUSDT": {
+      "symbol": "LUMIAUSDT",
+      "reason": "ILLQ v24h\u22481,222,276",
+      "until": 1757823813.832295,
+      "strikes": 0,
+      "first_seen": 1757737413.832295,
+      "last_updated": 1757737413.832295
+    },
+    "LUNA2USDT": {
+      "symbol": "LUNA2USDT",
+      "reason": "ILLQ v24h\u2248624,752",
+      "until": 1757823814.550603,
+      "strikes": 0,
+      "first_seen": 1757737414.550603,
+      "last_updated": 1757737414.550603
+    },
+    "MOCAUSDT": {
+      "symbol": "MOCAUSDT",
+      "reason": "ILLQ v24h\u22481,384,019",
+      "until": 1757823825.8151941,
+      "strikes": 0,
+      "first_seen": 1757737425.8151941,
+      "last_updated": 1757737425.8151941
+    },
+    "NFPUSDT": {
+      "symbol": "NFPUSDT",
+      "reason": "ILLQ v24h\u2248474,573",
+      "until": 1757823835.879584,
+      "strikes": 0,
+      "first_seen": 1757737435.879584,
+      "last_updated": 1757737435.879584
+    },
+    "ONTUSDT": {
+      "symbol": "ONTUSDT",
+      "reason": "ILLQ v24h\u2248783,931",
+      "until": 1757823846.56029,
+      "strikes": 0,
+      "first_seen": 1757737446.56029,
+      "last_updated": 1757737446.56029
+    },
+    "PHBUSDT": {
+      "symbol": "PHBUSDT",
+      "reason": "ILLQ v24h\u2248555,987",
+      "until": 1757823854.641442,
+      "strikes": 0,
+      "first_seen": 1757737454.641442,
+      "last_updated": 1757737454.641442
+    },
+    "PUFFERUSDT": {
+      "symbol": "PUFFERUSDT",
+      "reason": "ILLQ v24h\u2248679,275",
+      "until": 1757823867.460869,
+      "strikes": 0,
+      "first_seen": 1757737467.460869,
+      "last_updated": 1757737467.460869
+    },
+    "RLCUSDT": {
+      "symbol": "RLCUSDT",
+      "reason": "ILLQ v24h\u22481,455,949",
+      "until": 1757823876.880121,
+      "strikes": 0,
+      "first_seen": 1757737476.880121,
+      "last_updated": 1757737476.880121
+    },
+    "RVNUSDT": {
+      "symbol": "RVNUSDT",
+      "reason": "ILLQ v24h\u2248664,965",
+      "until": 1757823879.1057012,
+      "strikes": 0,
+      "first_seen": 1757737479.1057012,
+      "last_updated": 1757737479.1057012
+    },
+    "SCAUSDT": {
+      "symbol": "SCAUSDT",
+      "reason": "ILLQ v24h\u2248698,842",
+      "until": 1757823882.176239,
+      "strikes": 0,
+      "first_seen": 1757737482.176239,
+      "last_updated": 1757737482.176239
+    },
+    "SIGNUSDT": {
+      "symbol": "SIGNUSDT",
+      "reason": "ILLQ v24h\u2248615,404",
+      "until": 1757823887.4008162,
+      "strikes": 0,
+      "first_seen": 1757737487.4008162,
+      "last_updated": 1757737487.4008162
+    },
+    "SOLAYERUSDT": {
+      "symbol": "SOLAYERUSDT",
+      "reason": "ILLQ v24h\u22481,280,571",
+      "until": 1757823895.449919,
+      "strikes": 0,
+      "first_seen": 1757737495.449919,
+      "last_updated": 1757737495.449919
+    },
+    "SPELLUSDT": {
+      "symbol": "SPELLUSDT",
+      "reason": "ILLQ v24h\u2248350,323",
+      "until": 1757823900.988513,
+      "strikes": 0,
+      "first_seen": 1757737500.988513,
+      "last_updated": 1757737500.988513
+    },
+    "SSVUSDT": {
+      "symbol": "SSVUSDT",
+      "reason": "ILLQ v24h\u22481,317,405",
+      "until": 1757823903.2703109,
+      "strikes": 0,
+      "first_seen": 1757737503.2703109,
+      "last_updated": 1757737503.2703109
+    },
+    "SXTUSDT": {
+      "symbol": "SXTUSDT",
+      "reason": "ILLQ v24h\u2248344,363",
+      "until": 1757823911.432076,
+      "strikes": 0,
+      "first_seen": 1757737511.432076,
+      "last_updated": 1757737511.432076
+    },
+    "TACUSDT": {
+      "symbol": "TACUSDT",
+      "reason": "ILLQ v24h\u2248602,924",
+      "until": 1757823914.2626271,
+      "strikes": 0,
+      "first_seen": 1757737514.2626271,
+      "last_updated": 1757737514.2626271
+    },
+    "TOKENUSDT": {
+      "symbol": "TOKENUSDT",
+      "reason": "ILLQ v24h\u22481,111,431",
+      "until": 1757823919.740627,
+      "strikes": 0,
+      "first_seen": 1757737519.740627,
+      "last_updated": 1757737519.740627
+    },
+    "UXLINKUSDT": {
+      "symbol": "UXLINKUSDT",
+      "reason": "ILLQ v24h\u22481,473,832",
+      "until": 1757823931.3295228,
+      "strikes": 0,
+      "first_seen": 1757737531.3295228,
+      "last_updated": 1757737531.3295228
+    },
+    "VVVUSDT": {
+      "symbol": "VVVUSDT",
+      "reason": "ILLQ v24h\u22481,202,376",
+      "until": 1757823938.6598961,
+      "strikes": 0,
+      "first_seen": 1757737538.6598961,
+      "last_updated": 1757737538.6598961
+    },
+    "WAVESUSDT": {
+      "symbol": "WAVESUSDT",
+      "reason": "ILLQ v24h\u22481,107,925",
+      "until": 1757823940.2405279,
+      "strikes": 0,
+      "first_seen": 1757737540.2405279,
+      "last_updated": 1757737540.2405279
+    },
+    "WOOUSDT": {
+      "symbol": "WOOUSDT",
+      "reason": "ILLQ v24h\u2248866,001",
+      "until": 1757823945.691392,
+      "strikes": 0,
+      "first_seen": 1757737545.691392,
+      "last_updated": 1757737545.691392
+    },
+    "ZBCNUSDT": {
+      "symbol": "ZBCNUSDT",
+      "reason": "ILLQ v24h\u22481,301,089",
+      "until": 1757823964.670486,
+      "strikes": 0,
+      "first_seen": 1757737564.670486,
+      "last_updated": 1757737564.670486
+    },
+    "ZILUSDT": {
+      "symbol": "ZILUSDT",
+      "reason": "ILLQ v24h\u22481,446,685",
+      "until": 1757823967.950115,
+      "strikes": 0,
+      "first_seen": 1757737567.950115,
+      "last_updated": 1757737567.950115
+    },
+    "ZRXUSDT": {
+      "symbol": "ZRXUSDT",
+      "reason": "ILLQ v24h\u22481,455,079",
+      "until": 1757823971.300524,
+      "strikes": 0,
+      "first_seen": 1757737571.300524,
+      "last_updated": 1757737571.300524
+    },
+    "QNTUSDT": {
+      "symbol": "QNTUSDT",
+      "reason": "ILLQ v24h\u22481,398,885",
+      "until": 1757825717.241324,
+      "strikes": 0,
+      "first_seen": 1757739317.241324,
+      "last_updated": 1757739317.241324
+    },
+    "ACHUSDT": {
+      "symbol": "ACHUSDT",
+      "reason": "ILLQ v24h\u22481,471,083",
+      "until": 1757825872.00579,
+      "strikes": 0,
+      "first_seen": 1757739472.00579,
+      "last_updated": 1757739472.00579
+    },
+    "HMSTRUSDT": {
+      "symbol": "HMSTRUSDT",
+      "reason": "ILLQ v24h\u22481,439,761",
+      "until": 1757827808.8281999,
+      "strikes": 0,
+      "first_seen": 1757741408.8281999,
+      "last_updated": 1757741408.8281999
+    },
+    "MASAUSDT": {
+      "symbol": "MASAUSDT",
+      "reason": "ILLQ v24h\u22481,383,113",
+      "until": 1757833214.5996852,
+      "strikes": 0,
+      "first_seen": 1757746814.5996852,
+      "last_updated": 1757746814.5996852
+    },
+    "SNXUSDT": {
+      "symbol": "SNXUSDT",
+      "reason": "ILLQ v24h\u22481,497,834",
+      "until": 1757834225.3478951,
+      "strikes": 0,
+      "first_seen": 1757747825.3478951,
+      "last_updated": 1757747825.3478951
+    },
+    "PRCLUSDT": {
+      "symbol": "PRCLUSDT",
+      "reason": "ILLQ v24h\u22481,481,240",
+      "until": 1757835241.035043,
+      "strikes": 0,
+      "first_seen": 1757748841.035043,
+      "last_updated": 1757748841.035043
+    },
+    "NODEUSDT": {
+      "symbol": "NODEUSDT",
+      "reason": "ILLQ v24h\u22481,298,498",
+      "until": 1757840476.021968,
+      "strikes": 0,
+      "first_seen": 1757754076.021968,
+      "last_updated": 1757754076.021968
+    },
+    "REXUSDT": {
+      "symbol": "REXUSDT",
+      "reason": "ILLQ v24h\u22481,489,523",
+      "until": 1757840477.291127,
+      "strikes": 0,
+      "first_seen": 1757754077.291127,
+      "last_updated": 1757754077.291127
+    },
+    "BANUSDT": {
+      "symbol": "BANUSDT",
+      "reason": "ILLQ v24h\u22481,187,004",
+      "until": 1757847725.848362,
+      "strikes": 0,
+      "first_seen": 1757761325.848362,
+      "last_updated": 1757761325.848362
+    },
+    "RESOLVUSDT": {
+      "symbol": "RESOLVUSDT",
+      "reason": "ILLQ v24h\u22481,475,232",
+      "until": 1757851463.6191208,
+      "strikes": 0,
+      "first_seen": 1757765063.6191208,
+      "last_updated": 1757765063.6191208
+    },
+    "1000XUSDT": {
+      "symbol": "1000XUSDT",
+      "reason": "ILLQ v24h\u2248849,909",
+      "until": 1757867851.342226,
+      "strikes": 0,
+      "first_seen": 1757781451.342226,
+      "last_updated": 1757781451.342226
+    },
+    "AIUSDT": {
+      "symbol": "AIUSDT",
+      "reason": "ILLQ v24h\u22481,481,551",
+      "until": 1757867861.826269,
+      "strikes": 0,
+      "first_seen": 1757781461.826269,
+      "last_updated": 1757781461.826269
+    },
+    "ASRUSDT": {
+      "symbol": "ASRUSDT",
+      "reason": "ILLQ v24h\u22481,020,784",
+      "until": 1757867873.477685,
+      "strikes": 0,
+      "first_seen": 1757781473.477685,
+      "last_updated": 1757781473.477685
+    },
+    "HIFIUSDT": {
+      "symbol": "HIFIUSDT",
+      "reason": "HIGH_VOL_15m ATR%=6.1",
+      "until": 1757824740.1139,
+      "strikes": 0,
+      "first_seen": 1757781540.1139,
+      "last_updated": 1757781540.1139
+    },
+    "SLFUSDT": {
+      "symbol": "SLFUSDT",
+      "reason": "HIGH_VOL_1h ATR%=14.6",
+      "until": 1757824970.061953,
+      "strikes": 0,
+      "first_seen": 1757781770.061953,
+      "last_updated": 1757781770.061953
+    },
+    "KERNELUSDT": {
+      "symbol": "KERNELUSDT",
+      "reason": "ILLQ v24h\u22481,410,839",
+      "until": 1757875644.5773141,
+      "strikes": 0,
+      "first_seen": 1757789244.5773141,
+      "last_updated": 1757789244.5773141
+    },
+    "AIOUSDT": {
+      "symbol": "AIOUSDT",
+      "reason": "HIGH_VOL_15m ATR%=7.8",
+      "until": 1757832912.562752,
+      "strikes": 0,
+      "first_seen": 1757789712.562752,
+      "last_updated": 1757789712.562752
+    },
+    "HUSDT": {
+      "symbol": "HUSDT",
+      "reason": "HIGH_VOL_15m ATR%=6.7",
+      "until": 1757832992.104825,
+      "strikes": 0,
+      "first_seen": 1757789792.104825,
+      "last_updated": 1757789792.104825
+    },
+    "MUSDT": {
+      "symbol": "MUSDT",
+      "reason": "WICKY_15m 71% | body_avg=0.29",
+      "until": 1757833026.8034549,
+      "strikes": 0,
+      "first_seen": 1757789826.8034549,
+      "last_updated": 1757789826.8034549
+    },
+    "MYROUSDT": {
+      "symbol": "MYROUSDT",
+      "reason": "ILLQ v24h\u22481,484,825",
+      "until": 1757876227.548246,
+      "strikes": 0,
+      "first_seen": 1757789827.548246,
+      "last_updated": 1757789827.548246
+    },
+    "USDCUSDT": {
+      "symbol": "USDCUSDT",
+      "reason": "\u201cmanual_per",
+      "until": null,
+      "strikes": 0,
+      "first_seen": 1757790125.557639,
+      "last_updated": 1757790125.557639
+    },
+    "AVNTUSDT": {
+      "symbol": "AVNTUSDT",
+      "reason": "HIGH_VOL_15m ATR%=6.5",
+      "until": 1757840527.479415,
+      "strikes": 0,
+      "first_seen": 1757797327.479415,
+      "last_updated": 1757797327.479415
+    },
+    "FORMUSDT": {
+      "symbol": "FORMUSDT",
+      "reason": "ILLQ v24h\u22481,496,758",
+      "until": 1757883954.776015,
+      "strikes": 0,
+      "first_seen": 1757797554.776015,
+      "last_updated": 1757797554.776015
+    },
+    "STOUSDT": {
+      "symbol": "STOUSDT",
+      "reason": "ILLQ v24h\u22481,499,518",
+      "until": 1757885579.858868,
+      "strikes": 0,
+      "first_seen": 1757799179.858868,
+      "last_updated": 1757799179.858868
+    }
+  }
+}

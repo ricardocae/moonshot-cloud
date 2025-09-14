@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  agent:
+    build: .
+    command: python -u Teste_Moonshot/moonshot_agent.py
+    restart: always
+    env_file:
+      - .env
+    working_dir: /app
+  report:
+    build: .
+    command: python -u Teste_Moonshot/open_trades_cli.py
+    restart: always
+    env_file:
+      - .env
+    working_dir: /app

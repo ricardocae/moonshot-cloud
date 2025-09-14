@@ -1,0 +1,172 @@
+diff --git a/moonshot_config.yaml b/moonshot_config.yaml
+index 1111111..aaaaaaa 100644
+--- a/moonshot_config.yaml
++++ b/moonshot_config.yaml
+@@ -1,8 +1,21 @@
+ # ===== Moonshot — Breakout/Momentum Scalp =====
+-symbols: ["TAUSDT","GORKUSDT","ICNTUSDT","BTCUSDT"]   # adicione/edite livremente
++# --- Símbolos ---
++# Se symbols_auto=true, a lista será carregada automaticamente da Bybit (Perpétuos).
++symbols_auto: true
++# Categoria padrão: "linear" (perp USDT/USDC). Para inverse, use "inverse".
++category: "linear"
++# Filtra por moeda de cotação. Para perp USDT, use "USDT".
++quote_coin: "USDT"
++# Cache local dos símbolos descobertos:
++symbols_cache_file: "moonshot_symbols.json"
++# Se quiser excluir ou forçar incluir alguns símbolos:
++denylist: []      # ex.: ["10000FLOWUSDT"]
++allowlist: []     # se não estiver vazio, só usa estes
++
++# Fallback manual (usado se symbols_auto=false):
++symbols: ["BTCUSDT"]
+ timeframes: ["5","15"]                                 # minutos
+ 
+ # --- Indicadores e gatilhos ---
+@@ -22,6 +35,10 @@ btc_filter: true                  # exige BTC 15m acima da EMA20 e RSI>50
+ 
+ # --- Gestão e sizing ---
+ risk_per_trade: 0.008             # 0.8% do capital por trade
+ tp_multiples: [1.0, 1.5, 2.0]     # TPs em múltiplos de R (TP3 = take final)
+ account_equity_usdt: 2000         # usado para calcular posição sugerida
+ default_leverage: 12.5            # para ROI estimada dos updates
+ fill_slippage_bps: 8              # 0.08% de derrapagem estimada p/ fills
++# --- Varredura ---
++# Para não estourar rate-limit, escaneia N símbolos por ciclo:
++max_symbols_per_cycle: 80
+ 
+ # --- Integrações ---
+ telegram:
+@@ -32,6 +49,7 @@ telegram:
+ # --- Execução ---
+ poll_seconds: 30
+ cache_file: "moonshot_cache.json"
+ trades_file: "moonshot_trades.json"
+diff --git a/moonshot_agent.py b/moonshot_agent.py
+index 4444444..bbbbbbb 100644
+--- a/moonshot_agent.py
++++ b/moonshot_agent.py
+@@ -6,6 +6,7 @@ from datetime import datetime, timezone
+ 
+ BYBIT = "https://api.bybit.com"
+ 
++############################# REST HELPERS #############################
+ def load_cfg(path="moonshot_config.yaml"):
+     with open(path, "r") as f:
+         return yaml.safe_load(f)
+@@ -19,9 +20,36 @@ def fetch_ticker(symbol, category="linear"):
+     lst = r.json().get("result", {}).get("list", [])
+     return lst[0] if lst else None
++def fetch_tickers_map(category="linear"):
++    """Retorna todos os tickers da categoria em um dict {symbol: data}."""
++    url = f"{BYBIT}/v5/market/tickers"
++    r = requests.get(url, params={"category":category}, timeout=15); r.raise_for_status()
++    lst = r.json().get("result", {}).get("list", []) or []
++    return {it.get("symbol"): it for it in lst if it.get("symbol")}
++
++def fetch_instruments_page(category="linear", cursor=None):
++    url = f"{BYBIT}/v5/market/instruments-info"
++    params = {"category": category}
++    if cursor: params["cursor"] = cursor
++    r = requests.get(url, params=params, timeout=15); r.raise_for_status()
++    res = r.json().get("result", {}) or {}
++    return res.get("list", []) or [], res.get("nextPageCursor")
++
++def discover_perp_symbols(cfg):
++    """Busca todos os Perpétuos tradando (por padrão Linear/USDT)."""
++    cat = cfg.get("category","linear")
++    want_q = (cfg.get("quote_coin") or "").upper().strip()
++    deny = set(cfg.get("denylist", []))
++    allow = set(cfg.get("allowlist", []))
++    out = []
++    cursor = None
++    while True:
++        page, cursor = fetch_instruments_page(cat, cursor)
++        for it in page:
++            sym = it.get("symbol")
++            if not sym: continue
++            if it.get("status") != "Trading": continue
++            if "Perpetual" not in (it.get("contractType","") or ""): continue
++            q = (it.get("quoteCoin") or it.get("quoteCurrency") or "").upper()
++            if want_q and q != want_q: continue
++            if allow and sym not in allow: continue
++            if sym in deny: continue
++            out.append(sym)
++        if not cursor: break
++    out = sorted(set(out))
++    return out
+@@ -37,6 +65,10 @@ def last_price(symbol):
+     if not t: return None
+     try: return float(t.get("lastPrice"))
+     except: return None
++
++def load_json(path, default):
++    if os.path.exists(path):
++        try: 
++            with open(path,"r") as f: return json.load(f)
++        except: return default
++    return default
+ 
+ ############################# INDICATORS #############################
+ def ema(series, n): return series.ewm(span=n, adjust=False).mean()
+@@ -107,8 +139,11 @@ def fmt_signal_msg(symbol, tf, sig):
+     )
+ 
+-def passes_liquidity(symbol, cfg):
+-    t = fetch_ticker(symbol)
++def passes_liquidity(symbol, cfg, ticker_map=None):
++    t = None
++    if ticker_map: 
++        t = ticker_map.get(symbol)
++    if not t:
++        t = fetch_ticker(symbol, category=cfg.get("category","linear"))
+     if not t: return False
+     try:
+         turnover = float(t.get("turnover24h","0"))  # USD
+@@ -145,11 +180,35 @@ def save_trades(path, data:dict):
+     with open(path,"w") as f: json.dump(data, f, indent=2)
+ 
+ def main():
+     cfg = load_cfg()
+     cache = load_cache(cfg["cache_file"])
+     trades = load_trades(cfg["trades_file"])
++    # ===== símbolos =====
++    symbols = list(cfg.get("symbols", []))
++    if cfg.get("symbols_auto", False):
++        cache_file = cfg.get("symbols_cache_file","moonshot_symbols.json")
++        cached = load_json(cache_file, [])
++        if cached:
++            symbols = cached
++        else:
++            symbols = discover_perp_symbols(cfg)
++            with open(cache_file,"w") as f: json.dump(symbols, f, indent=2)
++    # Garante BTC para filtro, mas não para sinal
++    if "BTCUSDT" not in symbols: symbols.append("BTCUSDT")
++    # parâmetros de varredura
++    batch_size = int(cfg.get("max_symbols_per_cycle", 80))
++    scan_idx = 0
+     print("Moonshot running…")
++    print(f"[symbols] total={len(symbols)} | auto={cfg.get('symbols_auto', False)}")
+ 
+     while True:
+         try:
+-            if not btc_ok(cfg):
++            if not btc_ok(cfg):
+                 print("[filter] BTC condition not met")
+-            for sym in cfg["symbols"]:
++            # ---- ticker bulk para liquidez por ciclo ----
++            tick_map = fetch_tickers_map(category=cfg.get("category","linear"))
++            # ---- batch de símbolos por ciclo ----
++            end = min(scan_idx + batch_size, len(symbols))
++            batch = symbols[scan_idx:end]
++            if end >= len(symbols): scan_idx = 0
++            else: scan_idx = end
++
++            for sym in batch:
+                 if sym == "BTCUSDT": 
+                     continue  # não sinalizamos BTC, só filtro
+-                if not passes_liquidity(sym, cfg):
++                if not passes_liquidity(sym, cfg, ticker_map=tick_map):
+                     continue
+                 for tf in cfg["timeframes"]:
+                     df = fetch_klines(sym, interval=tf, limit=200)
