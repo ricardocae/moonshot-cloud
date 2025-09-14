@@ -13,15 +13,16 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 COPY . /app
 
+# Deps fixas e pandas-ta pela TAG (tar.gz)
 RUN python -m pip install --upgrade pip setuptools wheel && \
     ( [ -f requirements.txt ] && pip install -r requirements.txt || true ) && \
     pip install --no-cache-dir \
-      Flask gunicorn \
-      python-telegram-bot pyTelegramBotAPI \
-      ccxt \
-      python-dotenv pyyaml requests pillow \
-      pandas numpy ta plotly \
-      "https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip"
+      Flask==3.0.3 gunicorn==21.2.0 \
+      python-telegram-bot==20.6 pyTelegramBotAPI==4.14.1 \
+      ccxt==4.3.74 \
+      python-dotenv==1.0.1 pyyaml==6.0.2 requests==2.32.3 pillow==10.4.0 \
+      numpy==2.1.1 pandas==2.2.2 ta==0.10.2 plotly==5.22.0 \
+      "https://github.com/twopirllc/pandas-ta/archive/refs/tags/0.3.14b0.tar.gz"
 
-# (o Render usa dockerCommand do render.yaml)
+# O Render usa dockerCommand do render.yaml
 CMD ["python","-u","Teste_Moonshot/moonshot_agent.py"]
