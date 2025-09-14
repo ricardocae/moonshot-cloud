@@ -24,7 +24,7 @@ RUN python -m pip install --upgrade pip setuptools wheel && \
       python-dotenv==1.0.1 pyyaml==6.0.2 requests==2.32.3 pillow==10.4.0 \
       numpy==2.1.1 pandas==2.2.2 ta==0.10.2 plotly==5.22.0 && \
     ( pip install --no-cache-dir pandas-ta==0.3.14b0 \
-      || pip install --no-cache-dir "git+https://github.com/twopirllc/pandas-ta@main" )
+      || pip install --no-cache-dir "git+https://github.com/twopirllc/pandas-ta@master" )
 
 # o Render usa o dockerCommand do render.yaml; CMD é só um default
 CMD ["python","-u","Teste_Moonshot/moonshot_agent.py"]
