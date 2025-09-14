@@ -1,58 +1,38 @@
-{
-  "services": [
-    {
-      "type": "worker",
-      "name": "moonshot-agent",
-      "runtime": "docker",
-      "plan": "starter",
-      "autoDeploy": true,
-      "envVars": [
-        {
-          "key": "TZ",
-          "value": "America/Sao_Paulo"
-        },
-        {
-          "key": "PYTHONUNBUFFERED",
-          "value": "1"
-        }
-      ],
-      "dockerCommand": "python -u Teste_Moonshot/moonshot_agent.py"
-    },
-    {
-      "type": "worker",
-      "name": "moonshot-report",
-      "runtime": "docker",
-      "plan": "starter",
-      "autoDeploy": true,
-      "envVars": [
-        {
-          "key": "TZ",
-          "value": "America/Sao_Paulo"
-        },
-        {
-          "key": "PYTHONUNBUFFERED",
-          "value": "1"
-        }
-      ],
-      "dockerCommand": "bash -lc 'while true; do python -u Teste_Moonshot/open_trades_cli.py; sleep 3600; done'"
-    },
-    {
-      "type": "web",
-      "name": "moonshot-web",
-      "runtime": "docker",
-      "plan": "starter",
-      "autoDeploy": true,
-      "envVars": [
-        {
-          "key": "TZ",
-          "value": "America/Sao_Paulo"
-        },
-        {
-          "key": "PYTHONUNBUFFERED",
-          "value": "1"
-        }
-      ],
-      "dockerCommand": "gunicorn -w 2 -k gthread -b 0.0.0.0:$PORT web.app:app"
-    }
-  ]
-}
+services:
+  - type: worker
+    name: moonshot-agent
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: TZ
+        value: America/Sao_Paulo
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    dockerCommand: "python -u Teste_Moonshot/moonshot_agent.py"
+
+  - type: worker
+    name: moonshot-report
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: TZ
+        value: America/Sao_Paulo
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    # Se preferir o daemon, troque a linha abaixo por:
+    # dockerCommand: "python -u Teste_Moonshot/open_trades_report_daemon.py"
+    dockerCommand: "bash -lc 'while true; do python -u Teste_Moonshot/open_trades_cli.py; sleep 3600; done'"
+
+  - type: web
+    name: moonshot-web
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: TZ
+        value: America_Sao_Paulo
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    dockerCommand: "gunicorn -w 2 -k gthread -b 0.0.0.0:$PORT web.app:app"
