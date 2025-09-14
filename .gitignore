@@ -20,3 +20,16 @@ Teste_Moonshot/.venv/
 *.zip
 *.tar.gz
 *.part*
+
+# ---- moonshot: ignores extras ----
+.venv/
+venv/
+Teste_Moonshot/.venv/
+.DS_Store
+*.dylib
+*.ttc
+*.ttf
+*.otf
+*.zip
+*.tar.gz
+*.part*
