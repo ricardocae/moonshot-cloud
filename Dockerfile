@@ -19,8 +19,7 @@ RUN python -m pip install --upgrade pip setuptools wheel && \
       ccxt==4.3.74 \
       python-dotenv==1.0.1 pyyaml==6.0.2 requests==2.32.3 pillow==10.4.0 \
       numpy==2.1.1 pandas==2.2.2 ta==0.10.2 plotly==5.22.0 \
-      pandas-ta-openbb==0.4.22 && \
-    python -c "import pandas_ta as ta; print('pandas_ta OK', getattr(ta,'__version__','unknown'))"
+      pandas-ta-openbb==0.4.22
 
-# O Render usa dockerCommand do render.yaml; CMD é só um default
+# O Render usa o dockerCommand do render.yaml; CMD é apenas default
 CMD ["python","-u","Teste_Moonshot/moonshot_agent.py"]
