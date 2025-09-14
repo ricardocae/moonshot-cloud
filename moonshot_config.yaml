@@ -1,0 +1,115 @@
+symbols_auto: true
+category: linear
+quote_coin: USDT
+symbols_cache_file: moonshot_symbols.json
+denylist: []
+allowlist: []
+symbols:
+- BTCUSDT
+timeframes:
+- '15'
+display_timezone: America/Sao_Paulo
+default_price_decimals: 6
+ema_short: 9
+ema_long: 20
+rsi_len: 14
+rsi_min_long: 58
+rsi_max_short: 42
+atr_len: 14
+atr_stop_mult: 1.5
+breakout_buffer_atr: 0.03
+vol_ma_len: 20
+vol_spike_min_mult: 1.8
+breakout_lookback: 15
+vol_window: 20
+vol_percentile_min: 80
+body_min_frac: 0.7
+wick_max_frac: 0.25
+enable_shorts: true
+btc_filter: false
+log_btc: false
+liquidity_filter: false
+min_24h_turnover_usd: 0
+exclude_100000: true
+tp_multiples:
+- 1.5
+- 2.5
+- 3.5
+risk_per_trade: 0.008
+margin_per_trade_pct: 0.02
+min_notional_usdt: 480
+max_notional_usdt: 5000
+default_leverage: 12
+fill_slippage_bps: 8
+account_equity_usdt: 100
+leverage_safety_mult: 0.85
+lev_cap: 25.0
+max_symbols_per_cycle: 160
+telegram:
+  enabled: true
+  bot_token: 8359830665:AAH_v8Lr0v3ujhenpRNGeTOWB66dOUaqamw
+  chat_id: '@realtime1d'
+signal_ready_gif_path: assets/signal_ready.gif
+poll_seconds: 30
+cache_file: moonshot_cache.json
+trades_file: moonshot_trades.json
+debug: true
+log_batch_size: true
+log_show_candidates: true
+log_candidates_top_n: 12
+log_candidates_gap_max_atr: 0.5
+log_each_eval: false
+pre_signal_enabled: true
+pre_signal_gap_atr: 0.06
+pre_signal_require_vol: false
+pre_signal_zone_atr: 0.15
+pre_signal_confidence: 80.0
+pre_cache_file: moonshot_pre_cache.json
+backscan_enabled: true
+backscan_k: 3
+tp_splits:
+- 0.33
+- 0.33
+- 0.34
+use_micro_consolidation: true
+mc_min_bars: 2
+mc_max_bars: 6
+mc_range_atr_max: 0.8
+htf_confirm: false
+htf_confirm_tf: '60'
+htf_ema_align_only: true
+entry_anchor: trigger
+entry_zone_atr: 0.1
+sl_cushion_atr: 0.2
+breakeven_after_tp1: true
+blacklist:
+  enabled: true
+  file: moonshot_blacklist.json
+  rules:
+    exempt_symbols:
+    - BTCUSDT
+    - ETHUSDT
+    - SOLUSDT
+    - BNBUSDT
+    exempt_from_illq_symbols:
+    - BTCUSDT
+    - ETHUSDT
+    - BNBUSDT
+    - SOLUSDT
+    - XRPUSDT
+    - ADAUSDT
+    min_quote_vol_24h: 1500000
+    max_atr_pct_15m: 6.0
+    max_atr_pct_1h: 12.0
+    wick_lookback_15: 48
+    max_wick_pct_avg_15m: 70.0
+    min_body_frac_15m: 0.3
+    cooldown_hours_new_listing: 24
+    cooldown_hours_iliquid: 24
+    cooldown_hours_volatility: 12
+    cooldown_hours_wick: 12
+    stop_strikes_for_cooldown: 2
+    cooldown_hours_on_strikes: 6
+card_bg_path: assets/moonshot/bg.jpg
+card_bg_stop_path: assets/moonshot/bg_stoploss.jpg
+blacklist_file: /Users/ricardo/Documents/Teste_Moonshot/blacklist.json
