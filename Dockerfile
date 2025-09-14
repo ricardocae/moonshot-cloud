@@ -1,6 +1,5 @@
 FROM python:3.11-slim
 
-# Sistema (timezone + fontes) — evita erro de fontes e datas
 RUN apt-get update && apt-get install -y --no-install-recommends \
     tzdata fonts-dejavu-core \
  && rm -rf /var/lib/apt/lists/*
@@ -14,7 +13,6 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 COPY . /app
 
-# Se houver requirements.txt, instala; depois garante libs-chave
 RUN python -m pip install --upgrade pip setuptools wheel && \
     ( [ -f requirements.txt ] && pip install -r requirements.txt || true ) && \
     pip install --no-cache-dir \
@@ -22,7 +20,8 @@ RUN python -m pip install --upgrade pip setuptools wheel && \
       python-telegram-bot pyTelegramBotAPI \
       ccxt \
       python-dotenv pyyaml requests pillow \
-      pandas numpy pandas-ta ta plotly
+      pandas numpy ta plotly \
+      "https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip"
 
-# Padrão (os serviços do Render usam dockerCommand próprio)
+# (o Render usa dockerCommand do render.yaml)
 CMD ["python","-u","Teste_Moonshot/moonshot_agent.py"]
