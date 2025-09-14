@@ -1,7 +1,8 @@
 FROM python:3.11-slim
 
+# deps de sistema (inclui git para fallback do pandas-ta)
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    tzdata fonts-dejavu-core \
+    tzdata fonts-dejavu-core git \
  && rm -rf /var/lib/apt/lists/*
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -13,7 +14,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 COPY . /app
 
-# Deps fixas e pandas-ta pela TAG (tar.gz)
+# libs com versões compatíveis + pandas-ta com fallback
 RUN python -m pip install --upgrade pip setuptools wheel && \
     ( [ -f requirements.txt ] && pip install -r requirements.txt || true ) && \
     pip install --no-cache-dir \
@@ -21,8 +22,9 @@ RUN python -m pip install --upgrade pip setuptools wheel && \
       python-telegram-bot==20.6 pyTelegramBotAPI==4.14.1 \
       ccxt==4.3.74 \
       python-dotenv==1.0.1 pyyaml==6.0.2 requests==2.32.3 pillow==10.4.0 \
-      numpy==2.1.1 pandas==2.2.2 ta==0.10.2 plotly==5.22.0 \
-      "https://github.com/twopirllc/pandas-ta/archive/refs/tags/0.3.14b0.tar.gz"
+      numpy==2.1.1 pandas==2.2.2 ta==0.10.2 plotly==5.22.0 && \
+    ( pip install --no-cache-dir pandas-ta==0.3.14b0 \
+      || pip install --no-cache-dir "git+https://github.com/twopirllc/pandas-ta@main" )
 
-# O Render usa dockerCommand do render.yaml
+# o Render usa o dockerCommand do render.yaml; CMD é só um default
 CMD ["python","-u","Teste_Moonshot/moonshot_agent.py"]
