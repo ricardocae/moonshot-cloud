@@ -22,7 +22,7 @@ RUN python -m pip install --upgrade pip setuptools wheel && \
       python-telegram-bot pyTelegramBotAPI \
       ccxt \
       python-dotenv pyyaml requests pillow \
-      pandas numpy pandas_ta ta plotly
+      pandas numpy pandas-ta ta plotly
 
 # Padrão (os serviços do Render usam dockerCommand próprio)
 CMD ["python","-u","Teste_Moonshot/moonshot_agent.py"]
