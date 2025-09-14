@@ -4,37 +4,25 @@
       "type": "worker",
       "name": "moonshot-agent",
       "runtime": "docker",
-      "envVars": [
-        {
-          "key": "TZ",
-          "value": "America/Sao_Paulo"
-        },
-        {
-          "key": "PYTHONUNBUFFERED",
-          "value": "1"
-        }
-      ],
       "plan": "starter",
       "autoDeploy": true,
-      "startCommand": "python -u Teste_Moonshot/moonshot_agent.py"
+      "envVars": [
+        {"key":"TZ","value":"America/Sao_Paulo"},
+        {"key":"PYTHONUNBUFFERED","value":"1"}
+      ],
+      "dockerCommand": "python -u Teste_Moonshot/moonshot_agent.py"
     },
     {
       "type": "worker",
       "name": "moonshot-report",
       "runtime": "docker",
-      "envVars": [
-        {
-          "key": "TZ",
-          "value": "America/Sao_Paulo"
-        },
-        {
-          "key": "PYTHONUNBUFFERED",
-          "value": "1"
-        }
-      ],
       "plan": "starter",
       "autoDeploy": true,
-      "startCommand": "python -u Teste_Moonshot/open_trades_cli.py"
+      "envVars": [
+        {"key":"TZ","value":"America/Sao_Paulo"},
+        {"key":"PYTHONUNBUFFERED","value":"1"}
+      ],
+      "dockerCommand": "bash -lc 'while true; do python -u Teste_Moonshot/open_trades_cli.py; sleep 3600; done'"
     },
     {
       "type": "web",
@@ -43,16 +31,10 @@
       "plan": "starter",
       "autoDeploy": true,
       "envVars": [
-        {
-          "key": "TZ",
-          "value": "America/Sao_Paulo"
-        },
-        {
-          "key": "PYTHONUNBUFFERED",
-          "value": "1"
-        }
+        {"key":"TZ","value":"America/Sao_Paulo"},
+        {"key":"PYTHONUNBUFFERED","value":"1"}
       ],
-      "startCommand": "gunicorn -w 2 -k gthread -b 0.0.0.0:$PORT web.app:app"
+      "dockerCommand": "gunicorn -w 2 -k gthread -b 0.0.0.0:$PORT web.app:app"
     }
   ]
 }
